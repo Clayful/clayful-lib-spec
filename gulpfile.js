@@ -5,6 +5,8 @@ const rename = require('gulp-rename');
 
 gulp.task('extract', () => {
 
+	const versions = ['v1'];
+
 	const listToMap = api => api.list.reduce((map, a) => {
 
 		const [className, methodName] = a.module.split('.');
@@ -28,9 +30,13 @@ gulp.task('extract', () => {
 
 	}, {});
 
-	gulp.src('./data/api.json')
-		.pipe(jeditor(listToMap))
-		.pipe(rename(path => path.basename = 'map'))
-		.pipe(gulp.dest('./data'));
+	versions.forEach(version => {
+
+		gulp.src(`./data/${ version }/api.json`)
+			.pipe(jeditor(listToMap))
+			.pipe(rename(path => path.basename = 'map'))
+			.pipe(gulp.dest(`./data/${ version }`));
+
+	});
 
 });
