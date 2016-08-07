@@ -1,0 +1,1088 @@
+{
+	"store": {
+		"get": [
+			"GET",
+			"/store"
+		],
+		"update": [
+			"PUT",
+			"/store"
+		]
+	},
+	"currency": {
+		"query": [
+			"GET",
+			"/currencies", [
+				"list"
+			]
+		],
+		"count": [
+			"GET",
+			"/currencies/count"
+		],
+		"get": [
+			"GET",
+			"/currencies/{currencyId}"
+		]
+	},
+	"event": {
+		"query": [
+			"GET",
+			"/events", [
+				"list"
+			]
+		],
+		"get": [
+			"GET",
+			"/events/{eventId}"
+		]
+	},
+	"brand": {
+		"query": [
+			"GET",
+			"/brands", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/brands"
+		],
+		"count": [
+			"GET",
+			"/brands/count"
+		],
+		"get": [
+			"GET",
+			"/brands/{brandId}"
+		],
+		"update": [
+			"PUT",
+			"/brands/{brandId}"
+		],
+		"delete": [
+			"DELETE",
+			"/brands/{brandId}"
+		]
+	},
+	"collection": {
+		"query": [
+			"GET",
+			"/collections", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/collections"
+		],
+		"count": [
+			"GET",
+			"/collections/count"
+		],
+		"get": [
+			"GET",
+			"/collections/{collectionId}"
+		],
+		"update": [
+			"PUT",
+			"/collections/{collectionId}"
+		],
+		"delete": [
+			"DELETE",
+			"/collections/{collectionId}"
+		],
+		"queryByParent": [
+			"GET",
+			"/collections/{collectionId}/collections", [
+				"listByParent"
+			]
+		]
+	},
+	"product": {
+		"query": [
+			"GET",
+			"/products", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/products"
+		],
+		"count": [
+			"GET",
+			"/products/count"
+		],
+		"get": [
+			"GET",
+			"/products/{productId}"
+		],
+		"update": [
+			"PUT",
+			"/products/{productId}"
+		],
+		"delete": [
+			"DELETE",
+			"/products/{productId}"
+		],
+		"queryByBrand": [
+			"GET",
+			"/brands/{brandId}/products", [
+				"listByBrand"
+			]
+		],
+		"queryByCollection": [
+			"GET",
+			"/collections/{collectionId}/products", [
+				"listByCollection"
+			]
+		],
+		"addOption": [
+			"POST",
+			"/products/{productId}/options"
+		],
+		"updateOption": [
+			"PUT",
+			"/products/{productId}/options/{optionId}"
+		],
+		"deleteOption": [
+			"DELETE",
+			"/products/{productId}/options/{optionId}"
+		],
+		"addVariation": [
+			"POST",
+			"/products/{productId}/options/{optionId}/variations"
+		],
+		"updateVariation": [
+			"PUT",
+			"/products/{productId}/options/{optionId}/variations/{variationId}"
+		],
+		"deleteVariation": [
+			"DELETE",
+			"/products/{productId}/options/{optionId}/variations/{variationId}"
+		],
+		"addVariant": [
+			"POST",
+			"/products/{productId}/variants"
+		],
+		"updateVariant": [
+			"PUT",
+			"/products/{productId}/variants/{variantId}"
+		],
+		"deleteVariant": [
+			"DELETE",
+			"/products/{productId}/variants/{variantId}"
+		],
+		"addToCollection": [
+			"PUT",
+			"/collections/{collectionId}/products"
+		],
+		"deleteMeta": [
+			"DELETE",
+			"/products/{productId}/meta/{field}"
+		]
+	},
+	"review": {
+		"query": [
+			"GET",
+			"/products/reviews", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/products/reviews"
+		],
+		"count": [
+			"GET",
+			"/products/reviews/count"
+		],
+		"get": [
+			"GET",
+			"/products/reviews/{reviewId}"
+		],
+		"update": [
+			"PUT",
+			"/products/reviews/{reviewId}"
+		],
+		"delete": [
+			"DELETE",
+			"/products/reviews/{reviewId}"
+		],
+		"queryByProduct": [
+			"GET",
+			"/products/{productId}/reviews", [
+				"listByProduct"
+			]
+		],
+		"queryByCustomer": [
+			"GET",
+			"/customers/{customerId}/products/reviews", [
+				"listByCustomer"
+			]
+		],
+		"updateByCustomer": [
+			"PUT",
+			"/customers/{customerId}/products/reviews/{reviewId}"
+		],
+		"flag": [
+			"PUT",
+			"/products/reviews/{reviewId}/flag"
+		],
+		"flagCancel": [
+			"PUT",
+			"/products/reviews/{reviewId}/flag/cancel", [
+				"cancelFlag"
+			]
+		],
+		"helped": [
+			"PUT",
+			"/products/reviews/{reviewId}/helped/{upDown}"
+		],
+		"helpedCancel": [
+			"PUT",
+			"/products/reviews/{reviewId}/helped/{upDown}/cancel"
+		]
+	},
+	"reviewComment": {
+		"query": [
+			"GET",
+			"/products/reviews/comments", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/products/reviews/comments"
+		],
+		"count": [
+			"GET",
+			"/products/reviews/comments/count"
+		],
+		"get": [
+			"GET",
+			"/products/reviews/comments/{reviewCommentId}"
+		],
+		"update": [
+			"PUT",
+			"/products/reviews/comments/{reviewCommentId}"
+		],
+		"delete": [
+			"DELETE",
+			"/products/reviews/comments/{reviewCommentId}"
+		],
+		"queryByReview": [
+			"GET",
+			"/products/reviews/{reviewId}/comments", [
+				"listByReview"
+			]
+		],
+		"queryByOwner": [
+			"GET",
+			"/{ownerModel}/{ownerId}/products/reviews/comments", [
+				"listByOwner"
+			]
+		],
+		"updateByOwner": [
+			"PUT",
+			"/{ownerModel}/{ownerId}/products/reviews/comments/{reviewCommentId}"
+		],
+		"flag": [
+			"PUT",
+			"/products/reviews/comments/{reviewCommentId}/flag"
+		],
+		"flagCancel": [
+			"PUT",
+			"/products/reviews/comments/{reviewCommentId}/flag/cancel", [
+				"cancelFlag"
+			]
+		]
+	},
+	"productQuestion": {
+		"query": [
+			"GET",
+			"/products/questions", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/products/questions"
+		],
+		"count": [
+			"GET",
+			"/products/questions/count"
+		],
+		"get": [
+			"GET",
+			"/products/questions/{productQuestionId}"
+		],
+		"update": [
+			"PUT",
+			"/products/questions/{productQuestionId}"
+		],
+		"delete": [
+			"DELETE",
+			"/products/questions/{productQuestionId}"
+		],
+		"queryByProduct": [
+			"GET",
+			"/products/{productId}/questions", [
+				"listByProduct"
+			]
+		],
+		"queryByCustomer": [
+			"GET",
+			"/customers/{customerId}/products/questions", [
+				"listByCustomer"
+			]
+		],
+		"updateByCustomer": [
+			"PUT",
+			"/customers/{customerId}/products/questions/{productQuestionId}"
+		],
+		"flag": [
+			"PUT",
+			"/products/questions/{productQuestionId}/flag"
+		],
+		"flagCancel": [
+			"PUT",
+			"/products/questions/{productQuestionId}/flag/cancel", [
+				"cancelFlag"
+			]
+		],
+		"helped": [
+			"PUT",
+			"/products/questions/{productQuestionId}/helped/{upDown}"
+		],
+		"helpedCancel": [
+			"PUT",
+			"/products/questions/{productQuestionId}/helped/{upDown}/cancel"
+		]
+	},
+	"productAnswer": {
+		"query": [
+			"GET",
+			"/products/questions/answers", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/products/questions/answers"
+		],
+		"count": [
+			"GET",
+			"/products/questions/answers/count"
+		],
+		"get": [
+			"GET",
+			"/products/questions/answers/{productAnswerId}"
+		],
+		"update": [
+			"PUT",
+			"/products/questions/answers/{productAnswerId}"
+		],
+		"delete": [
+			"DELETE",
+			"/products/questions/answers/{productAnswerId}"
+		],
+		"queryByQuestion": [
+			"GET",
+			"/products/questions/{productQuestionId}/answers", [
+				"listByQuestion"
+			]
+		],
+		"queryByOwner": [
+			"GET",
+			"/{ownerModel}/{ownerId}/products/questions/answers", [
+				"listByOwner"
+			]
+		],
+		"updateByOwner": [
+			"PUT",
+			"/{ownerModel}/{ownerId}/products/questions/answers/{productAnswerId}"
+		],
+		"flag": [
+			"PUT",
+			"/products/questions/answers/{productAnswerId}/flag"
+		],
+		"flagCancel": [
+			"PUT",
+			"/products/questions/answers/{productAnswerId}/flag/cancel", [
+				"cancelFlag"
+			]
+		],
+		"helped": [
+			"PUT",
+			"/products/questions/answers/{productAnswerId}/helped/{upDown}"
+		],
+		"helpedCancel": [
+			"PUT",
+			"/products/questions/answers/{productAnswerId}/helped/{upDown}/cancel"
+		]
+	},
+	"country": {
+		"query": [
+			"GET",
+			"/countries", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/countries"
+		],
+		"count": [
+			"GET",
+			"/countries/count"
+		],
+		"get": [
+			"GET",
+			"/countries/{countryId}"
+		],
+		"update": [
+			"PUT",
+			"/countries/{countryId}"
+		],
+		"delete": [
+			"DELETE",
+			"/countries/{countryId}"
+		]
+	},
+	"departure": {
+		"query": [
+			"GET",
+			"/departures", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/departures"
+		],
+		"count": [
+			"GET",
+			"/departures/count"
+		],
+		"get": [
+			"GET",
+			"/departures/{departureId}"
+		],
+		"update": [
+			"PUT",
+			"/departures/{departureId}"
+		],
+		"delete": [
+			"DELETE",
+			"/departures/{departureId}"
+		],
+		"addMethod": [
+			"POST",
+			"/departures/{departureId}/methods"
+		],
+		"updateMethod": [
+			"PUT",
+			"/departures/{departureId}/methods/{methodId}"
+		],
+		"deleteMethod": [
+			"DELETE",
+			"/departures/{departureId}/methods/{methodId}"
+		]
+	},
+	"shipping": {
+		"query": [
+			"GET",
+			"/shippings", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/shippings"
+		],
+		"count": [
+			"GET",
+			"/shippings/count"
+		],
+		"get": [
+			"GET",
+			"/shippings/{shippingId}"
+		],
+		"update": [
+			"PUT",
+			"/shippings/{shippingId}"
+		],
+		"delete": [
+			"DELETE",
+			"/shippings/{shippingId}"
+		]
+	},
+	"tax": {
+		"query": [
+			"GET",
+			"/taxes", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/taxes"
+		],
+		"count": [
+			"GET",
+			"/taxes/count"
+		],
+		"get": [
+			"GET",
+			"/taxes/{taxId}"
+		],
+		"update": [
+			"PUT",
+			"/taxes/{taxId}"
+		],
+		"delete": [
+			"DELETE",
+			"/taxes/{taxId}"
+		]
+	},
+	"taxCategory": {
+		"query": [
+			"GET",
+			"/taxes/categories", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/taxes/categories"
+		],
+		"count": [
+			"GET",
+			"/taxes/categories/count"
+		],
+		"get": [
+			"GET",
+			"/taxes/categories/{taxCategoryId}"
+		],
+		"update": [
+			"PUT",
+			"/taxes/categories/{taxCategoryId}"
+		],
+		"delete": [
+			"DELETE",
+			"/taxes/categories/{taxCategoryId}"
+		]
+	},
+	"group": {
+		"query": [
+			"GET",
+			"/groups", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/groups"
+		],
+		"count": [
+			"GET",
+			"/groups/count"
+		],
+		"get": [
+			"GET",
+			"/groups/{groupId}"
+		],
+		"update": [
+			"PUT",
+			"/groups/{groupId}"
+		],
+		"delete": [
+			"DELETE",
+			"/groups/{groupId}"
+		]
+	},
+	"customer": {
+		"query": [
+			"GET",
+			"/customers", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/customers"
+		],
+		"count": [
+			"GET",
+			"/customers/count"
+		],
+		"get": [
+			"GET",
+			"/customers/{customerId}"
+		],
+		"update": [
+			"PUT",
+			"/customers/{customerId}"
+		],
+		"delete": [
+			"DELETE",
+			"/customers/{customerId}"
+		],
+		"auth": [
+			"PUT",
+			"/customers/auth"
+		],
+		"queryByGroup": [
+			"GET",
+			"/groups/{groupId}/customers", [
+				"listByGroup"
+			]
+		],
+		"addCoupon": [
+			"POST",
+			"/customers/{customerId}/coupons"
+		],
+		"deleteCoupon": [
+			"DELETE",
+			"/customers/{customerId}/coupons/{couponId}"
+		],
+		"getCartByNonRegistered": [
+			"PUT",
+			"/cart"
+		],
+		"getCart": [
+			"PUT",
+			"/customers/{customerId}/cart"
+		],
+		"addItem": [
+			"POST",
+			"/customers/{customerId}/cart/items"
+		],
+		"updateItem": [
+			"PUT",
+			"/customers/{customerId}/cart/items/{itemId}"
+		],
+		"deleteItem": [
+			"DELETE",
+			"/customers/{customerId}/cart/items/{itemId}"
+		]
+	},
+	"wishList": {
+		"query": [
+			"GET",
+			"/wishlists", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/wishlists"
+		],
+		"count": [
+			"GET",
+			"/wishlists/count"
+		],
+		"get": [
+			"GET",
+			"/wishlists/{wishListId}"
+		],
+		"update": [
+			"PUT",
+			"/wishlists/{wishListId}"
+		],
+		"delete": [
+			"DELETE",
+			"/wishlists/{wishListId}"
+		],
+		"addItem": [
+			"POST",
+			"/wishlists/{wishListId}/items"
+		],
+		"deleteItem": [
+			"DELETE",
+			"/wishlists/{wishListId}/items/{itemId}"
+		],
+		"queryByCustomer": [
+			"GET",
+			"/customers/{customerId}/wishlists", [
+				"listByCustomer"
+			]
+		]
+	},
+	"image": {
+		"query": [
+			"GET",
+			"/images", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/images"
+		],
+		"count": [
+			"GET",
+			"/images/count"
+		],
+		"get": [
+			"GET",
+			"/images/{imageId}"
+		],
+		"delete": [
+			"DELETE",
+			"/images/{imageId}"
+		],
+		"updateResized": [
+			"PUT",
+			"/images/{imageId}/{profileSlug}"
+		],
+		"syncResized": [
+			"PUT",
+			"/images/{imageId}/{profileSlug}/sync"
+		]
+	},
+	"imageBundle": {
+		"query": [
+			"GET",
+			"/images/bundles", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/images/bundles"
+		],
+		"count": [
+			"GET",
+			"/images/bundles/count"
+		],
+		"get": [
+			"GET",
+			"/images/bundles/{imageBundleId}"
+		],
+		"update": [
+			"PUT",
+			"/images/bundles/{imageBundleId}"
+		],
+		"delete": [
+			"DELETE",
+			"/images/bundles/{imageBundleId}"
+		]
+	},
+	"coupon": {
+		"query": [
+			"GET",
+			"/coupons", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/coupons"
+		],
+		"count": [
+			"GET",
+			"/coupons/count"
+		],
+		"get": [
+			"GET",
+			"/coupons/{couponId}"
+		],
+		"update": [
+			"PUT",
+			"/coupons/{couponId}"
+		],
+		"delete": [
+			"DELETE",
+			"/coupons/{couponId}"
+		],
+		"addTotalAmount": [
+			"POST",
+			"/coupons/{couponId}/amount/total"
+		]
+	},
+	"discount": {
+		"query": [
+			"GET",
+			"/discounts", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/discounts"
+		],
+		"count": [
+			"GET",
+			"/discounts/count"
+		],
+		"get": [
+			"GET",
+			"/discounts/{discountId}"
+		],
+		"update": [
+			"PUT",
+			"/discounts/{discountId}"
+		],
+		"delete": [
+			"DELETE",
+			"/discounts/{discountId}"
+		]
+	},
+	"supportTopic": {
+		"query": [
+			"GET",
+			"/support/topics", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/support/topics"
+		],
+		"count": [
+			"GET",
+			"/support/topics/count"
+		],
+		"get": [
+			"GET",
+			"/support/topics/{supportTopicId}"
+		],
+		"update": [
+			"PUT",
+			"/support/topics/{supportTopicId}"
+		],
+		"delete": [
+			"DELETE",
+			"/support/topics/{supportTopicId}"
+		]
+	},
+	"supportPost": {
+		"query": [
+			"GET",
+			"/support/posts", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/support/posts"
+		],
+		"count": [
+			"GET",
+			"/support/posts/count"
+		],
+		"get": [
+			"GET",
+			"/support/posts/{supportPostId}"
+		],
+		"update": [
+			"PUT",
+			"/support/posts/{supportPostId}"
+		],
+		"delete": [
+			"DELETE",
+			"/support/posts/{supportPostId}"
+		],
+		"queryByTopic": [
+			"GET",
+			"/support/topics/{supportTopicId}/posts", [
+				"listByTopic"
+			]
+		],
+		"queryByCustomer": [
+			"GET",
+			"/customers/{customerId}/support/posts", [
+				"listByCustomer"
+			]
+		],
+		"updateByCustomer": [
+			"PUT",
+			"/customers/{customerId}/support/posts/{supportPostId}"
+		]
+	},
+	"supportComment": {
+		"query": [
+			"GET",
+			"/support/posts/comments", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/support/posts/comments"
+		],
+		"count": [
+			"GET",
+			"/support/posts/comments/count"
+		],
+		"get": [
+			"GET",
+			"/support/posts/comments/{supportCommentId}"
+		],
+		"update": [
+			"PUT",
+			"/support/posts/comments/{supportCommentId}"
+		],
+		"delete": [
+			"DELETE",
+			"/support/posts/comments/{supportCommentId}"
+		],
+		"queryByPost": [
+			"GET",
+			"/support/posts/{supportPostId}/comments", [
+				"listByPost"
+			]
+		],
+		"queryByOwner": [
+			"GET",
+			"/{ownerModel}/{ownerId}/support/posts/comments", [
+				"listByOwner"
+			]
+		],
+		"updateByOwner": [
+			"PUT",
+			"/{ownerModel}/{ownerId}/support/posts/comments/{supportCommentId}"
+		]
+	},
+	"blogCategory": {
+		"query": [
+			"GET",
+			"/blog/categories", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/blog/categories"
+		],
+		"count": [
+			"GET",
+			"/blog/categories/count"
+		],
+		"get": [
+			"GET",
+			"/blog/categories/{blogCategoryId}"
+		],
+		"update": [
+			"PUT",
+			"/blog/categories/{blogCategoryId}"
+		],
+		"delete": [
+			"DELETE",
+			"/blog/categories/{blogCategoryId}"
+		]
+	},
+	"blogPost": {
+		"query": [
+			"GET",
+			"/blog/posts", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/blog/posts"
+		],
+		"count": [
+			"GET",
+			"/blog/posts/count"
+		],
+		"get": [
+			"GET",
+			"/blog/posts/{blogPostId}"
+		],
+		"update": [
+			"PUT",
+			"/blog/posts/{blogPostId}"
+		],
+		"delete": [
+			"DELETE",
+			"/blog/posts/{blogPostId}"
+		],
+		"queryByCategory": [
+			"GET",
+			"/blog/categories/{blogCategoryId}/posts", [
+				"listByCategory"
+			]
+		],
+		"queryByCollaborator": [
+			"GET",
+			"/collaborators/{collaboratorId}/blog/posts", [
+				"listByCollaborator"
+			]
+		],
+		"updateByCollaborator": [
+			"PUT",
+			"/collaborators/{collaboratorId}/blog/posts/{blogPostId}"
+		]
+	},
+	"blogComment": {
+		"query": [
+			"GET",
+			"/blog/posts/comments", [
+				"list"
+			]
+		],
+		"create": [
+			"POST",
+			"/blog/posts/comments"
+		],
+		"count": [
+			"GET",
+			"/blog/posts/comments/count"
+		],
+		"get": [
+			"GET",
+			"/blog/posts/comments/{blogCommentId}"
+		],
+		"update": [
+			"PUT",
+			"/blog/posts/comments/{blogCommentId}"
+		],
+		"delete": [
+			"DELETE",
+			"/blog/posts/comments/{blogCommentId}"
+		],
+		"queryByPost": [
+			"GET",
+			"/blog/posts/{blogPostId}/comments", [
+				"listByPost"
+			]
+		],
+		"queryByOwner": [
+			"GET",
+			"/{ownerModel}/{ownerId}/blog/posts/comments", [
+				"listByOwner"
+			]
+		],
+		"updateByOwner": [
+			"PUT",
+			"/{ownerModel}/{ownerId}/blog/posts/comments/{blogCommentId}"
+		],
+		"flag": [
+			"PUT",
+			"/blog/posts/comments/{blogCommentId}/flag"
+		],
+		"flagCancel": [
+			"PUT",
+			"/blog/posts/comments/{blogCommentId}/flag/cancel", [
+				"cancelFlag"
+			]
+		]
+	},
+	"metafield": {
+		"queryModelMeta": [
+			"GET",
+			"/{model*3}/meta", [
+				"listModelMeta"
+			]
+		],
+		"getModelMeta": [
+			"GET",
+			"/{model*3}/meta/{field}"
+		]
+	}
+}
