@@ -1,1088 +1,1885 @@
 {
 	"store": {
-		"get": [
-			"GET",
-			"/store"
-		],
-		"update": [
-			"PUT",
-			"/store"
-		]
+		"get": {
+			"method": "GET",
+			"path": "/store",
+			"aliases": [],
+			"params": []
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/store",
+			"aliases": [],
+			"params": []
+		}
 	},
 	"currency": {
-		"query": [
-			"GET",
-			"/currencies", [
+		"query": {
+			"method": "GET",
+			"path": "/currencies",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/currencies/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/currencies/{currencyId}",
+			"aliases": [],
+			"params": [
+				"currencyId"
 			]
-		],
-		"count": [
-			"GET",
-			"/currencies/count"
-		],
-		"get": [
-			"GET",
-			"/currencies/{currencyId}"
-		]
+		}
 	},
 	"event": {
-		"query": [
-			"GET",
-			"/events", [
+		"query": {
+			"method": "GET",
+			"path": "/events",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/events/{eventId}",
+			"aliases": [],
+			"params": [
+				"eventId"
 			]
-		],
-		"get": [
-			"GET",
-			"/events/{eventId}"
-		]
+		}
 	},
 	"brand": {
-		"query": [
-			"GET",
-			"/brands", [
+		"query": {
+			"method": "GET",
+			"path": "/brands",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/brands",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/brands/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/brands/{brandId}",
+			"aliases": [],
+			"params": [
+				"brandId"
 			]
-		],
-		"create": [
-			"POST",
-			"/brands"
-		],
-		"count": [
-			"GET",
-			"/brands/count"
-		],
-		"get": [
-			"GET",
-			"/brands/{brandId}"
-		],
-		"update": [
-			"PUT",
-			"/brands/{brandId}"
-		],
-		"delete": [
-			"DELETE",
-			"/brands/{brandId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/brands/{brandId}",
+			"aliases": [],
+			"params": [
+				"brandId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/brands/{brandId}",
+			"aliases": [],
+			"params": [
+				"brandId"
+			]
+		}
 	},
 	"collection": {
-		"query": [
-			"GET",
-			"/collections", [
+		"query": {
+			"method": "GET",
+			"path": "/collections",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/collections",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/collections/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/collections/{collectionId}",
+			"aliases": [],
+			"params": [
+				"collectionId"
 			]
-		],
-		"create": [
-			"POST",
-			"/collections"
-		],
-		"count": [
-			"GET",
-			"/collections/count"
-		],
-		"get": [
-			"GET",
-			"/collections/{collectionId}"
-		],
-		"update": [
-			"PUT",
-			"/collections/{collectionId}"
-		],
-		"delete": [
-			"DELETE",
-			"/collections/{collectionId}"
-		],
-		"queryByParent": [
-			"GET",
-			"/collections/{collectionId}/collections", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/collections/{collectionId}",
+			"aliases": [],
+			"params": [
+				"collectionId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/collections/{collectionId}",
+			"aliases": [],
+			"params": [
+				"collectionId"
+			]
+		},
+		"queryByParent": {
+			"method": "GET",
+			"path": "/collections/{collectionId}/collections",
+			"aliases": [
 				"listByParent"
+			],
+			"params": [
+				"collectionId"
 			]
-		]
+		}
 	},
 	"product": {
-		"query": [
-			"GET",
-			"/products", [
+		"query": {
+			"method": "GET",
+			"path": "/products",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/products",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/products/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/products/{productId}",
+			"aliases": [],
+			"params": [
+				"productId"
 			]
-		],
-		"create": [
-			"POST",
-			"/products"
-		],
-		"count": [
-			"GET",
-			"/products/count"
-		],
-		"get": [
-			"GET",
-			"/products/{productId}"
-		],
-		"update": [
-			"PUT",
-			"/products/{productId}"
-		],
-		"delete": [
-			"DELETE",
-			"/products/{productId}"
-		],
-		"queryByBrand": [
-			"GET",
-			"/brands/{brandId}/products", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/products/{productId}",
+			"aliases": [],
+			"params": [
+				"productId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/products/{productId}",
+			"aliases": [],
+			"params": [
+				"productId"
+			]
+		},
+		"queryByBrand": {
+			"method": "GET",
+			"path": "/brands/{brandId}/products",
+			"aliases": [
 				"listByBrand"
+			],
+			"params": [
+				"brandId"
 			]
-		],
-		"queryByCollection": [
-			"GET",
-			"/collections/{collectionId}/products", [
+		},
+		"queryByCollection": {
+			"method": "GET",
+			"path": "/collections/{collectionId}/products",
+			"aliases": [
 				"listByCollection"
+			],
+			"params": [
+				"collectionId"
 			]
-		],
-		"addOption": [
-			"POST",
-			"/products/{productId}/options"
-		],
-		"updateOption": [
-			"PUT",
-			"/products/{productId}/options/{optionId}"
-		],
-		"deleteOption": [
-			"DELETE",
-			"/products/{productId}/options/{optionId}"
-		],
-		"addVariation": [
-			"POST",
-			"/products/{productId}/options/{optionId}/variations"
-		],
-		"updateVariation": [
-			"PUT",
-			"/products/{productId}/options/{optionId}/variations/{variationId}"
-		],
-		"deleteVariation": [
-			"DELETE",
-			"/products/{productId}/options/{optionId}/variations/{variationId}"
-		],
-		"addVariant": [
-			"POST",
-			"/products/{productId}/variants"
-		],
-		"updateVariant": [
-			"PUT",
-			"/products/{productId}/variants/{variantId}"
-		],
-		"deleteVariant": [
-			"DELETE",
-			"/products/{productId}/variants/{variantId}"
-		],
-		"addToCollection": [
-			"PUT",
-			"/collections/{collectionId}/products"
-		],
-		"deleteMeta": [
-			"DELETE",
-			"/products/{productId}/meta/{field}"
-		]
+		},
+		"addOption": {
+			"method": "POST",
+			"path": "/products/{productId}/options",
+			"aliases": [],
+			"params": [
+				"productId"
+			]
+		},
+		"updateOption": {
+			"method": "PUT",
+			"path": "/products/{productId}/options/{optionId}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"optionId"
+			]
+		},
+		"deleteOption": {
+			"method": "DELETE",
+			"path": "/products/{productId}/options/{optionId}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"optionId"
+			]
+		},
+		"addVariation": {
+			"method": "POST",
+			"path": "/products/{productId}/options/{optionId}/variations",
+			"aliases": [],
+			"params": [
+				"productId",
+				"optionId"
+			]
+		},
+		"updateVariation": {
+			"method": "PUT",
+			"path": "/products/{productId}/options/{optionId}/variations/{variationId}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"optionId",
+				"variationId"
+			]
+		},
+		"deleteVariation": {
+			"method": "DELETE",
+			"path": "/products/{productId}/options/{optionId}/variations/{variationId}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"optionId",
+				"variationId"
+			]
+		},
+		"addVariant": {
+			"method": "POST",
+			"path": "/products/{productId}/variants",
+			"aliases": [],
+			"params": [
+				"productId"
+			]
+		},
+		"updateVariant": {
+			"method": "PUT",
+			"path": "/products/{productId}/variants/{variantId}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"variantId"
+			]
+		},
+		"deleteVariant": {
+			"method": "DELETE",
+			"path": "/products/{productId}/variants/{variantId}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"variantId"
+			]
+		},
+		"addToCollection": {
+			"method": "PUT",
+			"path": "/collections/{collectionId}/products",
+			"aliases": [],
+			"params": [
+				"collectionId"
+			]
+		},
+		"deleteMeta": {
+			"method": "DELETE",
+			"path": "/products/{productId}/meta/{field}",
+			"aliases": [],
+			"params": [
+				"productId",
+				"field"
+			]
+		}
 	},
 	"review": {
-		"query": [
-			"GET",
-			"/products/reviews", [
+		"query": {
+			"method": "GET",
+			"path": "/products/reviews",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/products/reviews",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/products/reviews/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/products/reviews/{reviewId}",
+			"aliases": [],
+			"params": [
+				"reviewId"
 			]
-		],
-		"create": [
-			"POST",
-			"/products/reviews"
-		],
-		"count": [
-			"GET",
-			"/products/reviews/count"
-		],
-		"get": [
-			"GET",
-			"/products/reviews/{reviewId}"
-		],
-		"update": [
-			"PUT",
-			"/products/reviews/{reviewId}"
-		],
-		"delete": [
-			"DELETE",
-			"/products/reviews/{reviewId}"
-		],
-		"queryByProduct": [
-			"GET",
-			"/products/{productId}/reviews", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/products/reviews/{reviewId}",
+			"aliases": [],
+			"params": [
+				"reviewId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/products/reviews/{reviewId}",
+			"aliases": [],
+			"params": [
+				"reviewId"
+			]
+		},
+		"queryByProduct": {
+			"method": "GET",
+			"path": "/products/{productId}/reviews",
+			"aliases": [
 				"listByProduct"
+			],
+			"params": [
+				"productId"
 			]
-		],
-		"queryByCustomer": [
-			"GET",
-			"/customers/{customerId}/products/reviews", [
+		},
+		"queryByCustomer": {
+			"method": "GET",
+			"path": "/customers/{customerId}/products/reviews",
+			"aliases": [
 				"listByCustomer"
+			],
+			"params": [
+				"customerId"
 			]
-		],
-		"updateByCustomer": [
-			"PUT",
-			"/customers/{customerId}/products/reviews/{reviewId}"
-		],
-		"flag": [
-			"PUT",
-			"/products/reviews/{reviewId}/flag"
-		],
-		"flagCancel": [
-			"PUT",
-			"/products/reviews/{reviewId}/flag/cancel", [
+		},
+		"updateByCustomer": {
+			"method": "PUT",
+			"path": "/customers/{customerId}/products/reviews/{reviewId}",
+			"aliases": [],
+			"params": [
+				"customerId",
+				"reviewId"
+			]
+		},
+		"flag": {
+			"method": "PUT",
+			"path": "/products/reviews/{reviewId}/flag",
+			"aliases": [],
+			"params": [
+				"reviewId"
+			]
+		},
+		"flagCancel": {
+			"method": "PUT",
+			"path": "/products/reviews/{reviewId}/flag/cancel",
+			"aliases": [
 				"cancelFlag"
+			],
+			"params": [
+				"reviewId"
 			]
-		],
-		"helped": [
-			"PUT",
-			"/products/reviews/{reviewId}/helped/{upDown}"
-		],
-		"helpedCancel": [
-			"PUT",
-			"/products/reviews/{reviewId}/helped/{upDown}/cancel"
-		]
+		},
+		"helped": {
+			"method": "PUT",
+			"path": "/products/reviews/{reviewId}/helped/{upDown}",
+			"aliases": [],
+			"params": [
+				"reviewId",
+				"upDown"
+			]
+		},
+		"helpedCancel": {
+			"method": "PUT",
+			"path": "/products/reviews/{reviewId}/helped/{upDown}/cancel",
+			"aliases": [],
+			"params": [
+				"reviewId",
+				"upDown"
+			]
+		}
 	},
 	"reviewComment": {
-		"query": [
-			"GET",
-			"/products/reviews/comments", [
+		"query": {
+			"method": "GET",
+			"path": "/products/reviews/comments",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/products/reviews/comments",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/products/reviews/comments/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/products/reviews/comments/{reviewCommentId}",
+			"aliases": [],
+			"params": [
+				"reviewCommentId"
 			]
-		],
-		"create": [
-			"POST",
-			"/products/reviews/comments"
-		],
-		"count": [
-			"GET",
-			"/products/reviews/comments/count"
-		],
-		"get": [
-			"GET",
-			"/products/reviews/comments/{reviewCommentId}"
-		],
-		"update": [
-			"PUT",
-			"/products/reviews/comments/{reviewCommentId}"
-		],
-		"delete": [
-			"DELETE",
-			"/products/reviews/comments/{reviewCommentId}"
-		],
-		"queryByReview": [
-			"GET",
-			"/products/reviews/{reviewId}/comments", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/products/reviews/comments/{reviewCommentId}",
+			"aliases": [],
+			"params": [
+				"reviewCommentId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/products/reviews/comments/{reviewCommentId}",
+			"aliases": [],
+			"params": [
+				"reviewCommentId"
+			]
+		},
+		"queryByReview": {
+			"method": "GET",
+			"path": "/products/reviews/{reviewId}/comments",
+			"aliases": [
 				"listByReview"
+			],
+			"params": [
+				"reviewId"
 			]
-		],
-		"queryByOwner": [
-			"GET",
-			"/{ownerModel}/{ownerId}/products/reviews/comments", [
+		},
+		"queryByOwner": {
+			"method": "GET",
+			"path": "/{ownerModel}/{ownerId}/products/reviews/comments",
+			"aliases": [
 				"listByOwner"
+			],
+			"params": [
+				"ownerModel",
+				"ownerId"
 			]
-		],
-		"updateByOwner": [
-			"PUT",
-			"/{ownerModel}/{ownerId}/products/reviews/comments/{reviewCommentId}"
-		],
-		"flag": [
-			"PUT",
-			"/products/reviews/comments/{reviewCommentId}/flag"
-		],
-		"flagCancel": [
-			"PUT",
-			"/products/reviews/comments/{reviewCommentId}/flag/cancel", [
+		},
+		"updateByOwner": {
+			"method": "PUT",
+			"path": "/{ownerModel}/{ownerId}/products/reviews/comments/{reviewCommentId}",
+			"aliases": [],
+			"params": [
+				"ownerModel",
+				"ownerId",
+				"reviewCommentId"
+			]
+		},
+		"flag": {
+			"method": "PUT",
+			"path": "/products/reviews/comments/{reviewCommentId}/flag",
+			"aliases": [],
+			"params": [
+				"reviewCommentId"
+			]
+		},
+		"flagCancel": {
+			"method": "PUT",
+			"path": "/products/reviews/comments/{reviewCommentId}/flag/cancel",
+			"aliases": [
 				"cancelFlag"
+			],
+			"params": [
+				"reviewCommentId"
 			]
-		]
+		}
 	},
 	"productQuestion": {
-		"query": [
-			"GET",
-			"/products/questions", [
+		"query": {
+			"method": "GET",
+			"path": "/products/questions",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/products/questions",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/products/questions/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/products/questions/{productQuestionId}",
+			"aliases": [],
+			"params": [
+				"productQuestionId"
 			]
-		],
-		"create": [
-			"POST",
-			"/products/questions"
-		],
-		"count": [
-			"GET",
-			"/products/questions/count"
-		],
-		"get": [
-			"GET",
-			"/products/questions/{productQuestionId}"
-		],
-		"update": [
-			"PUT",
-			"/products/questions/{productQuestionId}"
-		],
-		"delete": [
-			"DELETE",
-			"/products/questions/{productQuestionId}"
-		],
-		"queryByProduct": [
-			"GET",
-			"/products/{productId}/questions", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/products/questions/{productQuestionId}",
+			"aliases": [],
+			"params": [
+				"productQuestionId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/products/questions/{productQuestionId}",
+			"aliases": [],
+			"params": [
+				"productQuestionId"
+			]
+		},
+		"queryByProduct": {
+			"method": "GET",
+			"path": "/products/{productId}/questions",
+			"aliases": [
 				"listByProduct"
+			],
+			"params": [
+				"productId"
 			]
-		],
-		"queryByCustomer": [
-			"GET",
-			"/customers/{customerId}/products/questions", [
+		},
+		"queryByCustomer": {
+			"method": "GET",
+			"path": "/customers/{customerId}/products/questions",
+			"aliases": [
 				"listByCustomer"
+			],
+			"params": [
+				"customerId"
 			]
-		],
-		"updateByCustomer": [
-			"PUT",
-			"/customers/{customerId}/products/questions/{productQuestionId}"
-		],
-		"flag": [
-			"PUT",
-			"/products/questions/{productQuestionId}/flag"
-		],
-		"flagCancel": [
-			"PUT",
-			"/products/questions/{productQuestionId}/flag/cancel", [
+		},
+		"updateByCustomer": {
+			"method": "PUT",
+			"path": "/customers/{customerId}/products/questions/{productQuestionId}",
+			"aliases": [],
+			"params": [
+				"customerId",
+				"productQuestionId"
+			]
+		},
+		"flag": {
+			"method": "PUT",
+			"path": "/products/questions/{productQuestionId}/flag",
+			"aliases": [],
+			"params": [
+				"productQuestionId"
+			]
+		},
+		"flagCancel": {
+			"method": "PUT",
+			"path": "/products/questions/{productQuestionId}/flag/cancel",
+			"aliases": [
 				"cancelFlag"
+			],
+			"params": [
+				"productQuestionId"
 			]
-		],
-		"helped": [
-			"PUT",
-			"/products/questions/{productQuestionId}/helped/{upDown}"
-		],
-		"helpedCancel": [
-			"PUT",
-			"/products/questions/{productQuestionId}/helped/{upDown}/cancel"
-		]
+		},
+		"helped": {
+			"method": "PUT",
+			"path": "/products/questions/{productQuestionId}/helped/{upDown}",
+			"aliases": [],
+			"params": [
+				"productQuestionId",
+				"upDown"
+			]
+		},
+		"helpedCancel": {
+			"method": "PUT",
+			"path": "/products/questions/{productQuestionId}/helped/{upDown}/cancel",
+			"aliases": [],
+			"params": [
+				"productQuestionId",
+				"upDown"
+			]
+		}
 	},
 	"productAnswer": {
-		"query": [
-			"GET",
-			"/products/questions/answers", [
+		"query": {
+			"method": "GET",
+			"path": "/products/questions/answers",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/products/questions/answers",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/products/questions/answers/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/products/questions/answers/{productAnswerId}",
+			"aliases": [],
+			"params": [
+				"productAnswerId"
 			]
-		],
-		"create": [
-			"POST",
-			"/products/questions/answers"
-		],
-		"count": [
-			"GET",
-			"/products/questions/answers/count"
-		],
-		"get": [
-			"GET",
-			"/products/questions/answers/{productAnswerId}"
-		],
-		"update": [
-			"PUT",
-			"/products/questions/answers/{productAnswerId}"
-		],
-		"delete": [
-			"DELETE",
-			"/products/questions/answers/{productAnswerId}"
-		],
-		"queryByQuestion": [
-			"GET",
-			"/products/questions/{productQuestionId}/answers", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/products/questions/answers/{productAnswerId}",
+			"aliases": [],
+			"params": [
+				"productAnswerId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/products/questions/answers/{productAnswerId}",
+			"aliases": [],
+			"params": [
+				"productAnswerId"
+			]
+		},
+		"queryByQuestion": {
+			"method": "GET",
+			"path": "/products/questions/{productQuestionId}/answers",
+			"aliases": [
 				"listByQuestion"
+			],
+			"params": [
+				"productQuestionId"
 			]
-		],
-		"queryByOwner": [
-			"GET",
-			"/{ownerModel}/{ownerId}/products/questions/answers", [
+		},
+		"queryByOwner": {
+			"method": "GET",
+			"path": "/{ownerModel}/{ownerId}/products/questions/answers",
+			"aliases": [
 				"listByOwner"
+			],
+			"params": [
+				"ownerModel",
+				"ownerId"
 			]
-		],
-		"updateByOwner": [
-			"PUT",
-			"/{ownerModel}/{ownerId}/products/questions/answers/{productAnswerId}"
-		],
-		"flag": [
-			"PUT",
-			"/products/questions/answers/{productAnswerId}/flag"
-		],
-		"flagCancel": [
-			"PUT",
-			"/products/questions/answers/{productAnswerId}/flag/cancel", [
+		},
+		"updateByOwner": {
+			"method": "PUT",
+			"path": "/{ownerModel}/{ownerId}/products/questions/answers/{productAnswerId}",
+			"aliases": [],
+			"params": [
+				"ownerModel",
+				"ownerId",
+				"productAnswerId"
+			]
+		},
+		"flag": {
+			"method": "PUT",
+			"path": "/products/questions/answers/{productAnswerId}/flag",
+			"aliases": [],
+			"params": [
+				"productAnswerId"
+			]
+		},
+		"flagCancel": {
+			"method": "PUT",
+			"path": "/products/questions/answers/{productAnswerId}/flag/cancel",
+			"aliases": [
 				"cancelFlag"
+			],
+			"params": [
+				"productAnswerId"
 			]
-		],
-		"helped": [
-			"PUT",
-			"/products/questions/answers/{productAnswerId}/helped/{upDown}"
-		],
-		"helpedCancel": [
-			"PUT",
-			"/products/questions/answers/{productAnswerId}/helped/{upDown}/cancel"
-		]
+		},
+		"helped": {
+			"method": "PUT",
+			"path": "/products/questions/answers/{productAnswerId}/helped/{upDown}",
+			"aliases": [],
+			"params": [
+				"productAnswerId",
+				"upDown"
+			]
+		},
+		"helpedCancel": {
+			"method": "PUT",
+			"path": "/products/questions/answers/{productAnswerId}/helped/{upDown}/cancel",
+			"aliases": [],
+			"params": [
+				"productAnswerId",
+				"upDown"
+			]
+		}
 	},
 	"country": {
-		"query": [
-			"GET",
-			"/countries", [
+		"query": {
+			"method": "GET",
+			"path": "/countries",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/countries",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/countries/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/countries/{countryId}",
+			"aliases": [],
+			"params": [
+				"countryId"
 			]
-		],
-		"create": [
-			"POST",
-			"/countries"
-		],
-		"count": [
-			"GET",
-			"/countries/count"
-		],
-		"get": [
-			"GET",
-			"/countries/{countryId}"
-		],
-		"update": [
-			"PUT",
-			"/countries/{countryId}"
-		],
-		"delete": [
-			"DELETE",
-			"/countries/{countryId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/countries/{countryId}",
+			"aliases": [],
+			"params": [
+				"countryId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/countries/{countryId}",
+			"aliases": [],
+			"params": [
+				"countryId"
+			]
+		}
 	},
 	"departure": {
-		"query": [
-			"GET",
-			"/departures", [
+		"query": {
+			"method": "GET",
+			"path": "/departures",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/departures",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/departures/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/departures/{departureId}",
+			"aliases": [],
+			"params": [
+				"departureId"
 			]
-		],
-		"create": [
-			"POST",
-			"/departures"
-		],
-		"count": [
-			"GET",
-			"/departures/count"
-		],
-		"get": [
-			"GET",
-			"/departures/{departureId}"
-		],
-		"update": [
-			"PUT",
-			"/departures/{departureId}"
-		],
-		"delete": [
-			"DELETE",
-			"/departures/{departureId}"
-		],
-		"addMethod": [
-			"POST",
-			"/departures/{departureId}/methods"
-		],
-		"updateMethod": [
-			"PUT",
-			"/departures/{departureId}/methods/{methodId}"
-		],
-		"deleteMethod": [
-			"DELETE",
-			"/departures/{departureId}/methods/{methodId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/departures/{departureId}",
+			"aliases": [],
+			"params": [
+				"departureId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/departures/{departureId}",
+			"aliases": [],
+			"params": [
+				"departureId"
+			]
+		},
+		"addMethod": {
+			"method": "POST",
+			"path": "/departures/{departureId}/methods",
+			"aliases": [],
+			"params": [
+				"departureId"
+			]
+		},
+		"updateMethod": {
+			"method": "PUT",
+			"path": "/departures/{departureId}/methods/{methodId}",
+			"aliases": [],
+			"params": [
+				"departureId",
+				"methodId"
+			]
+		},
+		"deleteMethod": {
+			"method": "DELETE",
+			"path": "/departures/{departureId}/methods/{methodId}",
+			"aliases": [],
+			"params": [
+				"departureId",
+				"methodId"
+			]
+		}
 	},
 	"shipping": {
-		"query": [
-			"GET",
-			"/shippings", [
+		"query": {
+			"method": "GET",
+			"path": "/shippings",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/shippings",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/shippings/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/shippings/{shippingId}",
+			"aliases": [],
+			"params": [
+				"shippingId"
 			]
-		],
-		"create": [
-			"POST",
-			"/shippings"
-		],
-		"count": [
-			"GET",
-			"/shippings/count"
-		],
-		"get": [
-			"GET",
-			"/shippings/{shippingId}"
-		],
-		"update": [
-			"PUT",
-			"/shippings/{shippingId}"
-		],
-		"delete": [
-			"DELETE",
-			"/shippings/{shippingId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/shippings/{shippingId}",
+			"aliases": [],
+			"params": [
+				"shippingId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/shippings/{shippingId}",
+			"aliases": [],
+			"params": [
+				"shippingId"
+			]
+		}
 	},
 	"tax": {
-		"query": [
-			"GET",
-			"/taxes", [
+		"query": {
+			"method": "GET",
+			"path": "/taxes",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/taxes",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/taxes/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/taxes/{taxId}",
+			"aliases": [],
+			"params": [
+				"taxId"
 			]
-		],
-		"create": [
-			"POST",
-			"/taxes"
-		],
-		"count": [
-			"GET",
-			"/taxes/count"
-		],
-		"get": [
-			"GET",
-			"/taxes/{taxId}"
-		],
-		"update": [
-			"PUT",
-			"/taxes/{taxId}"
-		],
-		"delete": [
-			"DELETE",
-			"/taxes/{taxId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/taxes/{taxId}",
+			"aliases": [],
+			"params": [
+				"taxId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/taxes/{taxId}",
+			"aliases": [],
+			"params": [
+				"taxId"
+			]
+		}
 	},
 	"taxCategory": {
-		"query": [
-			"GET",
-			"/taxes/categories", [
+		"query": {
+			"method": "GET",
+			"path": "/taxes/categories",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/taxes/categories",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/taxes/categories/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/taxes/categories/{taxCategoryId}",
+			"aliases": [],
+			"params": [
+				"taxCategoryId"
 			]
-		],
-		"create": [
-			"POST",
-			"/taxes/categories"
-		],
-		"count": [
-			"GET",
-			"/taxes/categories/count"
-		],
-		"get": [
-			"GET",
-			"/taxes/categories/{taxCategoryId}"
-		],
-		"update": [
-			"PUT",
-			"/taxes/categories/{taxCategoryId}"
-		],
-		"delete": [
-			"DELETE",
-			"/taxes/categories/{taxCategoryId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/taxes/categories/{taxCategoryId}",
+			"aliases": [],
+			"params": [
+				"taxCategoryId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/taxes/categories/{taxCategoryId}",
+			"aliases": [],
+			"params": [
+				"taxCategoryId"
+			]
+		}
 	},
 	"group": {
-		"query": [
-			"GET",
-			"/groups", [
+		"query": {
+			"method": "GET",
+			"path": "/groups",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/groups",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/groups/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/groups/{groupId}",
+			"aliases": [],
+			"params": [
+				"groupId"
 			]
-		],
-		"create": [
-			"POST",
-			"/groups"
-		],
-		"count": [
-			"GET",
-			"/groups/count"
-		],
-		"get": [
-			"GET",
-			"/groups/{groupId}"
-		],
-		"update": [
-			"PUT",
-			"/groups/{groupId}"
-		],
-		"delete": [
-			"DELETE",
-			"/groups/{groupId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/groups/{groupId}",
+			"aliases": [],
+			"params": [
+				"groupId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/groups/{groupId}",
+			"aliases": [],
+			"params": [
+				"groupId"
+			]
+		}
 	},
 	"customer": {
-		"query": [
-			"GET",
-			"/customers", [
+		"query": {
+			"method": "GET",
+			"path": "/customers",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/customers",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/customers/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/customers/{customerId}",
+			"aliases": [],
+			"params": [
+				"customerId"
 			]
-		],
-		"create": [
-			"POST",
-			"/customers"
-		],
-		"count": [
-			"GET",
-			"/customers/count"
-		],
-		"get": [
-			"GET",
-			"/customers/{customerId}"
-		],
-		"update": [
-			"PUT",
-			"/customers/{customerId}"
-		],
-		"delete": [
-			"DELETE",
-			"/customers/{customerId}"
-		],
-		"auth": [
-			"PUT",
-			"/customers/auth"
-		],
-		"queryByGroup": [
-			"GET",
-			"/groups/{groupId}/customers", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/customers/{customerId}",
+			"aliases": [],
+			"params": [
+				"customerId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/customers/{customerId}",
+			"aliases": [],
+			"params": [
+				"customerId"
+			]
+		},
+		"auth": {
+			"method": "PUT",
+			"path": "/customers/auth",
+			"aliases": [],
+			"params": []
+		},
+		"queryByGroup": {
+			"method": "GET",
+			"path": "/groups/{groupId}/customers",
+			"aliases": [
 				"listByGroup"
+			],
+			"params": [
+				"groupId"
 			]
-		],
-		"addCoupon": [
-			"POST",
-			"/customers/{customerId}/coupons"
-		],
-		"deleteCoupon": [
-			"DELETE",
-			"/customers/{customerId}/coupons/{couponId}"
-		],
-		"getCartByNonRegistered": [
-			"PUT",
-			"/cart"
-		],
-		"getCart": [
-			"PUT",
-			"/customers/{customerId}/cart"
-		],
-		"addItem": [
-			"POST",
-			"/customers/{customerId}/cart/items"
-		],
-		"updateItem": [
-			"PUT",
-			"/customers/{customerId}/cart/items/{itemId}"
-		],
-		"deleteItem": [
-			"DELETE",
-			"/customers/{customerId}/cart/items/{itemId}"
-		]
+		},
+		"addCoupon": {
+			"method": "POST",
+			"path": "/customers/{customerId}/coupons",
+			"aliases": [],
+			"params": [
+				"customerId"
+			]
+		},
+		"deleteCoupon": {
+			"method": "DELETE",
+			"path": "/customers/{customerId}/coupons/{couponId}",
+			"aliases": [],
+			"params": [
+				"customerId",
+				"couponId"
+			]
+		},
+		"getCartByNonRegistered": {
+			"method": "PUT",
+			"path": "/cart",
+			"aliases": [],
+			"params": []
+		},
+		"getCart": {
+			"method": "PUT",
+			"path": "/customers/{customerId}/cart",
+			"aliases": [],
+			"params": [
+				"customerId"
+			]
+		},
+		"addItem": {
+			"method": "POST",
+			"path": "/customers/{customerId}/cart/items",
+			"aliases": [],
+			"params": [
+				"customerId"
+			]
+		},
+		"updateItem": {
+			"method": "PUT",
+			"path": "/customers/{customerId}/cart/items/{itemId}",
+			"aliases": [],
+			"params": [
+				"customerId",
+				"itemId"
+			]
+		},
+		"deleteItem": {
+			"method": "DELETE",
+			"path": "/customers/{customerId}/cart/items/{itemId}",
+			"aliases": [],
+			"params": [
+				"customerId",
+				"itemId"
+			]
+		}
 	},
 	"wishList": {
-		"query": [
-			"GET",
-			"/wishlists", [
+		"query": {
+			"method": "GET",
+			"path": "/wishlists",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/wishlists",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/wishlists/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/wishlists/{wishListId}",
+			"aliases": [],
+			"params": [
+				"wishListId"
 			]
-		],
-		"create": [
-			"POST",
-			"/wishlists"
-		],
-		"count": [
-			"GET",
-			"/wishlists/count"
-		],
-		"get": [
-			"GET",
-			"/wishlists/{wishListId}"
-		],
-		"update": [
-			"PUT",
-			"/wishlists/{wishListId}"
-		],
-		"delete": [
-			"DELETE",
-			"/wishlists/{wishListId}"
-		],
-		"addItem": [
-			"POST",
-			"/wishlists/{wishListId}/items"
-		],
-		"deleteItem": [
-			"DELETE",
-			"/wishlists/{wishListId}/items/{itemId}"
-		],
-		"queryByCustomer": [
-			"GET",
-			"/customers/{customerId}/wishlists", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/wishlists/{wishListId}",
+			"aliases": [],
+			"params": [
+				"wishListId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/wishlists/{wishListId}",
+			"aliases": [],
+			"params": [
+				"wishListId"
+			]
+		},
+		"addItem": {
+			"method": "POST",
+			"path": "/wishlists/{wishListId}/items",
+			"aliases": [],
+			"params": [
+				"wishListId"
+			]
+		},
+		"deleteItem": {
+			"method": "DELETE",
+			"path": "/wishlists/{wishListId}/items/{itemId}",
+			"aliases": [],
+			"params": [
+				"wishListId",
+				"itemId"
+			]
+		},
+		"queryByCustomer": {
+			"method": "GET",
+			"path": "/customers/{customerId}/wishlists",
+			"aliases": [
 				"listByCustomer"
+			],
+			"params": [
+				"customerId"
 			]
-		]
+		}
 	},
 	"image": {
-		"query": [
-			"GET",
-			"/images", [
+		"query": {
+			"method": "GET",
+			"path": "/images",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/images",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/images/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/images/{imageId}",
+			"aliases": [],
+			"params": [
+				"imageId"
 			]
-		],
-		"create": [
-			"POST",
-			"/images"
-		],
-		"count": [
-			"GET",
-			"/images/count"
-		],
-		"get": [
-			"GET",
-			"/images/{imageId}"
-		],
-		"delete": [
-			"DELETE",
-			"/images/{imageId}"
-		],
-		"updateResized": [
-			"PUT",
-			"/images/{imageId}/{profileSlug}"
-		],
-		"syncResized": [
-			"PUT",
-			"/images/{imageId}/{profileSlug}/sync"
-		]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/images/{imageId}",
+			"aliases": [],
+			"params": [
+				"imageId"
+			]
+		},
+		"updateResized": {
+			"method": "PUT",
+			"path": "/images/{imageId}/{profileSlug}",
+			"aliases": [],
+			"params": [
+				"imageId",
+				"profileSlug"
+			]
+		},
+		"syncResized": {
+			"method": "PUT",
+			"path": "/images/{imageId}/{profileSlug}/sync",
+			"aliases": [],
+			"params": [
+				"imageId",
+				"profileSlug"
+			]
+		}
 	},
 	"imageBundle": {
-		"query": [
-			"GET",
-			"/images/bundles", [
+		"query": {
+			"method": "GET",
+			"path": "/images/bundles",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/images/bundles",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/images/bundles/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/images/bundles/{imageBundleId}",
+			"aliases": [],
+			"params": [
+				"imageBundleId"
 			]
-		],
-		"create": [
-			"POST",
-			"/images/bundles"
-		],
-		"count": [
-			"GET",
-			"/images/bundles/count"
-		],
-		"get": [
-			"GET",
-			"/images/bundles/{imageBundleId}"
-		],
-		"update": [
-			"PUT",
-			"/images/bundles/{imageBundleId}"
-		],
-		"delete": [
-			"DELETE",
-			"/images/bundles/{imageBundleId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/images/bundles/{imageBundleId}",
+			"aliases": [],
+			"params": [
+				"imageBundleId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/images/bundles/{imageBundleId}",
+			"aliases": [],
+			"params": [
+				"imageBundleId"
+			]
+		}
 	},
 	"coupon": {
-		"query": [
-			"GET",
-			"/coupons", [
+		"query": {
+			"method": "GET",
+			"path": "/coupons",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/coupons",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/coupons/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/coupons/{couponId}",
+			"aliases": [],
+			"params": [
+				"couponId"
 			]
-		],
-		"create": [
-			"POST",
-			"/coupons"
-		],
-		"count": [
-			"GET",
-			"/coupons/count"
-		],
-		"get": [
-			"GET",
-			"/coupons/{couponId}"
-		],
-		"update": [
-			"PUT",
-			"/coupons/{couponId}"
-		],
-		"delete": [
-			"DELETE",
-			"/coupons/{couponId}"
-		],
-		"addTotalAmount": [
-			"POST",
-			"/coupons/{couponId}/amount/total"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/coupons/{couponId}",
+			"aliases": [],
+			"params": [
+				"couponId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/coupons/{couponId}",
+			"aliases": [],
+			"params": [
+				"couponId"
+			]
+		},
+		"addTotalAmount": {
+			"method": "POST",
+			"path": "/coupons/{couponId}/amount/total",
+			"aliases": [],
+			"params": [
+				"couponId"
+			]
+		}
 	},
 	"discount": {
-		"query": [
-			"GET",
-			"/discounts", [
+		"query": {
+			"method": "GET",
+			"path": "/discounts",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/discounts",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/discounts/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/discounts/{discountId}",
+			"aliases": [],
+			"params": [
+				"discountId"
 			]
-		],
-		"create": [
-			"POST",
-			"/discounts"
-		],
-		"count": [
-			"GET",
-			"/discounts/count"
-		],
-		"get": [
-			"GET",
-			"/discounts/{discountId}"
-		],
-		"update": [
-			"PUT",
-			"/discounts/{discountId}"
-		],
-		"delete": [
-			"DELETE",
-			"/discounts/{discountId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/discounts/{discountId}",
+			"aliases": [],
+			"params": [
+				"discountId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/discounts/{discountId}",
+			"aliases": [],
+			"params": [
+				"discountId"
+			]
+		}
 	},
 	"supportTopic": {
-		"query": [
-			"GET",
-			"/support/topics", [
+		"query": {
+			"method": "GET",
+			"path": "/support/topics",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/support/topics",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/support/topics/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/support/topics/{supportTopicId}",
+			"aliases": [],
+			"params": [
+				"supportTopicId"
 			]
-		],
-		"create": [
-			"POST",
-			"/support/topics"
-		],
-		"count": [
-			"GET",
-			"/support/topics/count"
-		],
-		"get": [
-			"GET",
-			"/support/topics/{supportTopicId}"
-		],
-		"update": [
-			"PUT",
-			"/support/topics/{supportTopicId}"
-		],
-		"delete": [
-			"DELETE",
-			"/support/topics/{supportTopicId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/support/topics/{supportTopicId}",
+			"aliases": [],
+			"params": [
+				"supportTopicId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/support/topics/{supportTopicId}",
+			"aliases": [],
+			"params": [
+				"supportTopicId"
+			]
+		}
 	},
 	"supportPost": {
-		"query": [
-			"GET",
-			"/support/posts", [
+		"query": {
+			"method": "GET",
+			"path": "/support/posts",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/support/posts",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/support/posts/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/support/posts/{supportPostId}",
+			"aliases": [],
+			"params": [
+				"supportPostId"
 			]
-		],
-		"create": [
-			"POST",
-			"/support/posts"
-		],
-		"count": [
-			"GET",
-			"/support/posts/count"
-		],
-		"get": [
-			"GET",
-			"/support/posts/{supportPostId}"
-		],
-		"update": [
-			"PUT",
-			"/support/posts/{supportPostId}"
-		],
-		"delete": [
-			"DELETE",
-			"/support/posts/{supportPostId}"
-		],
-		"queryByTopic": [
-			"GET",
-			"/support/topics/{supportTopicId}/posts", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/support/posts/{supportPostId}",
+			"aliases": [],
+			"params": [
+				"supportPostId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/support/posts/{supportPostId}",
+			"aliases": [],
+			"params": [
+				"supportPostId"
+			]
+		},
+		"queryByTopic": {
+			"method": "GET",
+			"path": "/support/topics/{supportTopicId}/posts",
+			"aliases": [
 				"listByTopic"
+			],
+			"params": [
+				"supportTopicId"
 			]
-		],
-		"queryByCustomer": [
-			"GET",
-			"/customers/{customerId}/support/posts", [
+		},
+		"queryByCustomer": {
+			"method": "GET",
+			"path": "/customers/{customerId}/support/posts",
+			"aliases": [
 				"listByCustomer"
+			],
+			"params": [
+				"customerId"
 			]
-		],
-		"updateByCustomer": [
-			"PUT",
-			"/customers/{customerId}/support/posts/{supportPostId}"
-		]
+		},
+		"updateByCustomer": {
+			"method": "PUT",
+			"path": "/customers/{customerId}/support/posts/{supportPostId}",
+			"aliases": [],
+			"params": [
+				"customerId",
+				"supportPostId"
+			]
+		}
 	},
 	"supportComment": {
-		"query": [
-			"GET",
-			"/support/posts/comments", [
+		"query": {
+			"method": "GET",
+			"path": "/support/posts/comments",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/support/posts/comments",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/support/posts/comments/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/support/posts/comments/{supportCommentId}",
+			"aliases": [],
+			"params": [
+				"supportCommentId"
 			]
-		],
-		"create": [
-			"POST",
-			"/support/posts/comments"
-		],
-		"count": [
-			"GET",
-			"/support/posts/comments/count"
-		],
-		"get": [
-			"GET",
-			"/support/posts/comments/{supportCommentId}"
-		],
-		"update": [
-			"PUT",
-			"/support/posts/comments/{supportCommentId}"
-		],
-		"delete": [
-			"DELETE",
-			"/support/posts/comments/{supportCommentId}"
-		],
-		"queryByPost": [
-			"GET",
-			"/support/posts/{supportPostId}/comments", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/support/posts/comments/{supportCommentId}",
+			"aliases": [],
+			"params": [
+				"supportCommentId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/support/posts/comments/{supportCommentId}",
+			"aliases": [],
+			"params": [
+				"supportCommentId"
+			]
+		},
+		"queryByPost": {
+			"method": "GET",
+			"path": "/support/posts/{supportPostId}/comments",
+			"aliases": [
 				"listByPost"
+			],
+			"params": [
+				"supportPostId"
 			]
-		],
-		"queryByOwner": [
-			"GET",
-			"/{ownerModel}/{ownerId}/support/posts/comments", [
+		},
+		"queryByOwner": {
+			"method": "GET",
+			"path": "/{ownerModel}/{ownerId}/support/posts/comments",
+			"aliases": [
 				"listByOwner"
+			],
+			"params": [
+				"ownerModel",
+				"ownerId"
 			]
-		],
-		"updateByOwner": [
-			"PUT",
-			"/{ownerModel}/{ownerId}/support/posts/comments/{supportCommentId}"
-		]
+		},
+		"updateByOwner": {
+			"method": "PUT",
+			"path": "/{ownerModel}/{ownerId}/support/posts/comments/{supportCommentId}",
+			"aliases": [],
+			"params": [
+				"ownerModel",
+				"ownerId",
+				"supportCommentId"
+			]
+		}
 	},
 	"blogCategory": {
-		"query": [
-			"GET",
-			"/blog/categories", [
+		"query": {
+			"method": "GET",
+			"path": "/blog/categories",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/blog/categories",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/blog/categories/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/blog/categories/{blogCategoryId}",
+			"aliases": [],
+			"params": [
+				"blogCategoryId"
 			]
-		],
-		"create": [
-			"POST",
-			"/blog/categories"
-		],
-		"count": [
-			"GET",
-			"/blog/categories/count"
-		],
-		"get": [
-			"GET",
-			"/blog/categories/{blogCategoryId}"
-		],
-		"update": [
-			"PUT",
-			"/blog/categories/{blogCategoryId}"
-		],
-		"delete": [
-			"DELETE",
-			"/blog/categories/{blogCategoryId}"
-		]
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/blog/categories/{blogCategoryId}",
+			"aliases": [],
+			"params": [
+				"blogCategoryId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/blog/categories/{blogCategoryId}",
+			"aliases": [],
+			"params": [
+				"blogCategoryId"
+			]
+		}
 	},
 	"blogPost": {
-		"query": [
-			"GET",
-			"/blog/posts", [
+		"query": {
+			"method": "GET",
+			"path": "/blog/posts",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/blog/posts",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/blog/posts/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/blog/posts/{blogPostId}",
+			"aliases": [],
+			"params": [
+				"blogPostId"
 			]
-		],
-		"create": [
-			"POST",
-			"/blog/posts"
-		],
-		"count": [
-			"GET",
-			"/blog/posts/count"
-		],
-		"get": [
-			"GET",
-			"/blog/posts/{blogPostId}"
-		],
-		"update": [
-			"PUT",
-			"/blog/posts/{blogPostId}"
-		],
-		"delete": [
-			"DELETE",
-			"/blog/posts/{blogPostId}"
-		],
-		"queryByCategory": [
-			"GET",
-			"/blog/categories/{blogCategoryId}/posts", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/blog/posts/{blogPostId}",
+			"aliases": [],
+			"params": [
+				"blogPostId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/blog/posts/{blogPostId}",
+			"aliases": [],
+			"params": [
+				"blogPostId"
+			]
+		},
+		"queryByCategory": {
+			"method": "GET",
+			"path": "/blog/categories/{blogCategoryId}/posts",
+			"aliases": [
 				"listByCategory"
+			],
+			"params": [
+				"blogCategoryId"
 			]
-		],
-		"queryByCollaborator": [
-			"GET",
-			"/collaborators/{collaboratorId}/blog/posts", [
+		},
+		"queryByCollaborator": {
+			"method": "GET",
+			"path": "/collaborators/{collaboratorId}/blog/posts",
+			"aliases": [
 				"listByCollaborator"
+			],
+			"params": [
+				"collaboratorId"
 			]
-		],
-		"updateByCollaborator": [
-			"PUT",
-			"/collaborators/{collaboratorId}/blog/posts/{blogPostId}"
-		]
+		},
+		"updateByCollaborator": {
+			"method": "PUT",
+			"path": "/collaborators/{collaboratorId}/blog/posts/{blogPostId}",
+			"aliases": [],
+			"params": [
+				"collaboratorId",
+				"blogPostId"
+			]
+		}
 	},
 	"blogComment": {
-		"query": [
-			"GET",
-			"/blog/posts/comments", [
+		"query": {
+			"method": "GET",
+			"path": "/blog/posts/comments",
+			"aliases": [
 				"list"
+			],
+			"params": []
+		},
+		"create": {
+			"method": "POST",
+			"path": "/blog/posts/comments",
+			"aliases": [],
+			"params": []
+		},
+		"count": {
+			"method": "GET",
+			"path": "/blog/posts/comments/count",
+			"aliases": [],
+			"params": []
+		},
+		"get": {
+			"method": "GET",
+			"path": "/blog/posts/comments/{blogCommentId}",
+			"aliases": [],
+			"params": [
+				"blogCommentId"
 			]
-		],
-		"create": [
-			"POST",
-			"/blog/posts/comments"
-		],
-		"count": [
-			"GET",
-			"/blog/posts/comments/count"
-		],
-		"get": [
-			"GET",
-			"/blog/posts/comments/{blogCommentId}"
-		],
-		"update": [
-			"PUT",
-			"/blog/posts/comments/{blogCommentId}"
-		],
-		"delete": [
-			"DELETE",
-			"/blog/posts/comments/{blogCommentId}"
-		],
-		"queryByPost": [
-			"GET",
-			"/blog/posts/{blogPostId}/comments", [
+		},
+		"update": {
+			"method": "PUT",
+			"path": "/blog/posts/comments/{blogCommentId}",
+			"aliases": [],
+			"params": [
+				"blogCommentId"
+			]
+		},
+		"delete": {
+			"method": "DELETE",
+			"path": "/blog/posts/comments/{blogCommentId}",
+			"aliases": [],
+			"params": [
+				"blogCommentId"
+			]
+		},
+		"queryByPost": {
+			"method": "GET",
+			"path": "/blog/posts/{blogPostId}/comments",
+			"aliases": [
 				"listByPost"
+			],
+			"params": [
+				"blogPostId"
 			]
-		],
-		"queryByOwner": [
-			"GET",
-			"/{ownerModel}/{ownerId}/blog/posts/comments", [
+		},
+		"queryByOwner": {
+			"method": "GET",
+			"path": "/{ownerModel}/{ownerId}/blog/posts/comments",
+			"aliases": [
 				"listByOwner"
+			],
+			"params": [
+				"ownerModel",
+				"ownerId"
 			]
-		],
-		"updateByOwner": [
-			"PUT",
-			"/{ownerModel}/{ownerId}/blog/posts/comments/{blogCommentId}"
-		],
-		"flag": [
-			"PUT",
-			"/blog/posts/comments/{blogCommentId}/flag"
-		],
-		"flagCancel": [
-			"PUT",
-			"/blog/posts/comments/{blogCommentId}/flag/cancel", [
+		},
+		"updateByOwner": {
+			"method": "PUT",
+			"path": "/{ownerModel}/{ownerId}/blog/posts/comments/{blogCommentId}",
+			"aliases": [],
+			"params": [
+				"ownerModel",
+				"ownerId",
+				"blogCommentId"
+			]
+		},
+		"flag": {
+			"method": "PUT",
+			"path": "/blog/posts/comments/{blogCommentId}/flag",
+			"aliases": [],
+			"params": [
+				"blogCommentId"
+			]
+		},
+		"flagCancel": {
+			"method": "PUT",
+			"path": "/blog/posts/comments/{blogCommentId}/flag/cancel",
+			"aliases": [
 				"cancelFlag"
+			],
+			"params": [
+				"blogCommentId"
 			]
-		]
+		}
 	},
 	"metafield": {
-		"queryModelMeta": [
-			"GET",
-			"/{model*3}/meta", [
+		"queryModelMeta": {
+			"method": "GET",
+			"path": "/{model*3}/meta",
+			"aliases": [
 				"listModelMeta"
+			],
+			"params": [
+				"model*3"
 			]
-		],
-		"getModelMeta": [
-			"GET",
-			"/{model*3}/meta/{field}"
-		]
+		},
+		"getModelMeta": {
+			"method": "GET",
+			"path": "/{model*3}/meta/{field}",
+			"aliases": [],
+			"params": [
+				"model*3",
+				"field"
+			]
+		}
 	}
 }

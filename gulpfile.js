@@ -10,7 +10,6 @@ gulp.task('extract', () => {
 	const listToMap = api => api.list.reduce((map, a) => {
 
 		const [className, methodName] = a.module.split('.');
-		const options = [a.method, a.path];
 		const aliases = api.aliases.reduce((all, replacer) => {
 
 			const [from, to] = replacer;
@@ -24,9 +23,14 @@ gulp.task('extract', () => {
 
 		}, []);
 
-		if (aliases.length > 0) options.push(aliases);
+		const params = (a.path.match(/\{[\w\-\*]+\}/g) || []).map(v => v.replace(/[\{\}]/g, ''));
 
-		return _.set(map, a.module, options);
+		return _.set(map, a.module, {
+			method:  a.method,
+			path:    a.path,
+			aliases: aliases,
+			params:  params
+		});
 
 	}, {});
 
