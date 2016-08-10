@@ -1240,7 +1240,8 @@
 		"method": "POST",
 		"path": "/images",
 		"params": [],
-		"aliases": []
+		"aliases": [],
+		"useFormData": true
 	}, {
 		"name": "count",
 		"method": "GET",
@@ -1271,7 +1272,8 @@
 			"imageId",
 			"profileSlug"
 		],
-		"aliases": []
+		"aliases": [],
+		"useFormData": true
 	}, {
 		"name": "syncResized",
 		"method": "PUT",

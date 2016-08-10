@@ -28,12 +28,15 @@ gulp.task('extract', () => {
 
 		const params = (a.path.match(/\{[\w\-\*]+\}/g) || []).map(v => v.replace(/[\{\}]/g, ''));
 
+		const useFormData = api.useFormData.indexOf(a.module) >= 0 ? true : undefined;
+
 		map[className].push({
 			name:    methodName,
 			method:  a.method,
 			path:    a.path,
-			params:  params,
-			aliases: aliases,
+			params,
+			aliases,
+			useFormData
 		});
 
 		return map;
@@ -50,3 +53,5 @@ gulp.task('extract', () => {
 	});
 
 });
+
+gulp.task('default', ['extract']);

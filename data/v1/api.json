@@ -5,6 +5,11 @@
 		["flagCancel", "cancelFlag"]
 	],
 
+	"useFormData": [
+		"image.create",
+		"image.updateResized"
+	],
+
 	"list": [
 
 		{ "method": "GET",    "path": "/store", "module": "store.get" },
