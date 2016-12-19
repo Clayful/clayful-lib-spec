@@ -1,0 +1,7122 @@
+[
+    {
+        "module": "brand.query",
+        "httpMethod": "GET",
+        "path": "/v1/brands",
+        "scopes": [
+            "brand:read"
+        ],
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "collection.query",
+        "httpMethod": "GET",
+        "path": "/v1/collections",
+        "scopes": [
+            "collection:read"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "country.query",
+        "httpMethod": "GET",
+        "path": "/v1/countries",
+        "scopes": [
+            "country:read"
+        ],
+        "modelName": "country",
+        "className": "Country",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "coupon.query",
+        "httpMethod": "GET",
+        "path": "/v1/coupons",
+        "scopes": [
+            "coupon:read"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "currency.query",
+        "httpMethod": "GET",
+        "path": "/v1/currencies",
+        "scopes": [
+            "currency:read"
+        ],
+        "modelName": "currency",
+        "className": "Currency",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.query",
+        "httpMethod": "GET",
+        "path": "/v1/customers",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "departure.query",
+        "httpMethod": "GET",
+        "path": "/v1/departures",
+        "scopes": [
+            "departure:read"
+        ],
+        "modelName": "departure",
+        "className": "Departure",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "discount.query",
+        "httpMethod": "GET",
+        "path": "/v1/discounts",
+        "scopes": [
+            "discount:read"
+        ],
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "downloadable.query",
+        "httpMethod": "GET",
+        "path": "/v1/downloadables",
+        "scopes": [
+            "downloadable:read"
+        ],
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "group.query",
+        "httpMethod": "GET",
+        "path": "/v1/groups",
+        "scopes": [
+            "group:read"
+        ],
+        "modelName": "group",
+        "className": "Group",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "image.query",
+        "httpMethod": "GET",
+        "path": "/v1/images",
+        "scopes": [
+            "image:read"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.getMe",
+        "original": "customer.get",
+        "httpMethod": "GET",
+        "path": "/v1/me",
+        "scopes": [
+            "role:customer",
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "getMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "product.query",
+        "httpMethod": "GET",
+        "path": "/v1/products",
+        "scopes": [
+            "product:read"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "shipping.query",
+        "httpMethod": "GET",
+        "path": "/v1/shippings",
+        "scopes": [
+            "shipping:read"
+        ],
+        "modelName": "shipping",
+        "className": "Shipping",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "tax.query",
+        "httpMethod": "GET",
+        "path": "/v1/taxes",
+        "scopes": [
+            "tax:read"
+        ],
+        "modelName": "tax",
+        "className": "Tax",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.query",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists",
+        "scopes": [
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogCategory.query",
+        "httpMethod": "GET",
+        "path": "/v1/blog/categories",
+        "scopes": [
+            "blogCategory:read"
+        ],
+        "modelName": "blogCategory",
+        "className": "BlogCategory",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogPost.query",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts",
+        "scopes": [
+            "blogPost:read"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "brand.count",
+        "httpMethod": "GET",
+        "path": "/v1/brands/count",
+        "scopes": [
+            "brand:read"
+        ],
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "brand.get",
+        "httpMethod": "GET",
+        "path": "/v1/brands/{brandId}",
+        "scopes": [
+            "brand:read"
+        ],
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "get",
+        "arguments": [
+            "brandId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "collection.count",
+        "httpMethod": "GET",
+        "path": "/v1/collections/count",
+        "scopes": [
+            "collection:read"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "collection.get",
+        "httpMethod": "GET",
+        "path": "/v1/collections/{collectionId}",
+        "scopes": [
+            "collection:read"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "get",
+        "arguments": [
+            "collectionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "country.count",
+        "httpMethod": "GET",
+        "path": "/v1/countries/count",
+        "scopes": [
+            "country:read"
+        ],
+        "modelName": "country",
+        "className": "Country",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "country.get",
+        "httpMethod": "GET",
+        "path": "/v1/countries/{countryId}",
+        "scopes": [
+            "country:read"
+        ],
+        "modelName": "country",
+        "className": "Country",
+        "method": "get",
+        "arguments": [
+            "countryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "coupon.count",
+        "httpMethod": "GET",
+        "path": "/v1/coupons/count",
+        "scopes": [
+            "coupon:read"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "coupon.get",
+        "httpMethod": "GET",
+        "path": "/v1/coupons/{couponId}",
+        "scopes": [
+            "coupon:read"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "get",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "currency.count",
+        "httpMethod": "GET",
+        "path": "/v1/currencies/count",
+        "scopes": [
+            "currency:read"
+        ],
+        "modelName": "currency",
+        "className": "Currency",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "currency.get",
+        "httpMethod": "GET",
+        "path": "/v1/currencies/{currencyId}",
+        "scopes": [
+            "currency:read"
+        ],
+        "modelName": "currency",
+        "className": "Currency",
+        "method": "get",
+        "arguments": [
+            "currencyId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.count",
+        "httpMethod": "GET",
+        "path": "/v1/customers/count",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.get",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "get",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "departure.count",
+        "httpMethod": "GET",
+        "path": "/v1/departures/count",
+        "scopes": [
+            "departure:read"
+        ],
+        "modelName": "departure",
+        "className": "Departure",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "departure.get",
+        "httpMethod": "GET",
+        "path": "/v1/departures/{departureId}",
+        "scopes": [
+            "departure:read"
+        ],
+        "modelName": "departure",
+        "className": "Departure",
+        "method": "get",
+        "arguments": [
+            "departureId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "discount.count",
+        "httpMethod": "GET",
+        "path": "/v1/discounts/count",
+        "scopes": [
+            "discount:read"
+        ],
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "discount.get",
+        "httpMethod": "GET",
+        "path": "/v1/discounts/{discountId}",
+        "scopes": [
+            "discount:read"
+        ],
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "get",
+        "arguments": [
+            "discountId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "downloadable.count",
+        "httpMethod": "GET",
+        "path": "/v1/downloadables/count",
+        "scopes": [
+            "downloadable:read"
+        ],
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "downloadable.get",
+        "httpMethod": "GET",
+        "path": "/v1/downloadables/{downloadableId}",
+        "scopes": [
+            "downloadable:read"
+        ],
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "get",
+        "arguments": [
+            "downloadableId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "group.count",
+        "httpMethod": "GET",
+        "path": "/v1/groups/count",
+        "scopes": [
+            "group:read"
+        ],
+        "modelName": "group",
+        "className": "Group",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "group.get",
+        "httpMethod": "GET",
+        "path": "/v1/groups/{groupId}",
+        "scopes": [
+            "group:read"
+        ],
+        "modelName": "group",
+        "className": "Group",
+        "method": "get",
+        "arguments": [
+            "groupId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "imageBundle.query",
+        "httpMethod": "GET",
+        "path": "/v1/images/bundles",
+        "scopes": [
+            "imageBundle:read"
+        ],
+        "modelName": "imageBundle",
+        "className": "ImageBundle",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "image.count",
+        "httpMethod": "GET",
+        "path": "/v1/images/count",
+        "scopes": [
+            "image:read"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "image.get",
+        "httpMethod": "GET",
+        "path": "/v1/images/{imageId}",
+        "scopes": [
+            "image:read"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "get",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.queryAsMe",
+        "original": "wishList.query",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists",
+        "scopes": [
+            "role:customer",
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "queryAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "orderTag.query",
+        "httpMethod": "GET",
+        "path": "/v1/orders/tags",
+        "scopes": [
+            "orderTag:read"
+        ],
+        "modelName": "orderTag",
+        "className": "OrderTag",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "product.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/count",
+        "scopes": [
+            "product:read"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productQuestion.query",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions",
+        "scopes": [
+            "productQuestion:read"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "review.query",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews",
+        "scopes": [
+            "review:read"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "product.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/{productId}",
+        "scopes": [
+            "product:read"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "get",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "shipping.count",
+        "httpMethod": "GET",
+        "path": "/v1/shippings/count",
+        "scopes": [
+            "shipping:read"
+        ],
+        "modelName": "shipping",
+        "className": "Shipping",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "shippingMethod.query",
+        "httpMethod": "GET",
+        "path": "/v1/shippings/methods",
+        "scopes": [
+            "shippingMethod:read"
+        ],
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "shipping.get",
+        "httpMethod": "GET",
+        "path": "/v1/shippings/{shippingId}",
+        "scopes": [
+            "shipping:read"
+        ],
+        "modelName": "shipping",
+        "className": "Shipping",
+        "method": "get",
+        "arguments": [
+            "shippingId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportCategory.query",
+        "httpMethod": "GET",
+        "path": "/v1/support/categories",
+        "scopes": [
+            "supportCategory:read"
+        ],
+        "modelName": "supportCategory",
+        "className": "SupportCategory",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.query",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts",
+        "scopes": [
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "taxCategory.query",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/categories",
+        "scopes": [
+            "taxCategory:read"
+        ],
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "tax.count",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/count",
+        "scopes": [
+            "tax:read"
+        ],
+        "modelName": "tax",
+        "className": "Tax",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "tax.get",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/{taxId}",
+        "scopes": [
+            "tax:read"
+        ],
+        "modelName": "tax",
+        "className": "Tax",
+        "method": "get",
+        "arguments": [
+            "taxId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.count",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists/count",
+        "scopes": [
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.get",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists/{wishListId}",
+        "scopes": [
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "get",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "metafield.queryModelMeta",
+        "httpMethod": "GET",
+        "path": "/v1/{model*1}/meta",
+        "scopes": [
+            "metafield:read"
+        ],
+        "modelName": "metafield",
+        "className": "Metafield",
+        "method": "queryModelMeta",
+        "arguments": [
+            "model"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogCategory.count",
+        "httpMethod": "GET",
+        "path": "/v1/blog/categories/count",
+        "scopes": [
+            "blogCategory:read"
+        ],
+        "modelName": "blogCategory",
+        "className": "BlogCategory",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogCategory.get",
+        "httpMethod": "GET",
+        "path": "/v1/blog/categories/{blogCategoryId}",
+        "scopes": [
+            "blogCategory:read"
+        ],
+        "modelName": "blogCategory",
+        "className": "BlogCategory",
+        "method": "get",
+        "arguments": [
+            "blogCategoryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogComment.query",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts/comments",
+        "scopes": [
+            "blogComment:read"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogPost.count",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts/count",
+        "scopes": [
+            "blogPost:read"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogPost.get",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts/{blogPostId}",
+        "scopes": [
+            "blogPost:read"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "get",
+        "arguments": [
+            "blogPostId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "product.queryByBrand",
+        "httpMethod": "GET",
+        "path": "/v1/brands/{brandId}/products",
+        "scopes": [
+            "product:read"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "queryByBrand",
+        "arguments": [
+            "brandId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "collection.queryByParent",
+        "httpMethod": "GET",
+        "path": "/v1/collections/{collectionId}/collections",
+        "scopes": [
+            "collection:read"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "queryByParent",
+        "arguments": [
+            "collectionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "product.queryByCollection",
+        "httpMethod": "GET",
+        "path": "/v1/collections/{collectionId}/products",
+        "scopes": [
+            "product:read"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "queryByCollection",
+        "arguments": [
+            "collectionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.queryByCustomer",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/wishlists",
+        "scopes": [
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "queryByCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.queryByGroup",
+        "httpMethod": "GET",
+        "path": "/v1/groups/{groupId}/customers",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "queryByGroup",
+        "arguments": [
+            "groupId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "imageBundle.count",
+        "httpMethod": "GET",
+        "path": "/v1/images/bundles/count",
+        "scopes": [
+            "imageBundle:read"
+        ],
+        "modelName": "imageBundle",
+        "className": "ImageBundle",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "imageBundle.get",
+        "httpMethod": "GET",
+        "path": "/v1/images/bundles/{imageBundleId}",
+        "scopes": [
+            "imageBundle:read"
+        ],
+        "modelName": "imageBundle",
+        "className": "ImageBundle",
+        "method": "get",
+        "arguments": [
+            "imageBundleId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.queryAsMe",
+        "original": "supportPost.query",
+        "httpMethod": "GET",
+        "path": "/v1/me/support/posts",
+        "scopes": [
+            "role:customer",
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "queryAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.countAsMe",
+        "original": "wishList.count",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists/count",
+        "scopes": [
+            "role:customer",
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "countAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.getAsMe",
+        "original": "wishList.get",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists/{wishListId}",
+        "scopes": [
+            "role:customer",
+            "wishList:read"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "getAsMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "orderTag.count",
+        "httpMethod": "GET",
+        "path": "/v1/orders/tags/count",
+        "scopes": [
+            "orderTag:read"
+        ],
+        "modelName": "orderTag",
+        "className": "OrderTag",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "orderTag.get",
+        "httpMethod": "GET",
+        "path": "/v1/orders/tags/{orderTagId}",
+        "scopes": [
+            "orderTag:read"
+        ],
+        "modelName": "orderTag",
+        "className": "OrderTag",
+        "method": "get",
+        "arguments": [
+            "orderTagId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productAnswer.query",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions/answers",
+        "scopes": [
+            "productAnswer:read"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productQuestion.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions/count",
+        "scopes": [
+            "productQuestion:read"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productQuestion.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions/{productQuestionId}",
+        "scopes": [
+            "productQuestion:read"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "get",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "reviewComment.query",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/comments",
+        "scopes": [
+            "reviewComment:read"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "review.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/count",
+        "scopes": [
+            "review:read"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "review.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/{reviewId}",
+        "scopes": [
+            "review:read"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "get",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productQuestion.queryByProduct",
+        "httpMethod": "GET",
+        "path": "/v1/products/{productId}/questions",
+        "scopes": [
+            "productQuestion:read"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "queryByProduct",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "review.queryByProduct",
+        "httpMethod": "GET",
+        "path": "/v1/products/{productId}/reviews",
+        "scopes": [
+            "review:read"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "queryByProduct",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "shippingMethod.count",
+        "httpMethod": "GET",
+        "path": "/v1/shippings/methods/count",
+        "scopes": [
+            "shippingMethod:read"
+        ],
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "shippingMethod.get",
+        "httpMethod": "GET",
+        "path": "/v1/shippings/methods/{shippingMethodId}",
+        "scopes": [
+            "shippingMethod:read"
+        ],
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "get",
+        "arguments": [
+            "shippingMethodId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportCategory.count",
+        "httpMethod": "GET",
+        "path": "/v1/support/categories/count",
+        "scopes": [
+            "supportCategory:read"
+        ],
+        "modelName": "supportCategory",
+        "className": "SupportCategory",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportCategory.get",
+        "httpMethod": "GET",
+        "path": "/v1/support/categories/{supportCategoryId}",
+        "scopes": [
+            "supportCategory:read"
+        ],
+        "modelName": "supportCategory",
+        "className": "SupportCategory",
+        "method": "get",
+        "arguments": [
+            "supportCategoryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.query",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts/comments",
+        "scopes": [
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "query",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.count",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts/count",
+        "scopes": [
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.get",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts/{supportPostId}",
+        "scopes": [
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "get",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "taxCategory.count",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/categories/count",
+        "scopes": [
+            "taxCategory:read"
+        ],
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "taxCategory.get",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/categories/{taxCategoryId}",
+        "scopes": [
+            "taxCategory:read"
+        ],
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "get",
+        "arguments": [
+            "taxCategoryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "metafield.queryModelMeta",
+        "httpMethod": "GET",
+        "path": "/v1/{model*2}/meta",
+        "scopes": [
+            "metafield:read"
+        ],
+        "modelName": "metafield",
+        "className": "Metafield",
+        "method": "queryModelMeta",
+        "arguments": [
+            "model",
+            "model"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "metafield.getModelMeta",
+        "httpMethod": "GET",
+        "path": "/v1/{model*1}/meta/{field}",
+        "scopes": [
+            "metafield:read"
+        ],
+        "modelName": "metafield",
+        "className": "Metafield",
+        "method": "getModelMeta",
+        "arguments": [
+            "model",
+            "field"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogPost.queryByCategory",
+        "httpMethod": "GET",
+        "path": "/v1/blog/categories/{blogCategoryId}/posts",
+        "scopes": [
+            "blogPost:read"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "queryByCategory",
+        "arguments": [
+            "blogCategoryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogComment.count",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts/comments/count",
+        "scopes": [
+            "blogComment:read"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogComment.get",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts/comments/{blogCommentId}",
+        "scopes": [
+            "blogComment:read"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "get",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogComment.queryByPost",
+        "httpMethod": "GET",
+        "path": "/v1/blog/posts/{blogPostId}/comments",
+        "scopes": [
+            "blogComment:read"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "queryByPost",
+        "arguments": [
+            "blogPostId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogPost.queryByCollaborator",
+        "httpMethod": "GET",
+        "path": "/v1/collaborators/{collaboratorId}/blog/posts",
+        "scopes": [
+            "blogPost:read"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "queryByCollaborator",
+        "arguments": [
+            "collaboratorId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productQuestion.queryByCustomer",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/products/questions",
+        "scopes": [
+            "productQuestion:read"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "queryByCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.queryByCustomer",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/support/posts",
+        "scopes": [
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "queryByCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "review.queryByCustomer",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/products/reviews",
+        "scopes": [
+            "review:read"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "queryByCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.countItemsAsMe",
+        "original": "customer.countItems",
+        "httpMethod": "GET",
+        "path": "/v1/me/cart/items/count",
+        "scopes": [
+            "role:customer",
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "countItemsAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.queryAsMe",
+        "original": "supportComment.query",
+        "httpMethod": "GET",
+        "path": "/v1/me/support/posts/comments",
+        "scopes": [
+            "role:customer",
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "queryAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.countAsMe",
+        "original": "supportPost.count",
+        "httpMethod": "GET",
+        "path": "/v1/me/support/posts/count",
+        "scopes": [
+            "role:customer",
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "countAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.getAsMe",
+        "original": "supportPost.get",
+        "httpMethod": "GET",
+        "path": "/v1/me/support/posts/{supportPostId}",
+        "scopes": [
+            "role:customer",
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "getAsMe",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productAnswer.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions/answers/count",
+        "scopes": [
+            "productAnswer:read"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productAnswer.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions/answers/{productAnswerId}",
+        "scopes": [
+            "productAnswer:read"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "get",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productAnswer.queryByQuestion",
+        "httpMethod": "GET",
+        "path": "/v1/products/questions/{productQuestionId}/answers",
+        "scopes": [
+            "productAnswer:read"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "queryByQuestion",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "reviewComment.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/comments/count",
+        "scopes": [
+            "reviewComment:read"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "reviewComment.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}",
+        "scopes": [
+            "reviewComment:read"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "get",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "reviewComment.queryByReview",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/{reviewId}/comments",
+        "scopes": [
+            "reviewComment:read"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "queryByReview",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportPost.queryByCategory",
+        "httpMethod": "GET",
+        "path": "/v1/support/categories/{supportCategoryId}/posts",
+        "scopes": [
+            "supportPost:read"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "queryByCategory",
+        "arguments": [
+            "supportCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.count",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts/comments/count",
+        "scopes": [
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.get",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "get",
+        "arguments": [
+            "supportCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.queryByPost",
+        "httpMethod": "GET",
+        "path": "/v1/support/posts/{supportPostId}/comments",
+        "scopes": [
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "queryByPost",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "metafield.getModelMeta",
+        "httpMethod": "GET",
+        "path": "/v1/{model*2}/meta/{field}",
+        "scopes": [
+            "metafield:read"
+        ],
+        "modelName": "metafield",
+        "className": "Metafield",
+        "method": "getModelMeta",
+        "arguments": [
+            "model",
+            "model",
+            "field"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "metafield.queryModelMeta",
+        "httpMethod": "GET",
+        "path": "/v1/{model*3}/meta",
+        "scopes": [
+            "metafield:read"
+        ],
+        "modelName": "metafield",
+        "className": "Metafield",
+        "method": "queryModelMeta",
+        "arguments": [
+            "model",
+            "model",
+            "model"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.countItems",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/cart/items/count",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "countItems",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.countAsMe",
+        "original": "supportComment.count",
+        "httpMethod": "GET",
+        "path": "/v1/me/support/posts/comments/count",
+        "scopes": [
+            "role:customer",
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "countAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.getAsMe",
+        "original": "supportComment.get",
+        "httpMethod": "GET",
+        "path": "/v1/me/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "role:customer",
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "getAsMe",
+        "arguments": [
+            "supportCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "productAnswer.queryByOwner",
+        "httpMethod": "GET",
+        "path": "/v1/{ownerModel}/{ownerId}/products/questions/answers",
+        "scopes": [
+            "productAnswer:read"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "queryByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "reviewComment.queryByOwner",
+        "httpMethod": "GET",
+        "path": "/v1/{ownerModel}/{ownerId}/products/reviews/comments",
+        "scopes": [
+            "reviewComment:read"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "queryByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "blogComment.queryByOwner",
+        "httpMethod": "GET",
+        "path": "/v1/{ownerModel}/{ownerId}/blog/posts/comments",
+        "scopes": [
+            "blogComment:read"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "queryByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.queryByOwner",
+        "httpMethod": "GET",
+        "path": "/v1/{ownerModel}/{ownerId}/support/posts/comments",
+        "scopes": [
+            "supportComment:read"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "queryByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "metafield.getModelMeta",
+        "httpMethod": "GET",
+        "path": "/v1/{model*3}/meta/{field}",
+        "scopes": [
+            "metafield:read"
+        ],
+        "modelName": "metafield",
+        "className": "Metafield",
+        "method": "getModelMeta",
+        "arguments": [
+            "model",
+            "model",
+            "model",
+            "field"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "brand.create",
+        "httpMethod": "POST",
+        "path": "/v1/brands",
+        "scopes": [
+            "brand:create"
+        ],
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "collection.create",
+        "httpMethod": "POST",
+        "path": "/v1/collections",
+        "scopes": [
+            "collection:create"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "coupon.create",
+        "httpMethod": "POST",
+        "path": "/v1/coupons",
+        "scopes": [
+            "coupon:create"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.create",
+        "httpMethod": "POST",
+        "path": "/v1/customers",
+        "scopes": [
+            "customer:create"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "departure.create",
+        "httpMethod": "POST",
+        "path": "/v1/departures",
+        "scopes": [
+            "departure:create"
+        ],
+        "modelName": "departure",
+        "className": "Departure",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "discount.create",
+        "httpMethod": "POST",
+        "path": "/v1/discounts",
+        "scopes": [
+            "discount:create"
+        ],
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "group.create",
+        "httpMethod": "POST",
+        "path": "/v1/groups",
+        "scopes": [
+            "group:create"
+        ],
+        "modelName": "group",
+        "className": "Group",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "image.create",
+        "httpMethod": "POST",
+        "path": "/v1/images",
+        "scopes": [
+            "image:create"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": true,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.signup",
+        "httpMethod": "POST",
+        "path": "/v1/me",
+        "scopes": [
+            "customer:create"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "signup",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.create",
+        "httpMethod": "POST",
+        "path": "/v1/products",
+        "scopes": [
+            "product:create"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "shipping.create",
+        "httpMethod": "POST",
+        "path": "/v1/shippings",
+        "scopes": [
+            "shipping:create"
+        ],
+        "modelName": "shipping",
+        "className": "Shipping",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "tax.create",
+        "httpMethod": "POST",
+        "path": "/v1/taxes",
+        "scopes": [
+            "tax:create"
+        ],
+        "modelName": "tax",
+        "className": "Tax",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.create",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists",
+        "scopes": [
+            "wishList:create"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogCategory.create",
+        "httpMethod": "POST",
+        "path": "/v1/blog/categories",
+        "scopes": [
+            "blogCategory:create"
+        ],
+        "modelName": "blogCategory",
+        "className": "BlogCategory",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogPost.create",
+        "httpMethod": "POST",
+        "path": "/v1/blog/posts",
+        "scopes": [
+            "blogPost:create"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.auth",
+        "httpMethod": "POST",
+        "path": "/v1/customers/auth",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "auth",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.createVerification",
+        "httpMethod": "POST",
+        "path": "/v1/customers/verifications",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "createVerification",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "imageBundle.create",
+        "httpMethod": "POST",
+        "path": "/v1/images/bundles",
+        "scopes": [
+            "imageBundle:create"
+        ],
+        "modelName": "imageBundle",
+        "className": "ImageBundle",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.signout",
+        "httpMethod": "POST",
+        "path": "/v1/me/signout",
+        "scopes": [
+            "role:customer",
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "signout",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "wishList.createAsMe",
+        "original": "wishList.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/wishlists",
+        "scopes": [
+            "role:customer",
+            "wishList:create"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.create",
+        "httpMethod": "POST",
+        "path": "/v1/products/questions",
+        "scopes": [
+            "productQuestion:create"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.create",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews",
+        "scopes": [
+            "review:create"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "shippingMethod.create",
+        "httpMethod": "POST",
+        "path": "/v1/shippings/methods",
+        "scopes": [
+            "shippingMethod:create"
+        ],
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportCategory.create",
+        "httpMethod": "POST",
+        "path": "/v1/support/categories",
+        "scopes": [
+            "supportCategory:create"
+        ],
+        "modelName": "supportCategory",
+        "className": "SupportCategory",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.create",
+        "httpMethod": "POST",
+        "path": "/v1/support/posts",
+        "scopes": [
+            "supportPost:create"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "taxCategory.create",
+        "httpMethod": "POST",
+        "path": "/v1/taxes/categories",
+        "scopes": [
+            "taxCategory:create"
+        ],
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/blog/posts/comments",
+        "scopes": [
+            "blogComment:create"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.addCouponToCustomers",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/customers",
+        "scopes": [
+            "customer:update",
+            "coupon:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "addCouponToCustomers",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.requestVerificationEmail",
+        "httpMethod": "POST",
+        "path": "/v1/customers/verifications/emails",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "requestVerificationEmail",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.addCoupon",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/coupons",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "addCoupon",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.verify",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/verify",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "verify",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "downloadable.createDownloadUrl",
+        "httpMethod": "POST",
+        "path": "/v1/downloadables/{downloadableId}/url",
+        "scopes": [
+            "downloadable:read"
+        ],
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "createDownloadUrl",
+        "arguments": [
+            "downloadableId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.addItemAsMe",
+        "original": "customer.addItem",
+        "httpMethod": "POST",
+        "path": "/v1/me/cart/items",
+        "scopes": [
+            "role:customer",
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "addItemAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.createAsMe",
+        "original": "productQuestion.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/questions",
+        "scopes": [
+            "role:customer",
+            "productQuestion:create"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.createAsMe",
+        "original": "review.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews",
+        "scopes": [
+            "role:customer",
+            "review:create"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.createAsMe",
+        "original": "supportPost.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/support/posts",
+        "scopes": [
+            "role:customer",
+            "supportPost:create"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.create",
+        "httpMethod": "POST",
+        "path": "/v1/products/questions/answers",
+        "scopes": [
+            "productAnswer:create"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments",
+        "scopes": [
+            "reviewComment:create"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.addVariant",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/variants",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "addVariant",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.addOption",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/options",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "addOption",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/support/posts/comments",
+        "scopes": [
+            "supportComment:create"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.addItem",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/items",
+        "scopes": [
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "addItem",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "coupon.addTotalAmount",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/amount/total",
+        "scopes": [
+            "coupon:update"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "addTotalAmount",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.resetPassword",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/password/reset",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "resetPassword",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.addItem",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/cart/items",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "addItem",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.createAsMe",
+        "original": "blogComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/blog/posts/comments",
+        "scopes": [
+            "role:customer",
+            "blogComment:create"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.createAsMe",
+        "original": "productAnswer.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/questions/answers",
+        "scopes": [
+            "role:customer",
+            "productAnswer:create"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.createAsMe",
+        "original": "reviewComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews/comments",
+        "scopes": [
+            "role:customer",
+            "reviewComment:create"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportComment.createAsMe",
+        "original": "supportComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/me/support/posts/comments",
+        "scopes": [
+            "role:customer",
+            "supportComment:create"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "createAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.addItemAsMe",
+        "original": "wishList.addItem",
+        "httpMethod": "POST",
+        "path": "/v1/me/wishlists/{wishListId}/items",
+        "scopes": [
+            "role:customer",
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "addItemAsMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "image.addToReviewAsMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews/{reviewId}/images",
+        "scopes": [
+            "image:create",
+            "review:update",
+            "role:customer"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "addToReviewAsMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "private": "10/s",
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": true,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.addVariation",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/options/{optionId}/variations",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "addVariation",
+        "arguments": [
+            "productId",
+            "optionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.getCartByNonRegistered",
+        "httpMethod": "PUT",
+        "path": "/v1/cart",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "getCartByNonRegistered",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "150/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "customer.updateMe",
+        "original": "customer.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me",
+        "scopes": [
+            "role:customer",
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "brand.update",
+        "httpMethod": "PUT",
+        "path": "/v1/brands/{brandId}",
+        "scopes": [
+            "brand:update"
+        ],
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "update",
+        "arguments": [
+            "brandId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "collection.update",
+        "httpMethod": "PUT",
+        "path": "/v1/collections/{collectionId}",
+        "scopes": [
+            "collection:update"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "update",
+        "arguments": [
+            "collectionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "coupon.update",
+        "httpMethod": "PUT",
+        "path": "/v1/coupons/{couponId}",
+        "scopes": [
+            "coupon:update"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "update",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.update",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "update",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "departure.update",
+        "httpMethod": "PUT",
+        "path": "/v1/departures/{departureId}",
+        "scopes": [
+            "departure:update"
+        ],
+        "modelName": "departure",
+        "className": "Departure",
+        "method": "update",
+        "arguments": [
+            "departureId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "discount.update",
+        "httpMethod": "PUT",
+        "path": "/v1/discounts/{discountId}",
+        "scopes": [
+            "discount:update"
+        ],
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "update",
+        "arguments": [
+            "discountId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "group.update",
+        "httpMethod": "PUT",
+        "path": "/v1/groups/{groupId}",
+        "scopes": [
+            "group:update"
+        ],
+        "modelName": "group",
+        "className": "Group",
+        "method": "update",
+        "arguments": [
+            "groupId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "image.update",
+        "httpMethod": "PUT",
+        "path": "/v1/images/{imageId}",
+        "scopes": [
+            "image:update"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "update",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "private": "10/s"
+        },
+        "withoutPayload": false,
+        "usesFormData": true,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.getCartAsMe",
+        "original": "customer.getCart",
+        "httpMethod": "PUT",
+        "path": "/v1/me/cart",
+        "scopes": [
+            "role:customer",
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "getCartAsMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "150/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "product.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "update",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "shipping.update",
+        "httpMethod": "PUT",
+        "path": "/v1/shippings/{shippingId}",
+        "scopes": [
+            "shipping:update"
+        ],
+        "modelName": "shipping",
+        "className": "Shipping",
+        "method": "update",
+        "arguments": [
+            "shippingId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "tax.update",
+        "httpMethod": "PUT",
+        "path": "/v1/taxes/{taxId}",
+        "scopes": [
+            "tax:update"
+        ],
+        "modelName": "tax",
+        "className": "Tax",
+        "method": "update",
+        "arguments": [
+            "taxId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.update",
+        "httpMethod": "PUT",
+        "path": "/v1/wishlists/{wishListId}",
+        "scopes": [
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "update",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogCategory.update",
+        "httpMethod": "PUT",
+        "path": "/v1/blog/categories/{blogCategoryId}",
+        "scopes": [
+            "blogCategory:update"
+        ],
+        "modelName": "blogCategory",
+        "className": "BlogCategory",
+        "method": "update",
+        "arguments": [
+            "blogCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogPost.update",
+        "httpMethod": "PUT",
+        "path": "/v1/blog/posts/{blogPostId}",
+        "scopes": [
+            "blogPost:update"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "update",
+        "arguments": [
+            "blogPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.getCart",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/cart",
+        "scopes": [
+            "customer:read"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "getCart",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "150/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "imageBundle.update",
+        "httpMethod": "PUT",
+        "path": "/v1/images/bundles/{imageBundleId}",
+        "scopes": [
+            "imageBundle:update"
+        ],
+        "modelName": "imageBundle",
+        "className": "ImageBundle",
+        "method": "update",
+        "arguments": [
+            "imageBundleId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.updateAsMe",
+        "original": "wishList.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/wishlists/{wishListId}",
+        "scopes": [
+            "role:customer",
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "updateAsMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/{productQuestionId}",
+        "scopes": [
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "update",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/{reviewId}",
+        "scopes": [
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "update",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "shippingMethod.update",
+        "httpMethod": "PUT",
+        "path": "/v1/shippings/methods/{shippingMethodId}",
+        "scopes": [
+            "shippingMethod:update"
+        ],
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "update",
+        "arguments": [
+            "shippingMethodId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportCategory.update",
+        "httpMethod": "PUT",
+        "path": "/v1/support/categories/{supportCategoryId}",
+        "scopes": [
+            "supportCategory:update"
+        ],
+        "modelName": "supportCategory",
+        "className": "SupportCategory",
+        "method": "update",
+        "arguments": [
+            "supportCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.update",
+        "httpMethod": "PUT",
+        "path": "/v1/support/posts/{supportPostId}",
+        "scopes": [
+            "supportPost:update"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "update",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "taxCategory.update",
+        "httpMethod": "PUT",
+        "path": "/v1/taxes/categories/{taxCategoryId}",
+        "scopes": [
+            "taxCategory:update"
+        ],
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "update",
+        "arguments": [
+            "taxCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/blog/posts/comments/{blogCommentId}",
+        "scopes": [
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "update",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.updateItemAsMe",
+        "original": "customer.updateItem",
+        "httpMethod": "PUT",
+        "path": "/v1/me/cart/items/{itemId}",
+        "scopes": [
+            "role:customer",
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateItemAsMe",
+        "arguments": [
+            "itemId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.updateAsMe",
+        "original": "productQuestion.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/{productQuestionId}",
+        "scopes": [
+            "role:customer",
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "updateAsMe",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.updateAsMe",
+        "original": "review.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/{reviewId}",
+        "scopes": [
+            "role:customer",
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "updateAsMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.updateAsMe",
+        "original": "supportPost.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/support/posts/{supportPostId}",
+        "scopes": [
+            "role:customer",
+            "supportPost:update"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "updateAsMe",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/answers/{productAnswerId}",
+        "scopes": [
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "update",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/{productQuestionId}/flag",
+        "scopes": [
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "flag",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}",
+        "scopes": [
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "update",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/{reviewId}/flag",
+        "scopes": [
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "flag",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.updateVariant",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}/variants/{variantId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "updateVariant",
+        "arguments": [
+            "productId",
+            "variantId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.updateOption",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}/options/{optionId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "updateOption",
+        "arguments": [
+            "productId",
+            "optionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "supportComment:update"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "update",
+        "arguments": [
+            "supportCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/blog/posts/comments/{blogCommentId}/flag",
+        "scopes": [
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "flag",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogPost.updateByCollaborator",
+        "httpMethod": "PUT",
+        "path": "/v1/collaborators/{collaboratorId}/blog/posts/{blogPostId}",
+        "scopes": [
+            "blogPost:update"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "updateByCollaborator",
+        "arguments": [
+            "collaboratorId",
+            "blogPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.updateByCustomer",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/support/posts/{supportPostId}",
+        "scopes": [
+            "supportPost:update"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "updateByCustomer",
+        "arguments": [
+            "customerId",
+            "supportPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.updateByCustomer",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/products/questions/{productQuestionId}",
+        "scopes": [
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "updateByCustomer",
+        "arguments": [
+            "customerId",
+            "productQuestionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.updateItem",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/cart/items/{itemId}",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateItem",
+        "arguments": [
+            "customerId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.updateByCustomer",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/products/reviews/{reviewId}",
+        "scopes": [
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "updateByCustomer",
+        "arguments": [
+            "customerId",
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.updateAsMe",
+        "original": "blogComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/blog/posts/comments/{blogCommentId}",
+        "scopes": [
+            "role:customer",
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "updateAsMe",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.updateAsMe",
+        "original": "productAnswer.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/answers/{productAnswerId}",
+        "scopes": [
+            "role:customer",
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "updateAsMe",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.flagAsMe",
+        "original": "productQuestion.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/{productQuestionId}/flag",
+        "scopes": [
+            "role:customer",
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "flagAsMe",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.updateAsMe",
+        "original": "reviewComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}",
+        "scopes": [
+            "role:customer",
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "updateAsMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.flagAsMe",
+        "original": "review.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/{reviewId}/flag",
+        "scopes": [
+            "role:customer",
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "flagAsMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportComment.updateAsMe",
+        "original": "supportComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/me/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "role:customer",
+            "supportComment:update"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "updateAsMe",
+        "arguments": [
+            "supportCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/answers/{productAnswerId}/flag",
+        "scopes": [
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "flag",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/{productQuestionId}/flag/cancel",
+        "scopes": [
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "cancelFlag",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.helped",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/{productQuestionId}/helped/{upDown}",
+        "scopes": [
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "helped",
+        "arguments": [
+            "productQuestionId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/flag",
+        "scopes": [
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "flag",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/{reviewId}/flag/cancel",
+        "scopes": [
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelFlag",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.helped",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/{reviewId}/helped/{upDown}",
+        "scopes": [
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "helped",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/blog/posts/comments/{blogCommentId}/flag/cancel",
+        "scopes": [
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "cancelFlag",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.flagAsMe",
+        "original": "blogComment.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/blog/posts/comments/{blogCommentId}/flag",
+        "scopes": [
+            "role:customer",
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "flagAsMe",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.flagAsMe",
+        "original": "productAnswer.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/answers/{productAnswerId}/flag",
+        "scopes": [
+            "role:customer",
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "flagAsMe",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.cancelFlagAsMe",
+        "original": "productQuestion.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/{productQuestionId}/flag/cancel",
+        "scopes": [
+            "role:customer",
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "cancelFlagAsMe",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.helpedAsMe",
+        "original": "productQuestion.helped",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/{productQuestionId}/helped/{upDown}",
+        "scopes": [
+            "role:customer",
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "helpedAsMe",
+        "arguments": [
+            "productQuestionId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.flagAsMe",
+        "original": "reviewComment.flag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}/flag",
+        "scopes": [
+            "role:customer",
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "flagAsMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.helpedAsMe",
+        "original": "review.helped",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/{reviewId}/helped/{upDown}",
+        "scopes": [
+            "role:customer",
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "helpedAsMe",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.cancelFlagAsMe",
+        "original": "review.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/{reviewId}/flag/cancel",
+        "scopes": [
+            "role:customer",
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelFlagAsMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.helped",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/answers/{productAnswerId}/helped/{upDown}",
+        "scopes": [
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "helped",
+        "arguments": [
+            "productAnswerId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/answers/{productAnswerId}/flag/cancel",
+        "scopes": [
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "cancelFlag",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.cancelHelped",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/{productQuestionId}/helped/{upDown}/cancel",
+        "scopes": [
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "cancelHelped",
+        "arguments": [
+            "productQuestionId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/flag/cancel",
+        "scopes": [
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "cancelFlag",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.cancelHelped",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/{reviewId}/helped/{upDown}/cancel",
+        "scopes": [
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelHelped",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.updateVariation",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}/options/{optionId}/variations/{variationId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "updateVariation",
+        "arguments": [
+            "productId",
+            "optionId",
+            "variationId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportComment.updateByOwner",
+        "httpMethod": "PUT",
+        "path": "/v1/{ownerModel}/{ownerId}/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "supportComment:update"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "updateByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId",
+            "supportCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.updateByOwner",
+        "httpMethod": "PUT",
+        "path": "/v1/{ownerModel}/{ownerId}/products/questions/answers/{productAnswerId}",
+        "scopes": [
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "updateByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId",
+            "productAnswerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.updateByOwner",
+        "httpMethod": "PUT",
+        "path": "/v1/{ownerModel}/{ownerId}/blog/posts/comments/{blogCommentId}",
+        "scopes": [
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "updateByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId",
+            "blogCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.updateByOwner",
+        "httpMethod": "PUT",
+        "path": "/v1/{ownerModel}/{ownerId}/products/reviews/comments/{reviewCommentId}",
+        "scopes": [
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "updateByOwner",
+        "arguments": [
+            "ownerModel",
+            "ownerId",
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.cancelFlagAsMe",
+        "original": "blogComment.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/blog/posts/comments/{blogCommentId}/flag/cancel",
+        "scopes": [
+            "role:customer",
+            "blogComment:update"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "cancelFlagAsMe",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.helpedAsMe",
+        "original": "productAnswer.helped",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/answers/{productAnswerId}/helped/{upDown}",
+        "scopes": [
+            "role:customer",
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "helpedAsMe",
+        "arguments": [
+            "productAnswerId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.cancelFlagAsMe",
+        "original": "productAnswer.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/answers/{productAnswerId}/flag/cancel",
+        "scopes": [
+            "role:customer",
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "cancelFlagAsMe",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.cancelHelpedAsMe",
+        "original": "productQuestion.cancelHelped",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/{productQuestionId}/helped/{upDown}/cancel",
+        "scopes": [
+            "role:customer",
+            "productQuestion:update"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "cancelHelpedAsMe",
+        "arguments": [
+            "productQuestionId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.cancelFlagAsMe",
+        "original": "reviewComment.cancelFlag",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}/flag/cancel",
+        "scopes": [
+            "role:customer",
+            "reviewComment:update"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "cancelFlagAsMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.cancelHelpedAsMe",
+        "original": "review.cancelHelped",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/{reviewId}/helped/{upDown}/cancel",
+        "scopes": [
+            "role:customer",
+            "review:update"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelHelpedAsMe",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.cancelHelped",
+        "httpMethod": "PUT",
+        "path": "/v1/products/questions/answers/{productAnswerId}/helped/{upDown}/cancel",
+        "scopes": [
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "cancelHelped",
+        "arguments": [
+            "productAnswerId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.cancelHelpedAsMe",
+        "original": "productAnswer.cancelHelped",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/questions/answers/{productAnswerId}/helped/{upDown}/cancel",
+        "scopes": [
+            "role:customer",
+            "productAnswer:update"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "cancelHelpedAsMe",
+        "arguments": [
+            "productAnswerId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": true,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.deleteMe",
+        "original": "customer.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me",
+        "scopes": [
+            "role:customer",
+            "customer:delete"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "brand.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/brands/{brandId}",
+        "scopes": [
+            "brand:delete"
+        ],
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "delete",
+        "arguments": [
+            "brandId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "collection.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/collections/{collectionId}",
+        "scopes": [
+            "collection:delete"
+        ],
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "delete",
+        "arguments": [
+            "collectionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "coupon.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/coupons/{couponId}",
+        "scopes": [
+            "coupon:delete"
+        ],
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "delete",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}",
+        "scopes": [
+            "customer:delete"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "delete",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "departure.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/departures/{departureId}",
+        "scopes": [
+            "departure:delete"
+        ],
+        "modelName": "departure",
+        "className": "Departure",
+        "method": "delete",
+        "arguments": [
+            "departureId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "discount.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/discounts/{discountId}",
+        "scopes": [
+            "discount:delete"
+        ],
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "delete",
+        "arguments": [
+            "discountId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "group.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/groups/{groupId}",
+        "scopes": [
+            "group:delete"
+        ],
+        "modelName": "group",
+        "className": "Group",
+        "method": "delete",
+        "arguments": [
+            "groupId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "image.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/images/{imageId}",
+        "scopes": [
+            "image:delete"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "delete",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}",
+        "scopes": [
+            "product:delete"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "delete",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "shipping.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/shippings/{shippingId}",
+        "scopes": [
+            "shipping:delete"
+        ],
+        "modelName": "shipping",
+        "className": "Shipping",
+        "method": "delete",
+        "arguments": [
+            "shippingId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "tax.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/taxes/{taxId}",
+        "scopes": [
+            "tax:delete"
+        ],
+        "modelName": "tax",
+        "className": "Tax",
+        "method": "delete",
+        "arguments": [
+            "taxId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}",
+        "scopes": [
+            "wishList:delete"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "delete",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogCategory.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/blog/categories/{blogCategoryId}",
+        "scopes": [
+            "blogCategory:delete"
+        ],
+        "modelName": "blogCategory",
+        "className": "BlogCategory",
+        "method": "delete",
+        "arguments": [
+            "blogCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogPost.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/blog/posts/{blogPostId}",
+        "scopes": [
+            "blogPost:delete"
+        ],
+        "modelName": "blogPost",
+        "className": "BlogPost",
+        "method": "delete",
+        "arguments": [
+            "blogPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "imageBundle.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/images/bundles/{imageBundleId}",
+        "scopes": [
+            "imageBundle:delete"
+        ],
+        "modelName": "imageBundle",
+        "className": "ImageBundle",
+        "method": "delete",
+        "arguments": [
+            "imageBundleId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.deleteCouponAsMe",
+        "original": "customer.deleteCoupon",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/coupons/{couponId}",
+        "scopes": [
+            "role:customer",
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteCouponAsMe",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.deleteAsMe",
+        "original": "wishList.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/wishlists/{wishListId}",
+        "scopes": [
+            "role:customer",
+            "wishList:delete"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteAsMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "10/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/questions/{productQuestionId}",
+        "scopes": [
+            "productQuestion:delete"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "delete",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/{reviewId}",
+        "scopes": [
+            "review:delete"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "delete",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "shippingMethod.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/shippings/methods/{shippingMethodId}",
+        "scopes": [
+            "shippingMethod:delete"
+        ],
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "delete",
+        "arguments": [
+            "shippingMethodId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportCategory.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/support/categories/{supportCategoryId}",
+        "scopes": [
+            "supportCategory:delete"
+        ],
+        "modelName": "supportCategory",
+        "className": "SupportCategory",
+        "method": "delete",
+        "arguments": [
+            "supportCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/support/posts/{supportPostId}",
+        "scopes": [
+            "supportPost:delete"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "delete",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "taxCategory.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/taxes/categories/{taxCategoryId}",
+        "scopes": [
+            "taxCategory:delete"
+        ],
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "delete",
+        "arguments": [
+            "taxCategoryId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.empty",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}/items",
+        "scopes": [
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "empty",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/blog/posts/comments/{blogCommentId}",
+        "scopes": [
+            "blogComment:delete"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "delete",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.deleteCoupon",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/coupons/{couponId}",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteCoupon",
+        "arguments": [
+            "customerId",
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.deleteItemAsMe",
+        "original": "customer.deleteItem",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/cart/items/{itemId}",
+        "scopes": [
+            "role:customer",
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteItemAsMe",
+        "arguments": [
+            "itemId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productQuestion.deleteAsMe",
+        "original": "productQuestion.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/questions/{productQuestionId}",
+        "scopes": [
+            "role:customer",
+            "productQuestion:delete"
+        ],
+        "modelName": "productQuestion",
+        "className": "ProductQuestion",
+        "method": "deleteAsMe",
+        "arguments": [
+            "productQuestionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "review.deleteAsMe",
+        "original": "review.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/{reviewId}",
+        "scopes": [
+            "role:customer",
+            "review:delete"
+        ],
+        "modelName": "review",
+        "className": "Review",
+        "method": "deleteAsMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportPost.deleteAsMe",
+        "original": "supportPost.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/support/posts/{supportPostId}",
+        "scopes": [
+            "role:customer",
+            "supportPost:delete"
+        ],
+        "modelName": "supportPost",
+        "className": "SupportPost",
+        "method": "deleteAsMe",
+        "arguments": [
+            "supportPostId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.emptyAsMe",
+        "original": "wishList.empty",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/wishlists/{wishListId}/items",
+        "scopes": [
+            "role:customer",
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "emptyAsMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/questions/answers/{productAnswerId}",
+        "scopes": [
+            "productAnswer:delete"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "delete",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}",
+        "scopes": [
+            "reviewComment:delete"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "delete",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.deleteVariant",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/variants/{variantId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteVariant",
+        "arguments": [
+            "productId",
+            "variantId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.deleteOption",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/options/{optionId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteOption",
+        "arguments": [
+            "productId",
+            "optionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.deleteMeta",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/meta/{field}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteMeta",
+        "arguments": [
+            "productId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": false
+    },
+    {
+        "module": "supportComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "supportComment:delete"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "delete",
+        "arguments": [
+            "supportCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.deleteItem",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}/items/{productId}",
+        "scopes": [
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteItem",
+        "arguments": [
+            "wishListId",
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "customer.deleteItem",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/cart/items/{itemId}",
+        "scopes": [
+            "customer:update"
+        ],
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteItem",
+        "arguments": [
+            "customerId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "blogComment.deleteAsMe",
+        "original": "blogComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/blog/posts/comments/{blogCommentId}",
+        "scopes": [
+            "role:customer",
+            "blogComment:delete"
+        ],
+        "modelName": "blogComment",
+        "className": "BlogComment",
+        "method": "deleteAsMe",
+        "arguments": [
+            "blogCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "productAnswer.deleteAsMe",
+        "original": "productAnswer.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/questions/answers/{productAnswerId}",
+        "scopes": [
+            "role:customer",
+            "productAnswer:delete"
+        ],
+        "modelName": "productAnswer",
+        "className": "ProductAnswer",
+        "method": "deleteAsMe",
+        "arguments": [
+            "productAnswerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "reviewComment.deleteAsMe",
+        "original": "reviewComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}",
+        "scopes": [
+            "role:customer",
+            "reviewComment:delete"
+        ],
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "deleteAsMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "supportComment.deleteAsMe",
+        "original": "supportComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/support/posts/comments/{supportCommentId}",
+        "scopes": [
+            "role:customer",
+            "supportComment:delete"
+        ],
+        "modelName": "supportComment",
+        "className": "SupportComment",
+        "method": "deleteAsMe",
+        "arguments": [
+            "supportCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "wishList.deleteItemAsMe",
+        "original": "wishList.deleteItem",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/wishlists/{wishListId}/items/{productId}",
+        "scopes": [
+            "role:customer",
+            "wishList:update"
+        ],
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteItemAsMe",
+        "arguments": [
+            "wishListId",
+            "productId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "100/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "image.deleteFromReviewAsMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/{reviewId}/images/{imageId}",
+        "scopes": [
+            "image:delete",
+            "review:update",
+            "role:customer"
+        ],
+        "modelName": "image",
+        "className": "Image",
+        "method": "deleteFromReviewAsMe",
+        "arguments": [
+            "reviewId",
+            "imageId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true
+        },
+        "rateLimit": {
+            "public": "50/h"
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    },
+    {
+        "module": "product.deleteVariation",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/options/{optionId}/variations/{variationId}",
+        "scopes": [
+            "product:update"
+        ],
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteVariation",
+        "arguments": [
+            "productId",
+            "optionId",
+            "variationId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false
+        },
+        "withoutPayload": false,
+        "usesFormData": false,
+        "supportsWebhook": true
+    }
+]
