@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const apis = require('./data/apis.json');
+const apis = require('./data/apis-simple.json');
 const modelToPath = require('./data/model-to-path.json');
 
 const aliases = {
@@ -42,6 +42,6 @@ const modelList = Object.keys(byModel).reduce((all, className) => {
 
 }, []).sort((a, b) => a.className.localeCompare(b.className));
 
-fs.writeFileSync(path.join(__dirname, 'data', 'spec.json'), JSON.stringify(modelList, null, 4), 'utf8');
+fs.writeFileSync(path.join(__dirname, 'build', 'spec.json'), JSON.stringify(modelList, null, 4), 'utf8');
 
 console.log('Done generating!');
