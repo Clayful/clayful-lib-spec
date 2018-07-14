@@ -1,5 +1,6 @@
 {
     "Brand": "brands",
+    "Catalog": "catalogs",
     "Client": "clients",
     "Collaborator": "collaborators",
     "Collection": "collections",
@@ -12,6 +13,7 @@
     "EmailTemplate": "email/templates",
     "Group": "groups",
     "Image": "images",
+    "ImageProfile": "images/profiles",
     "Memo": "memos",
     "Metafield": "metafields",
     "Order": "orders",
@@ -21,12 +23,14 @@
     "Product": "products",
     "Review": "products/reviews",
     "ReviewComment": "products/reviews/comments",
+    "SocialApp": "apps/social",
     "ShippingMethod": "shipping/methods",
     "ShippingPolicy": "shipping/policies",
     "Store": "store",
+    "Subscription": "subscriptions",
+    "SubscriptionPlan": "subscriptions/plans",
     "Tax": "taxes",
     "TaxCategory": "taxes/categories",
-    "Warehouse": "warehouses",
     "Webhook": "webhooks",
     "WishList": "wishlists"
 }

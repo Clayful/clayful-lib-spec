@@ -1,7 +1,8 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
+const Path = require('path');
+const write = require('write');
+const del = require('del');
 const apis = require('./data/apis-simple.json');
 const modelToPath = require('./data/model-to-path.json');
 
@@ -42,6 +43,15 @@ const modelList = Object.keys(byModel).reduce((all, className) => {
 
 }, []).sort((a, b) => a.className.localeCompare(b.className));
 
-fs.writeFileSync(path.join(__dirname, 'build', 'spec.json'), JSON.stringify(modelList, null, 4), 'utf8');
+// Clear build/**
+del.sync([
+	Path.join(__dirname, 'build', '**')
+]);
+
+// Write result
+write.sync(
+	Path.join(__dirname, 'build', 'spec.json'),
+	JSON.stringify(modelList, null, 4)
+);
 
 console.log('Done generating!');

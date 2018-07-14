@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Clayful/clayful-lib-spec/issues"
   },
-  "homepage": "https://github.com/Clayful/clayful-lib-spec#readme"
+  "homepage": "https://github.com/Clayful/clayful-lib-spec#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "write": "^1.0.3"
+  }
 }

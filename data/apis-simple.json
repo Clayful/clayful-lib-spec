@@ -1,0 +1,5818 @@
+[
+    {
+        "module": "brand.list",
+        "httpMethod": "GET",
+        "path": "/v1/brands",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.list",
+        "httpMethod": "GET",
+        "path": "/v1/catalogs",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "collection.list",
+        "httpMethod": "GET",
+        "path": "/v1/collections",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "country.list",
+        "httpMethod": "GET",
+        "path": "/v1/countries",
+        "modelName": "country",
+        "className": "Country",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.list",
+        "httpMethod": "GET",
+        "path": "/v1/coupons",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "currency.list",
+        "httpMethod": "GET",
+        "path": "/v1/currencies",
+        "modelName": "currency",
+        "className": "Currency",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.list",
+        "httpMethod": "GET",
+        "path": "/v1/customers",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "discount.list",
+        "httpMethod": "GET",
+        "path": "/v1/discounts",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "downloadable.list",
+        "httpMethod": "GET",
+        "path": "/v1/downloadables",
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "group.list",
+        "httpMethod": "GET",
+        "path": "/v1/groups",
+        "modelName": "group",
+        "className": "Group",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.list",
+        "httpMethod": "GET",
+        "path": "/v1/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.getMe",
+        "httpMethod": "GET",
+        "path": "/v1/me",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "getMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.list",
+        "httpMethod": "GET",
+        "path": "/v1/orders",
+        "modelName": "order",
+        "className": "Order",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "product.list",
+        "httpMethod": "GET",
+        "path": "/v1/products",
+        "modelName": "product",
+        "className": "Product",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "store.get",
+        "httpMethod": "GET",
+        "path": "/v1/store",
+        "modelName": "store",
+        "className": "Store",
+        "method": "get",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.list",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.list",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "brand.count",
+        "httpMethod": "GET",
+        "path": "/v1/brands/count",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "brand.get",
+        "httpMethod": "GET",
+        "path": "/v1/brands/{brandId}",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "get",
+        "arguments": [
+            "brandId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.count",
+        "httpMethod": "GET",
+        "path": "/v1/catalogs/count",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.get",
+        "httpMethod": "GET",
+        "path": "/v1/catalogs/{catalogId}",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "get",
+        "arguments": [
+            "catalogId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "collection.count",
+        "httpMethod": "GET",
+        "path": "/v1/collections/count",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "collection.get",
+        "httpMethod": "GET",
+        "path": "/v1/collections/{collectionId}",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "get",
+        "arguments": [
+            "collectionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "country.count",
+        "httpMethod": "GET",
+        "path": "/v1/countries/count",
+        "modelName": "country",
+        "className": "Country",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "country.get",
+        "httpMethod": "GET",
+        "path": "/v1/countries/{countryId}",
+        "modelName": "country",
+        "className": "Country",
+        "method": "get",
+        "arguments": [
+            "countryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.count",
+        "httpMethod": "GET",
+        "path": "/v1/coupons/count",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.get",
+        "httpMethod": "GET",
+        "path": "/v1/coupons/{couponId}",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "get",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "currency.count",
+        "httpMethod": "GET",
+        "path": "/v1/currencies/count",
+        "modelName": "currency",
+        "className": "Currency",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "currency.get",
+        "httpMethod": "GET",
+        "path": "/v1/currencies/{currencyId}",
+        "modelName": "currency",
+        "className": "Currency",
+        "method": "get",
+        "arguments": [
+            "currencyId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.isAuthenticated",
+        "httpMethod": "GET",
+        "path": "/v1/customers/auth",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "isAuthenticated",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.count",
+        "httpMethod": "GET",
+        "path": "/v1/customers/count",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.get",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "get",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "discount.count",
+        "httpMethod": "GET",
+        "path": "/v1/discounts/count",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "discount.get",
+        "httpMethod": "GET",
+        "path": "/v1/discounts/{discountId}",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "get",
+        "arguments": [
+            "discountId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "downloadable.count",
+        "httpMethod": "GET",
+        "path": "/v1/downloadables/count",
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "downloadable.get",
+        "httpMethod": "GET",
+        "path": "/v1/downloadables/{downloadableId}",
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "get",
+        "arguments": [
+            "downloadableId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "group.count",
+        "httpMethod": "GET",
+        "path": "/v1/groups/count",
+        "modelName": "group",
+        "className": "Group",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "group.get",
+        "httpMethod": "GET",
+        "path": "/v1/groups/{groupId}",
+        "modelName": "group",
+        "className": "Group",
+        "method": "get",
+        "arguments": [
+            "groupId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.count",
+        "httpMethod": "GET",
+        "path": "/v1/images/count",
+        "modelName": "image",
+        "className": "Image",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.get",
+        "httpMethod": "GET",
+        "path": "/v1/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "get",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.listCouponsForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/coupons",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "listCouponsForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.listForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "listForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.listForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/orders",
+        "modelName": "order",
+        "className": "Order",
+        "method": "listForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.listForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/subscriptions",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "listForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.getByCustomerForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/tracker",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "getByCustomerForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.listForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "listForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.count",
+        "httpMethod": "GET",
+        "path": "/v1/orders/count",
+        "modelName": "order",
+        "className": "Order",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "orderTag.list",
+        "httpMethod": "GET",
+        "path": "/v1/orders/tags",
+        "modelName": "orderTag",
+        "className": "OrderTag",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.get",
+        "httpMethod": "GET",
+        "path": "/v1/orders/{orderId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "get",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "paymentMethod.list",
+        "httpMethod": "GET",
+        "path": "/v1/payments/methods",
+        "modelName": "paymentMethod",
+        "className": "PaymentMethod",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "product.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/count",
+        "modelName": "product",
+        "className": "Product",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.list",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews",
+        "modelName": "review",
+        "className": "Review",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "product.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/{productId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "get",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "shippingMethod.list",
+        "httpMethod": "GET",
+        "path": "/v1/shipping/methods",
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.count",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/count",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscriptionPlan.list",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/plans",
+        "modelName": "subscriptionPlan",
+        "className": "SubscriptionPlan",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.get",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/{subscriptionId}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "get",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "taxCategory.list",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/categories",
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.get",
+        "httpMethod": "GET",
+        "path": "/v1/trackers/{trackerId}",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "get",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.count",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists/count",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.get",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists/{wishListId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "get",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.getByCustomer",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/tracker",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "getByCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.listCoupons",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/coupons",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "listCoupons",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.countCouponsForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/coupons/count",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "countCouponsForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.countForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/images/count",
+        "modelName": "image",
+        "className": "Image",
+        "method": "countForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.getForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "getForMe",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.countForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/orders/count",
+        "modelName": "order",
+        "className": "Order",
+        "method": "countForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.getForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/orders/{orderId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "getForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.countForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/subscriptions/count",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "countForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.getForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/subscriptions/{subscriptionId}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "getForMe",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "subscription"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.getForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/trackers/{trackerId}",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "getForMe",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.countForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists/count",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "countForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.getForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists/{wishListId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "getForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "orderTag.count",
+        "httpMethod": "GET",
+        "path": "/v1/orders/tags/count",
+        "modelName": "orderTag",
+        "className": "OrderTag",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "orderTag.get",
+        "httpMethod": "GET",
+        "path": "/v1/orders/tags/{orderTagId}",
+        "modelName": "orderTag",
+        "className": "OrderTag",
+        "method": "get",
+        "arguments": [
+            "orderTagId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "paymentMethod.count",
+        "httpMethod": "GET",
+        "path": "/v1/payments/methods/count",
+        "modelName": "paymentMethod",
+        "className": "PaymentMethod",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "paymentMethod.get",
+        "httpMethod": "GET",
+        "path": "/v1/payments/methods/{paymentMethodId}",
+        "modelName": "paymentMethod",
+        "className": "PaymentMethod",
+        "method": "get",
+        "arguments": [
+            "paymentMethodId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.list",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/comments",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "list",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/count",
+        "modelName": "review",
+        "className": "Review",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.listPublished",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/published",
+        "modelName": "review",
+        "className": "Review",
+        "method": "listPublished",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/{reviewId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "get",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "shippingMethod.count",
+        "httpMethod": "GET",
+        "path": "/v1/shipping/methods/count",
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "shippingMethod.get",
+        "httpMethod": "GET",
+        "path": "/v1/shipping/methods/{shippingMethodId}",
+        "modelName": "shippingMethod",
+        "className": "ShippingMethod",
+        "method": "get",
+        "arguments": [
+            "shippingMethodId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscriptionPlan.count",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/plans/count",
+        "modelName": "subscriptionPlan",
+        "className": "SubscriptionPlan",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscriptionPlan.get",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/plans/{subscriptionPlanId}",
+        "modelName": "subscriptionPlan",
+        "className": "SubscriptionPlan",
+        "method": "get",
+        "arguments": [
+            "subscriptionPlanId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.listBySubscription",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/{subscriptionId}/orders",
+        "modelName": "order",
+        "className": "Order",
+        "method": "listBySubscription",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "taxCategory.count",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/categories/count",
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "taxCategory.get",
+        "httpMethod": "GET",
+        "path": "/v1/taxes/categories/{taxCategoryId}",
+        "modelName": "taxCategory",
+        "className": "TaxCategory",
+        "method": "get",
+        "arguments": [
+            "taxCategoryId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.listProducts",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists/{wishListId}/products",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "listProducts",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.countCoupons",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/coupons/count",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "countCoupons",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "impression.topBrands",
+        "httpMethod": "GET",
+        "path": "/v1/impressions/{scope}/top/brands",
+        "modelName": "impression",
+        "className": "Impression",
+        "method": "topBrands",
+        "arguments": [
+            "scope"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "impression.topProducts",
+        "httpMethod": "GET",
+        "path": "/v1/impressions/{scope}/top/products",
+        "modelName": "impression",
+        "className": "Impression",
+        "method": "topProducts",
+        "arguments": [
+            "scope"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "impression.topCollections",
+        "httpMethod": "GET",
+        "path": "/v1/impressions/{scope}/top/collections",
+        "modelName": "impression",
+        "className": "Impression",
+        "method": "topCollections",
+        "arguments": [
+            "scope"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "cart.countItemsForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/cart/items/count",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "countItemsForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.getAsNonRegisteredForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/non-registered/trackers/{trackerId}",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "getAsNonRegisteredForMe",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "non-registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.listBySubscriptionForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/subscriptions/{subscriptionId}/orders",
+        "modelName": "order",
+        "className": "Order",
+        "method": "listBySubscriptionForMe",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "subscription"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.listProductsForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists/{wishListId}/products",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "listProductsForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.listInventoryOperations",
+        "httpMethod": "GET",
+        "path": "/v1/orders/{orderId}/inventory/operations",
+        "modelName": "order",
+        "className": "Order",
+        "method": "listInventoryOperations",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.count",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/comments/count",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "count",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.get",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "get",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.countPublished",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/published/count",
+        "modelName": "review",
+        "className": "Review",
+        "method": "countPublished",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.getPublished",
+        "httpMethod": "GET",
+        "path": "/v1/products/reviews/published/{reviewId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "getPublished",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.listInventoryOperations",
+        "httpMethod": "GET",
+        "path": "/v1/subscriptions/{subscriptionId}/inventory/operations",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "listInventoryOperations",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.countProducts",
+        "httpMethod": "GET",
+        "path": "/v1/wishlists/{wishListId}/products/count",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "countProducts",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "cart.countItems",
+        "httpMethod": "GET",
+        "path": "/v1/customers/{customerId}/cart/items/count",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "countItems",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.countProductsForMe",
+        "httpMethod": "GET",
+        "path": "/v1/me/wishlists/{wishListId}/products/count",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "countProductsForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.listByFlagVotes",
+        "httpMethod": "GET",
+        "path": "/v1/{voteModel}/{voteModelId}/flags/customers",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "listByFlagVotes",
+        "arguments": [
+            "voteModel",
+            "voteModelId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.listByHelpVotes",
+        "httpMethod": "GET",
+        "path": "/v1/{voteModel}/{voteModelId}/helped/{upDown}/customers",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "listByHelpVotes",
+        "arguments": [
+            "voteModel",
+            "voteModelId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.listByFlagVotes",
+        "httpMethod": "GET",
+        "path": "/v1/{voteModel}/{voteModelId}/flags/customers",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "listByFlagVotes",
+        "arguments": [
+            "voteModel",
+            "voteModelId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.listByHelpVotes",
+        "httpMethod": "GET",
+        "path": "/v1/{voteModel}/{voteModelId}/helped/{upDown}/customers",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "listByHelpVotes",
+        "arguments": [
+            "voteModel",
+            "voteModelId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.create",
+        "httpMethod": "POST",
+        "path": "/v1/customers",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.create",
+        "httpMethod": "POST",
+        "path": "/v1/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
+        "module": "customer.createMe",
+        "httpMethod": "POST",
+        "path": "/v1/me",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "createMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "non-registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.create",
+        "httpMethod": "POST",
+        "path": "/v1/trackers",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.create",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.authenticate",
+        "httpMethod": "POST",
+        "path": "/v1/customers/auth",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "authenticate",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.createVerification",
+        "httpMethod": "POST",
+        "path": "/v1/customers/verifications",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "createVerification",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "impression.gather",
+        "httpMethod": "POST",
+        "path": "/v1/impressions/{scope}",
+        "modelName": "impression",
+        "className": "Impression",
+        "method": "gather",
+        "arguments": [
+            "scope"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.getForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/cart",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "getForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.createForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "createForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
+        "module": "tracker.createForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/trackers",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "createForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.createForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/wishlists",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "createForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.create",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews",
+        "modelName": "review",
+        "className": "Review",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.authenticateBy3rdParty",
+        "httpMethod": "POST",
+        "path": "/v1/customers/auth/{vendor}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "authenticateBy3rdParty",
+        "arguments": [
+            "vendor"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.getAsNonRegistered",
+        "httpMethod": "POST",
+        "path": "/v1/customers/non-registered/cart",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "getAsNonRegistered",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.requestVerificationEmail",
+        "httpMethod": "POST",
+        "path": "/v1/customers/verifications/emails",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "requestVerificationEmail",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.get",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/cart",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "get",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.addCoupon",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/coupons",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "addCoupon",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.verify",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/verified",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "verify",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.createAsCustomer",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "createAsCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
+        "module": "downloadable.createDownloadUrl",
+        "httpMethod": "POST",
+        "path": "/v1/downloadables/{downloadableId}/url",
+        "modelName": "downloadable",
+        "className": "Downloadable",
+        "method": "createDownloadUrl",
+        "arguments": [
+            "downloadableId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.addItemForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/cart/items",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "addItemForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.getAsNonRegisteredForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/non-registered/cart",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "getAsNonRegisteredForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "non-registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.createAsNonRegisteredForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/non-registered/trackers",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "createAsNonRegisteredForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "non-registered"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "review.createForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews",
+        "modelName": "review",
+        "className": "Review",
+        "method": "createForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsArrived",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/arrived",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsArrived",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsDone",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/done",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsDone",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.syncInventory",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/synced",
+        "modelName": "order",
+        "className": "Order",
+        "method": "syncInventory",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.createFulfillment",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/fulfillments",
+        "modelName": "order",
+        "className": "Order",
+        "method": "createFulfillment",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.authenticate",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/auth",
+        "modelName": "order",
+        "className": "Order",
+        "method": "authenticate",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.cancel",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "cancel",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.requestRefund",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds",
+        "modelName": "order",
+        "className": "Order",
+        "method": "requestRefund",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.create",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.authenticate",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/auth",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "authenticate",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.markAsDone",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/done",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "markAsDone",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.cancel",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/cancellation",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "cancel",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.syncInventory",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/synced",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "syncInventory",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.schedule",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/scheduled",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "schedule",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.addItem",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/items",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "addItem",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.addItem",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/cart/items",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "addItem",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.checkoutForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/cart/checkout/{type}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "checkoutForMe",
+        "arguments": [
+            "type"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.cancelForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "cancelForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsArrivedForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/arrived",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsArrivedForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.requestRefundForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/refunds",
+        "modelName": "order",
+        "className": "Order",
+        "method": "requestRefundForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.createForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews/comments",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "createForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.cancelForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/subscriptions/{subscriptionId}/cancellation",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "cancelForMe",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "subscription"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.scheduleForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/subscriptions/{subscriptionId}/scheduled",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "scheduleForMe",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "subscription"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.addItemForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/wishlists/{wishListId}/items",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "addItemForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.checkTicket",
+        "httpMethod": "POST",
+        "path": "/v1/orders/tickets/{code}/validity",
+        "modelName": "order",
+        "className": "Order",
+        "method": "checkTicket",
+        "arguments": [
+            "code"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.useTicket",
+        "httpMethod": "POST",
+        "path": "/v1/orders/tickets/{code}/used",
+        "modelName": "order",
+        "className": "Order",
+        "method": "useTicket",
+        "arguments": [
+            "code"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.requestFullRefund",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds/full",
+        "modelName": "order",
+        "className": "Order",
+        "method": "requestFullRefund",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.flag",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/{reviewId}/flags",
+        "modelName": "review",
+        "className": "Review",
+        "method": "flag",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "store.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/store/meta/{field}/push",
+        "modelName": "store",
+        "className": "Store",
+        "method": "pushToMetafield",
+        "arguments": [
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "store.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/store/meta/{field}/inc",
+        "modelName": "store",
+        "className": "Store",
+        "method": "increaseMetafield",
+        "arguments": [
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "store.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/store/meta/{field}/pull",
+        "modelName": "store",
+        "className": "Store",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.fulfillSchedule",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/schedules/orders",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "fulfillSchedule",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "brand.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/brands/{brandId}/meta/{field}/pull",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "brandId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "brand.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/brands/{brandId}/meta/{field}/push",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "pushToMetafield",
+        "arguments": [
+            "brandId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "brand.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/brands/{brandId}/meta/{field}/inc",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "increaseMetafield",
+        "arguments": [
+            "brandId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/catalogs/{catalogId}/meta/{field}/pull",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "catalogId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/catalogs/{catalogId}/meta/{field}/inc",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "increaseMetafield",
+        "arguments": [
+            "catalogId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/catalogs/{catalogId}/meta/{field}/push",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "pushToMetafield",
+        "arguments": [
+            "catalogId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "collection.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/collections/{collectionId}/meta/{field}/push",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "pushToMetafield",
+        "arguments": [
+            "collectionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "collection.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/collections/{collectionId}/meta/{field}/pull",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "collectionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "collection.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/collections/{collectionId}/meta/{field}/inc",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "increaseMetafield",
+        "arguments": [
+            "collectionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/meta/{field}/inc",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "increaseMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/meta/{field}/pull",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/meta/{field}/push",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "pushToMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.checkoutAsNonRegistered",
+        "httpMethod": "POST",
+        "path": "/v1/customers/non-registered/cart/checkout/{type}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "checkoutAsNonRegistered",
+        "arguments": [
+            "type"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/meta/{field}/push",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "pushToMetafield",
+        "arguments": [
+            "customerId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.checkout",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/cart/checkout/{type}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "checkout",
+        "arguments": [
+            "customerId",
+            "type"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/meta/{field}/pull",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "customerId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/meta/{field}/inc",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "increaseMetafield",
+        "arguments": [
+            "customerId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "discount.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/discounts/{discountId}/meta/{field}/push",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "pushToMetafield",
+        "arguments": [
+            "discountId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "discount.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/discounts/{discountId}/meta/{field}/pull",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "discountId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "discount.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/discounts/{discountId}/meta/{field}/inc",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "increaseMetafield",
+        "arguments": [
+            "discountId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "group.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/groups/{groupId}/meta/{field}/pull",
+        "modelName": "group",
+        "className": "Group",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "groupId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "group.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/groups/{groupId}/meta/{field}/push",
+        "modelName": "group",
+        "className": "Group",
+        "method": "pushToMetafield",
+        "arguments": [
+            "groupId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "group.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/groups/{groupId}/meta/{field}/inc",
+        "modelName": "group",
+        "className": "Group",
+        "method": "increaseMetafield",
+        "arguments": [
+            "groupId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.checkoutAsNonRegisteredForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/non-registered/cart/checkout/{type}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "checkoutAsNonRegisteredForMe",
+        "arguments": [
+            "type"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "non-registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.requestFullRefundForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/refunds/full",
+        "modelName": "order",
+        "className": "Order",
+        "method": "requestFullRefundForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.flagForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews/{reviewId}/flags",
+        "modelName": "review",
+        "className": "Review",
+        "method": "flagForMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.restockRefundItems",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/restock",
+        "modelName": "order",
+        "className": "Order",
+        "method": "restockRefundItems",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.registerPaymentMethod",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/transactions/payments/methods",
+        "modelName": "order",
+        "className": "Order",
+        "method": "registerPaymentMethod",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/meta/{field}/pull",
+        "modelName": "order",
+        "className": "Order",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/meta/{field}/push",
+        "modelName": "order",
+        "className": "Order",
+        "method": "pushToMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.cancelRefund",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "cancelRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.acceptRefund",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/accepted",
+        "modelName": "order",
+        "className": "Order",
+        "method": "acceptRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/meta/{field}/inc",
+        "modelName": "order",
+        "className": "Order",
+        "method": "increaseMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.flag",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/flags",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "flag",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.helped",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/{reviewId}/helped/{upDown}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "helped",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/meta/{field}/inc",
+        "modelName": "product",
+        "className": "Product",
+        "method": "increaseMetafield",
+        "arguments": [
+            "productId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/meta/{field}/pull",
+        "modelName": "product",
+        "className": "Product",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "productId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/meta/{field}/push",
+        "modelName": "product",
+        "className": "Product",
+        "method": "pushToMetafield",
+        "arguments": [
+            "productId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/pull",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "subscriptionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/push",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "pushToMetafield",
+        "arguments": [
+            "subscriptionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/inc",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "increaseMetafield",
+        "arguments": [
+            "subscriptionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}/pull",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}/push",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "pushToMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}/inc",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "increaseMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.cancelRefundForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/refunds/{refundId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "cancelRefundForMe",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.flagForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}/flags",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "flagForMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "review.helpedForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/products/reviews/{reviewId}/helped/{upDown}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "helpedForMe",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.createDownloadUrl",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/items/{itemId}/download/url",
+        "modelName": "order",
+        "className": "Order",
+        "method": "createDownloadUrl",
+        "arguments": [
+            "orderId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.restockAllRefundItems",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/restock/all",
+        "modelName": "order",
+        "className": "Order",
+        "method": "restockAllRefundItems",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "review.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/inc",
+        "modelName": "review",
+        "className": "Review",
+        "method": "increaseMetafield",
+        "arguments": [
+            "reviewId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/pull",
+        "modelName": "review",
+        "className": "Review",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "reviewId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/push",
+        "modelName": "review",
+        "className": "Review",
+        "method": "pushToMetafield",
+        "arguments": [
+            "reviewId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.createDownloadUrlForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/items/{itemId}/download/url",
+        "modelName": "order",
+        "className": "Order",
+        "method": "createDownloadUrlForMe",
+        "arguments": [
+            "orderId",
+            "itemId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}/inc",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "increaseMetafield",
+        "arguments": [
+            "reviewCommentId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}/push",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "pushToMetafield",
+        "arguments": [
+            "reviewCommentId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}/pull",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "reviewCommentId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.updateMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.update",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "update",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.update",
+        "httpMethod": "PUT",
+        "path": "/v1/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "update",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
+        "module": "customer.updateCredentialsForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/credentials",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateCredentialsForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.update",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "update",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.update",
+        "httpMethod": "PUT",
+        "path": "/v1/wishlists/{wishListId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "update",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.resetPassword",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/password",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "resetPassword",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.updateCredentials",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/credentials",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateCredentials",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.updateForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "updateForMe",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
+        "module": "order.updateForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/orders/{orderId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.updateForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/wishlists/{wishListId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "updateForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateCancellation",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateCancellation",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateTransactions",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/transactions",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateTransactions",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "review.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/{reviewId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "update",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.updateCancellation",
+        "httpMethod": "PUT",
+        "path": "/v1/subscriptions/{subscriptionId}/cancellation",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "updateCancellation",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.changeOwner",
+        "httpMethod": "PUT",
+        "path": "/v1/trackers/{trackerId}/customer",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "changeOwner",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.updateAsCustomer",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "updateAsCustomer",
+        "arguments": [
+            "customerId",
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
+        "module": "cart.updateItemForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/cart/items/{itemId}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "updateItemForMe",
+        "arguments": [
+            "itemId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateTransactionsForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/orders/{orderId}/transactions",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateTransactionsForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateCancellationForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/orders/{orderId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateCancellationForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.updateForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/{reviewId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "updateForMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.updateCancellationForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/subscriptions/{subscriptionId}/cancellation",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "updateCancellationForMe",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "subscription"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.changeOwnerForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/trackers/{trackerId}/customer",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "changeOwnerForMe",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateRefund",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateFulfillment",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/fulfillments/{fulfillmentId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateFulfillment",
+        "arguments": [
+            "orderId",
+            "fulfillmentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateItem",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/items/{itemId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateItem",
+        "arguments": [
+            "orderId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "update",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "cart.updateItem",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/cart/items/{itemId}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "updateItem",
+        "arguments": [
+            "customerId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateRefundForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/orders/{orderId}/refunds/{refundId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateRefundForMe",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.updateForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "updateForMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateRefundCancellation",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateRefundCancellation",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateRefundCancellationForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/orders/{orderId}/refunds/{refundId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateRefundCancellationForMe",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.deleteMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "delete",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "delete",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "delete",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/subscriptions/{subscriptionId}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "delete",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/trackers/{trackerId}",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "delete",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "delete",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "cart.emptyForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/cart/items",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "emptyForMe",
+        "arguments": [],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.deleteCouponForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/coupons/{couponId}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteCouponForMe",
+        "arguments": [
+            "couponId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.deleteForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "deleteForMe",
+        "arguments": [
+            "imageId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.deleteForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/trackers/{trackerId}",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "deleteForMe",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.deleteForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/wishlists/{wishListId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsUndone",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/done",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsUndone",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsNotArrived",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/arrived",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsNotArrived",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/{reviewId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "delete",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "store.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/store/meta/{field}",
+        "modelName": "store",
+        "className": "Store",
+        "method": "deleteMetafield",
+        "arguments": [
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.markAsUndone",
+        "httpMethod": "DELETE",
+        "path": "/v1/subscriptions/{subscriptionId}/done",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "markAsUndone",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.empty",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}/items",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "empty",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "brand.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/brands/{brandId}/meta/{field}",
+        "modelName": "brand",
+        "className": "Brand",
+        "method": "deleteMetafield",
+        "arguments": [
+            "brandId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/catalogs/{catalogId}/meta/{field}",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "deleteMetafield",
+        "arguments": [
+            "catalogId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "collection.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/collections/{collectionId}/meta/{field}",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "deleteMetafield",
+        "arguments": [
+            "collectionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/coupons/{couponId}/meta/{field}",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "deleteMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "cart.empty",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/cart/items",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "empty",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "image.deleteAsCustomer",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/images/{imageId}",
+        "modelName": "image",
+        "className": "Image",
+        "method": "deleteAsCustomer",
+        "arguments": [
+            "customerId",
+            "imageId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.deleteCoupon",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/coupons/{couponId}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteCoupon",
+        "arguments": [
+            "customerId",
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "customer.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/meta/{field}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteMetafield",
+        "arguments": [
+            "customerId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "discount.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/discounts/{discountId}/meta/{field}",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "deleteMetafield",
+        "arguments": [
+            "discountId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "group.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/groups/{groupId}/meta/{field}",
+        "modelName": "group",
+        "className": "Group",
+        "method": "deleteMetafield",
+        "arguments": [
+            "groupId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "cart.deleteItemForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/cart/items/{itemId}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "deleteItemForMe",
+        "arguments": [
+            "itemId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "tracker.deleteAsNonRegisteredForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/non-registered/trackers/{trackerId}",
+        "modelName": "tracker",
+        "className": "Tracker",
+        "method": "deleteAsNonRegisteredForMe",
+        "arguments": [
+            "trackerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "non-registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsNotArrivedForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/orders/{orderId}/arrived",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsNotArrivedForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.deleteForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/{reviewId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "deleteForMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.emptyForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/wishlists/{wishListId}/items",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "emptyForMe",
+        "arguments": [
+            "wishListId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.deleteFulfillment",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/fulfillments/{fulfillmentId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "deleteFulfillment",
+        "arguments": [
+            "orderId",
+            "fulfillmentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/meta/{field}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "deleteMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.deleteRefund",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "deleteRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "delete",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "product.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/meta/{field}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteMetafield",
+        "arguments": [
+            "productId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "deleteMetafield",
+        "arguments": [
+            "subscriptionId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.deleteItem",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}/items/{productId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteItem",
+        "arguments": [
+            "wishListId",
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "cart.deleteItem",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/cart/items/{itemId}",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "deleteItem",
+        "arguments": [
+            "customerId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.deleteForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "deleteForMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.cancelFlagForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/{reviewId}/flags",
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelFlagForMe",
+        "arguments": [
+            "reviewId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.deleteItemForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/wishlists/{wishListId}/items/{productId}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteItemForMe",
+        "arguments": [
+            "wishListId",
+            "productId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.deleteInventoryOperation",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/inventory/operations/{operationId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "deleteInventoryOperation",
+        "arguments": [
+            "orderId",
+            "operationId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.unacceptRefund",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/accepted",
+        "modelName": "order",
+        "className": "Order",
+        "method": "unacceptRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.cancelFlag",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/{reviewId}/flags/{customerId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelFlag",
+        "arguments": [
+            "reviewId",
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "deleteMetafield",
+        "arguments": [
+            "reviewId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.deleteInventoryOperation",
+        "httpMethod": "DELETE",
+        "path": "/v1/subscriptions/{subscriptionId}/inventory/operations/{operationId}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "deleteInventoryOperation",
+        "arguments": [
+            "subscriptionId",
+            "operationId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.cancelFlagForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/comments/{reviewCommentId}/flags",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "cancelFlagForMe",
+        "arguments": [
+            "reviewCommentId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.cancelHelpedForMe",
+        "httpMethod": "DELETE",
+        "path": "/v1/me/products/reviews/{reviewId}/helped/{upDown}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelHelpedForMe",
+        "arguments": [
+            "reviewId",
+            "upDown"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered"
+            ]
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "order.unregisterPaymentMethod",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/transactions/payments/methods/{paymentMethodId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "unregisterPaymentMethod",
+        "arguments": [
+            "orderId",
+            "paymentMethodId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "deleteMetafield",
+        "arguments": [
+            "reviewCommentId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.cancelFlag",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/flags/{customerId}",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "cancelFlag",
+        "arguments": [
+            "reviewCommentId",
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    },
+    {
+        "module": "review.cancelHelped",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/{reviewId}/helped/{upDown}/{customerId}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "cancelHelped",
+        "arguments": [
+            "reviewId",
+            "upDown",
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "usesFormData": false
+    }
+]
