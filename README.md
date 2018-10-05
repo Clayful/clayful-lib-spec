@@ -1,0 +1,1 @@
+API specifications for [Clayful](https://clayful.io).
