@@ -1,6 +1,6 @@
 {
   "name": "clayful-lib-spec",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "API specifications for Clayful",
   "main": "index.js",
   "scripts": {
