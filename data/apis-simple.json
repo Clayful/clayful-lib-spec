@@ -2216,6 +2216,25 @@
         "usesFormData": false
     },
     {
+        "module": "image.createAsCustomer",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "createAsCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": true
+    },
+    {
         "module": "customer.addCoupon",
         "httpMethod": "POST",
         "path": "/v1/customers/{customerId}/coupons",
@@ -2252,25 +2271,6 @@
         },
         "withoutPayload": false,
         "usesFormData": false
-    },
-    {
-        "module": "image.createAsCustomer",
-        "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/images",
-        "modelName": "image",
-        "className": "Image",
-        "method": "createAsCustomer",
-        "arguments": [
-            "customerId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": true
     },
     {
         "module": "downloadable.createDownloadUrl",
@@ -2368,12 +2368,31 @@
         "usesFormData": false
     },
     {
-        "module": "order.markAsArrived",
+        "module": "order.authenticate",
         "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/arrived",
+        "path": "/v1/orders/{orderId}/auth",
         "modelName": "order",
         "className": "Order",
-        "method": "markAsArrived",
+        "method": "authenticate",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsReceived",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/received",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsReceived",
         "arguments": [
             "orderId"
         ],
@@ -2444,17 +2463,17 @@
         "usesFormData": false
     },
     {
-        "module": "order.authenticate",
+        "module": "order.requestRefund",
         "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/auth",
+        "path": "/v1/orders/{orderId}/refunds",
         "modelName": "order",
         "className": "Order",
-        "method": "authenticate",
+        "method": "requestRefund",
         "arguments": [
             "orderId"
         ],
         "access": {
-            "public": true,
+            "public": false,
             "private": true,
             "me": false,
             "customer": []
@@ -2469,25 +2488,6 @@
         "modelName": "order",
         "className": "Order",
         "method": "cancel",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.requestRefund",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/refunds",
-        "modelName": "order",
-        "className": "Order",
-        "method": "requestRefund",
         "arguments": [
             "orderId"
         ],
@@ -2518,6 +2518,25 @@
         "usesFormData": false
     },
     {
+        "module": "subscription.syncInventory",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/synced",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "syncInventory",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
         "module": "subscription.authenticate",
         "httpMethod": "POST",
         "path": "/v1/subscriptions/{subscriptionId}/auth",
@@ -2534,25 +2553,6 @@
             "customer": []
         },
         "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "subscription.markAsDone",
-        "httpMethod": "POST",
-        "path": "/v1/subscriptions/{subscriptionId}/done",
-        "modelName": "subscription",
-        "className": "Subscription",
-        "method": "markAsDone",
-        "arguments": [
-            "subscriptionId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": true,
         "usesFormData": false
     },
     {
@@ -2575,12 +2575,12 @@
         "usesFormData": false
     },
     {
-        "module": "subscription.syncInventory",
+        "module": "subscription.markAsDone",
         "httpMethod": "POST",
-        "path": "/v1/subscriptions/{subscriptionId}/synced",
+        "path": "/v1/subscriptions/{subscriptionId}/done",
         "modelName": "subscription",
         "className": "Subscription",
-        "method": "syncInventory",
+        "method": "markAsDone",
         "arguments": [
             "subscriptionId"
         ],
@@ -2694,12 +2694,12 @@
         "usesFormData": false
     },
     {
-        "module": "order.markAsArrivedForMe",
+        "module": "order.markAsReceivedForMe",
         "httpMethod": "POST",
-        "path": "/v1/me/orders/{orderId}/arrived",
+        "path": "/v1/me/orders/{orderId}/received",
         "modelName": "order",
         "className": "Order",
-        "method": "markAsArrivedForMe",
+        "method": "markAsReceivedForMe",
         "arguments": [
             "orderId"
         ],
@@ -2757,12 +2757,12 @@
         "usesFormData": false
     },
     {
-        "module": "subscription.cancelForMe",
+        "module": "subscription.scheduleForMe",
         "httpMethod": "POST",
-        "path": "/v1/me/subscriptions/{subscriptionId}/cancellation",
+        "path": "/v1/me/subscriptions/{subscriptionId}/scheduled",
         "modelName": "subscription",
         "className": "Subscription",
-        "method": "cancelForMe",
+        "method": "scheduleForMe",
         "arguments": [
             "subscriptionId"
         ],
@@ -2779,12 +2779,12 @@
         "usesFormData": false
     },
     {
-        "module": "subscription.scheduleForMe",
+        "module": "subscription.cancelForMe",
         "httpMethod": "POST",
-        "path": "/v1/me/subscriptions/{subscriptionId}/scheduled",
+        "path": "/v1/me/subscriptions/{subscriptionId}/cancellation",
         "modelName": "subscription",
         "className": "Subscription",
-        "method": "scheduleForMe",
+        "method": "cancelForMe",
         "arguments": [
             "subscriptionId"
         ],
@@ -2860,25 +2860,6 @@
         "usesFormData": false
     },
     {
-        "module": "order.requestFullRefund",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/refunds/full",
-        "modelName": "order",
-        "className": "Order",
-        "method": "requestFullRefund",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "review.flag",
         "httpMethod": "POST",
         "path": "/v1/products/reviews/{reviewId}/flags",
@@ -2898,12 +2879,12 @@
         "usesFormData": false
     },
     {
-        "module": "store.pushToMetafield",
+        "module": "store.pullFromMetafield",
         "httpMethod": "POST",
-        "path": "/v1/store/meta/{field}/push",
+        "path": "/v1/store/meta/{field}/pull",
         "modelName": "store",
         "className": "Store",
-        "method": "pushToMetafield",
+        "method": "pullFromMetafield",
         "arguments": [
             "field"
         ],
@@ -2936,12 +2917,12 @@
         "usesFormData": false
     },
     {
-        "module": "store.pullFromMetafield",
+        "module": "store.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/store/meta/{field}/pull",
+        "path": "/v1/store/meta/{field}/push",
         "modelName": "store",
         "className": "Store",
-        "method": "pullFromMetafield",
+        "method": "pushToMetafield",
         "arguments": [
             "field"
         ],
@@ -3114,26 +3095,6 @@
         "usesFormData": false
     },
     {
-        "module": "collection.pullFromMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/collections/{collectionId}/meta/{field}/pull",
-        "modelName": "collection",
-        "className": "Collection",
-        "method": "pullFromMetafield",
-        "arguments": [
-            "collectionId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "collection.increaseMetafield",
         "httpMethod": "POST",
         "path": "/v1/collections/{collectionId}/meta/{field}/inc",
@@ -3154,14 +3115,14 @@
         "usesFormData": false
     },
     {
-        "module": "coupon.increaseMetafield",
+        "module": "collection.pullFromMetafield",
         "httpMethod": "POST",
-        "path": "/v1/coupons/{couponId}/meta/{field}/inc",
-        "modelName": "coupon",
-        "className": "Coupon",
-        "method": "increaseMetafield",
+        "path": "/v1/collections/{collectionId}/meta/{field}/pull",
+        "modelName": "collection",
+        "className": "Collection",
+        "method": "pullFromMetafield",
         "arguments": [
-            "couponId",
+            "collectionId",
             "field"
         ],
         "access": {
@@ -3180,6 +3141,26 @@
         "modelName": "coupon",
         "className": "Coupon",
         "method": "pullFromMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/meta/{field}/inc",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "increaseMetafield",
         "arguments": [
             "couponId",
             "field"
@@ -3233,26 +3214,6 @@
         "usesFormData": false
     },
     {
-        "module": "customer.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/meta/{field}/push",
-        "modelName": "customer",
-        "className": "Customer",
-        "method": "pushToMetafield",
-        "arguments": [
-            "customerId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "cart.checkout",
         "httpMethod": "POST",
         "path": "/v1/customers/{customerId}/cart/checkout/{type}",
@@ -3273,12 +3234,12 @@
         "usesFormData": false
     },
     {
-        "module": "customer.pullFromMetafield",
+        "module": "customer.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/meta/{field}/pull",
+        "path": "/v1/customers/{customerId}/meta/{field}/push",
         "modelName": "customer",
         "className": "Customer",
-        "method": "pullFromMetafield",
+        "method": "pushToMetafield",
         "arguments": [
             "customerId",
             "field"
@@ -3313,12 +3274,52 @@
         "usesFormData": false
     },
     {
+        "module": "customer.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/meta/{field}/pull",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "customerId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
         "module": "discount.pushToMetafield",
         "httpMethod": "POST",
         "path": "/v1/discounts/{discountId}/meta/{field}/push",
         "modelName": "discount",
         "className": "Discount",
         "method": "pushToMetafield",
+        "arguments": [
+            "discountId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "discount.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/discounts/{discountId}/meta/{field}/inc",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "increaseMetafield",
         "arguments": [
             "discountId",
             "field"
@@ -3353,14 +3354,14 @@
         "usesFormData": false
     },
     {
-        "module": "discount.increaseMetafield",
+        "module": "group.increaseMetafield",
         "httpMethod": "POST",
-        "path": "/v1/discounts/{discountId}/meta/{field}/inc",
-        "modelName": "discount",
-        "className": "Discount",
+        "path": "/v1/groups/{groupId}/meta/{field}/inc",
+        "modelName": "group",
+        "className": "Group",
         "method": "increaseMetafield",
         "arguments": [
-            "discountId",
+            "groupId",
             "field"
         ],
         "access": {
@@ -3413,26 +3414,6 @@
         "usesFormData": false
     },
     {
-        "module": "group.increaseMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/groups/{groupId}/meta/{field}/inc",
-        "modelName": "group",
-        "className": "Group",
-        "method": "increaseMetafield",
-        "arguments": [
-            "groupId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "cart.checkoutAsNonRegisteredForMe",
         "httpMethod": "POST",
         "path": "/v1/me/non-registered/cart/checkout/{type}",
@@ -3448,28 +3429,6 @@
             "me": true,
             "customer": [
                 "non-registered"
-            ]
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.requestFullRefundForMe",
-        "httpMethod": "POST",
-        "path": "/v1/me/orders/{orderId}/refunds/full",
-        "modelName": "order",
-        "className": "Order",
-        "method": "requestFullRefundForMe",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": true,
-            "private": true,
-            "me": true,
-            "customer": [
-                "registered",
-                "order"
             ]
         },
         "withoutPayload": false,
@@ -3497,6 +3456,26 @@
         "usesFormData": false
     },
     {
+        "module": "order.acceptRefund",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}/accepted",
+        "modelName": "order",
+        "className": "Order",
+        "method": "acceptRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
         "module": "order.restockRefundItems",
         "httpMethod": "POST",
         "path": "/v1/orders/{orderId}/refunds/{refundId}/restock",
@@ -3517,14 +3496,15 @@
         "usesFormData": false
     },
     {
-        "module": "order.registerPaymentMethod",
+        "module": "order.increaseMetafield",
         "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/transactions/payments/methods",
+        "path": "/v1/orders/{orderId}/meta/{field}/inc",
         "modelName": "order",
         "className": "Order",
-        "method": "registerPaymentMethod",
+        "method": "increaseMetafield",
         "arguments": [
-            "orderId"
+            "orderId",
+            "field"
         ],
         "access": {
             "public": false,
@@ -3542,26 +3522,6 @@
         "modelName": "order",
         "className": "Order",
         "method": "pullFromMetafield",
-        "arguments": [
-            "orderId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/meta/{field}/push",
-        "modelName": "order",
-        "className": "Order",
-        "method": "pushToMetafield",
         "arguments": [
             "orderId",
             "field"
@@ -3596,15 +3556,14 @@
         "usesFormData": false
     },
     {
-        "module": "order.acceptRefund",
+        "module": "order.registerPaymentMethod",
         "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/refunds/{refundId}/accepted",
+        "path": "/v1/orders/{orderId}/transactions/payments/methods",
         "modelName": "order",
         "className": "Order",
-        "method": "acceptRefund",
+        "method": "registerPaymentMethod",
         "arguments": [
-            "orderId",
-            "refundId"
+            "orderId"
         ],
         "access": {
             "public": false,
@@ -3612,16 +3571,16 @@
             "me": false,
             "customer": []
         },
-        "withoutPayload": true,
+        "withoutPayload": false,
         "usesFormData": false
     },
     {
-        "module": "order.increaseMetafield",
+        "module": "order.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/meta/{field}/inc",
+        "path": "/v1/orders/{orderId}/meta/{field}/push",
         "modelName": "order",
         "className": "Order",
-        "method": "increaseMetafield",
+        "method": "pushToMetafield",
         "arguments": [
             "orderId",
             "field"
@@ -3695,12 +3654,12 @@
         "usesFormData": false
     },
     {
-        "module": "product.pullFromMetafield",
+        "module": "product.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/products/{productId}/meta/{field}/pull",
+        "path": "/v1/products/{productId}/meta/{field}/push",
         "modelName": "product",
         "className": "Product",
-        "method": "pullFromMetafield",
+        "method": "pushToMetafield",
         "arguments": [
             "productId",
             "field"
@@ -3715,12 +3674,12 @@
         "usesFormData": false
     },
     {
-        "module": "product.pushToMetafield",
+        "module": "product.pullFromMetafield",
         "httpMethod": "POST",
-        "path": "/v1/products/{productId}/meta/{field}/push",
+        "path": "/v1/products/{productId}/meta/{field}/pull",
         "modelName": "product",
         "className": "Product",
-        "method": "pushToMetafield",
+        "method": "pullFromMetafield",
         "arguments": [
             "productId",
             "field"
@@ -3755,26 +3714,6 @@
         "usesFormData": false
     },
     {
-        "module": "subscription.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/push",
-        "modelName": "subscription",
-        "className": "Subscription",
-        "method": "pushToMetafield",
-        "arguments": [
-            "subscriptionId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "subscription.increaseMetafield",
         "httpMethod": "POST",
         "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/inc",
@@ -3795,14 +3734,14 @@
         "usesFormData": false
     },
     {
-        "module": "wishList.pullFromMetafield",
+        "module": "subscription.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/wishlists/{wishListId}/meta/{field}/pull",
-        "modelName": "wishList",
-        "className": "WishList",
-        "method": "pullFromMetafield",
+        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/push",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "pushToMetafield",
         "arguments": [
-            "wishListId",
+            "subscriptionId",
             "field"
         ],
         "access": {
@@ -3841,6 +3780,26 @@
         "modelName": "wishList",
         "className": "WishList",
         "method": "increaseMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}/pull",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "pullFromMetafield",
         "arguments": [
             "wishListId",
             "field"
@@ -3961,12 +3920,12 @@
         "usesFormData": false
     },
     {
-        "module": "review.increaseMetafield",
+        "module": "review.pullFromMetafield",
         "httpMethod": "POST",
-        "path": "/v1/products/reviews/{reviewId}/meta/{field}/inc",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/pull",
         "modelName": "review",
         "className": "Review",
-        "method": "increaseMetafield",
+        "method": "pullFromMetafield",
         "arguments": [
             "reviewId",
             "field"
@@ -3981,12 +3940,12 @@
         "usesFormData": false
     },
     {
-        "module": "review.pullFromMetafield",
+        "module": "review.increaseMetafield",
         "httpMethod": "POST",
-        "path": "/v1/products/reviews/{reviewId}/meta/{field}/pull",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/inc",
         "modelName": "review",
         "className": "Review",
-        "method": "pullFromMetafield",
+        "method": "increaseMetafield",
         "arguments": [
             "reviewId",
             "field"
@@ -4044,26 +4003,6 @@
         "usesFormData": false
     },
     {
-        "module": "reviewComment.increaseMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}/inc",
-        "modelName": "reviewComment",
-        "className": "ReviewComment",
-        "method": "increaseMetafield",
-        "arguments": [
-            "reviewCommentId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "reviewComment.pushToMetafield",
         "httpMethod": "POST",
         "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}/push",
@@ -4090,6 +4029,26 @@
         "modelName": "reviewComment",
         "className": "ReviewComment",
         "method": "pullFromMetafield",
+        "arguments": [
+            "reviewCommentId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "reviewComment.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/comments/{reviewCommentId}/meta/{field}/inc",
+        "modelName": "reviewComment",
+        "className": "ReviewComment",
+        "method": "increaseMetafield",
         "arguments": [
             "reviewCommentId",
             "field"
@@ -4188,6 +4147,25 @@
         "method": "update",
         "arguments": [
             "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.update",
+        "httpMethod": "PUT",
+        "path": "/v1/subscriptions/{subscriptionId}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "update",
+        "arguments": [
+            "subscriptionId"
         ],
         "access": {
             "public": false,
@@ -4299,6 +4277,28 @@
         "usesFormData": false
     },
     {
+        "module": "subscription.updateForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/subscriptions/{subscriptionId}",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "updateForMe",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "subscription"
+            ]
+        },
+        "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
         "module": "wishList.updateForMe",
         "httpMethod": "PUT",
         "path": "/v1/me/wishlists/{wishListId}",
@@ -4320,25 +4320,6 @@
         "usesFormData": false
     },
     {
-        "module": "order.updateCancellation",
-        "httpMethod": "PUT",
-        "path": "/v1/orders/{orderId}/cancellation",
-        "modelName": "order",
-        "className": "Order",
-        "method": "updateCancellation",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "usesFormData": false
-    },
-    {
         "module": "order.updateTransactions",
         "httpMethod": "PUT",
         "path": "/v1/orders/{orderId}/transactions",
@@ -4355,6 +4336,25 @@
             "customer": []
         },
         "withoutPayload": true,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateCancellation",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateCancellation",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": []
+        },
+        "withoutPayload": false,
         "usesFormData": false
     },
     {
@@ -4456,28 +4456,6 @@
         "usesFormData": false
     },
     {
-        "module": "order.updateTransactionsForMe",
-        "httpMethod": "PUT",
-        "path": "/v1/me/orders/{orderId}/transactions",
-        "modelName": "order",
-        "className": "Order",
-        "method": "updateTransactionsForMe",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": true,
-            "private": true,
-            "me": true,
-            "customer": [
-                "registered",
-                "order"
-            ]
-        },
-        "withoutPayload": true,
-        "usesFormData": false
-    },
-    {
         "module": "order.updateCancellationForMe",
         "httpMethod": "PUT",
         "path": "/v1/me/orders/{orderId}/cancellation",
@@ -4497,6 +4475,28 @@
             ]
         },
         "withoutPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateTransactionsForMe",
+        "httpMethod": "PUT",
+        "path": "/v1/me/orders/{orderId}/transactions",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateTransactionsForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ]
+        },
+        "withoutPayload": true,
         "usesFormData": false
     },
     {
@@ -4992,12 +4992,12 @@
         "usesFormData": false
     },
     {
-        "module": "order.markAsNotArrived",
+        "module": "order.markAsNotReceived",
         "httpMethod": "DELETE",
-        "path": "/v1/orders/{orderId}/arrived",
+        "path": "/v1/orders/{orderId}/received",
         "modelName": "order",
         "className": "Order",
-        "method": "markAsNotArrived",
+        "method": "markAsNotReceived",
         "arguments": [
             "orderId"
         ],
@@ -5311,12 +5311,12 @@
         "usesFormData": false
     },
     {
-        "module": "order.markAsNotArrivedForMe",
+        "module": "order.markAsNotReceivedForMe",
         "httpMethod": "DELETE",
-        "path": "/v1/me/orders/{orderId}/arrived",
+        "path": "/v1/me/orders/{orderId}/received",
         "modelName": "order",
         "className": "Order",
-        "method": "markAsNotArrivedForMe",
+        "method": "markAsNotReceivedForMe",
         "arguments": [
             "orderId"
         ],
