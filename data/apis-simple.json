@@ -12,8 +12,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "catalog.list",
@@ -28,8 +27,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "collection.list",
@@ -44,8 +42,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "country.list",
@@ -60,8 +57,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "coupon.list",
@@ -76,8 +72,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "currency.list",
@@ -92,8 +87,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.list",
@@ -108,8 +102,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "discount.list",
@@ -124,8 +117,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "downloadable.list",
@@ -140,8 +132,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "group.list",
@@ -156,8 +147,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.list",
@@ -172,8 +162,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.getMe",
@@ -190,8 +179,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.list",
@@ -206,8 +194,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "product.list",
@@ -222,8 +209,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "store.get",
@@ -238,8 +224,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.list",
@@ -254,8 +239,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "vendor.list",
@@ -270,8 +254,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.list",
@@ -286,8 +269,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "brand.count",
@@ -302,8 +284,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "brand.get",
@@ -320,8 +301,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "catalog.count",
@@ -336,8 +316,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "catalog.get",
@@ -354,8 +333,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "collection.count",
@@ -370,8 +348,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "collection.get",
@@ -388,8 +365,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "country.count",
@@ -404,8 +380,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "country.get",
@@ -422,8 +397,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "coupon.count",
@@ -438,8 +412,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "coupon.get",
@@ -456,8 +429,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "currency.count",
@@ -472,8 +444,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "currency.get",
@@ -490,8 +461,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.isAuthenticated",
@@ -506,8 +476,7 @@
             "private": true,
             "me": true,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.count",
@@ -522,8 +491,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.get",
@@ -540,8 +508,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "discount.count",
@@ -556,8 +523,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "discount.get",
@@ -574,8 +540,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "downloadable.count",
@@ -590,8 +555,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "downloadable.get",
@@ -608,8 +572,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "group.count",
@@ -624,8 +587,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "group.get",
@@ -642,8 +604,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.count",
@@ -658,8 +619,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.get",
@@ -676,8 +636,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.listCouponsForMe",
@@ -694,8 +653,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.listForMe",
@@ -712,8 +670,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.listForMe",
@@ -730,8 +687,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.listForMe",
@@ -748,8 +704,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.listForMe",
@@ -766,8 +721,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.count",
@@ -782,8 +736,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "orderTag.list",
@@ -798,8 +751,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.get",
@@ -816,8 +768,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "paymentMethod.list",
@@ -832,8 +783,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "product.count",
@@ -848,8 +798,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.list",
@@ -864,8 +813,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "product.get",
@@ -882,8 +830,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "shippingMethod.list",
@@ -898,8 +845,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.count",
@@ -914,8 +860,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscriptionPlan.list",
@@ -930,8 +875,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.get",
@@ -948,8 +892,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "taxCategory.list",
@@ -964,8 +907,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "vendor.count",
@@ -980,8 +922,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "vendor.get",
@@ -998,8 +939,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.count",
@@ -1014,8 +954,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.get",
@@ -1032,8 +971,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.listCoupons",
@@ -1050,8 +988,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.countCouponsForMe",
@@ -1068,8 +1005,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.countForMe",
@@ -1086,8 +1022,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.getForMe",
@@ -1106,8 +1041,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.countForMe",
@@ -1124,8 +1058,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.getForMe",
@@ -1145,8 +1078,7 @@
                 "registered",
                 "order"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.countForMe",
@@ -1163,8 +1095,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.getForMe",
@@ -1184,8 +1115,7 @@
                 "registered",
                 "subscription"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.countForMe",
@@ -1202,8 +1132,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.getForMe",
@@ -1222,8 +1151,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "orderTag.count",
@@ -1238,8 +1166,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "orderTag.get",
@@ -1256,8 +1183,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "paymentMethod.count",
@@ -1272,8 +1198,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "paymentMethod.get",
@@ -1290,8 +1215,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.list",
@@ -1306,8 +1230,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.count",
@@ -1322,8 +1245,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.listPublished",
@@ -1338,8 +1260,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.get",
@@ -1356,8 +1277,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "shippingMethod.count",
@@ -1372,8 +1292,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "shippingMethod.get",
@@ -1390,8 +1309,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscriptionPlan.count",
@@ -1406,8 +1324,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscriptionPlan.get",
@@ -1424,8 +1341,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.listBySubscription",
@@ -1442,8 +1358,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "taxCategory.count",
@@ -1458,8 +1373,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "taxCategory.get",
@@ -1476,8 +1390,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.listProducts",
@@ -1494,8 +1407,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.countCoupons",
@@ -1512,8 +1424,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "cart.countItemsForMe",
@@ -1530,8 +1441,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.listBySubscriptionForMe",
@@ -1551,8 +1461,7 @@
                 "registered",
                 "subscription"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.listProductsForMe",
@@ -1571,8 +1480,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.listInventoryOperations",
@@ -1589,8 +1497,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.count",
@@ -1605,8 +1512,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.get",
@@ -1623,8 +1529,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.countPublished",
@@ -1639,8 +1544,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.getPublished",
@@ -1657,8 +1561,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.listInventoryOperations",
@@ -1675,8 +1578,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.countProducts",
@@ -1693,8 +1595,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "cart.countItems",
@@ -1711,8 +1612,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.countProductsForMe",
@@ -1731,8 +1631,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.listByFlagVotes",
@@ -1750,8 +1649,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.listByFlagVotes",
@@ -1769,8 +1667,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.listByHelpVotes",
@@ -1789,8 +1686,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.listByHelpVotes",
@@ -1809,8 +1705,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.create",
@@ -1938,6 +1833,7 @@
                 "registered"
             ]
         },
+        "withoutPayload": false,
         "optionalPayload": true,
         "usesFormData": false
     },
@@ -2016,6 +1912,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2150,6 +2047,7 @@
             "me": false,
             "customer": []
         },
+        "withoutPayload": false,
         "optionalPayload": true,
         "usesFormData": false
     },
@@ -2170,6 +2068,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2249,6 +2148,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2268,6 +2168,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2367,6 +2268,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2464,6 +2366,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2483,6 +2386,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2543,6 +2447,7 @@
                 "registered"
             ]
         },
+        "withoutPayload": false,
         "optionalPayload": true,
         "usesFormData": false
     },
@@ -2589,6 +2494,7 @@
             ]
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2739,6 +2645,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3151,6 +3058,7 @@
             "me": false,
             "customer": []
         },
+        "withoutPayload": false,
         "optionalPayload": true,
         "usesFormData": false
     },
@@ -3363,6 +3271,7 @@
             ]
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3383,6 +3292,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3846,6 +3756,7 @@
             ]
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3868,6 +3779,7 @@
             ]
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3888,6 +3800,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3908,6 +3821,7 @@
             "customer": []
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3994,6 +3908,7 @@
             ]
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -4345,6 +4260,7 @@
             "me": false,
             "customer": []
         },
+        "withoutPayload": false,
         "optionalPayload": true,
         "usesFormData": false
     },
@@ -4471,6 +4387,7 @@
             ]
         },
         "withoutPayload": true,
+        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -4751,8 +4668,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.delete",
@@ -4769,8 +4685,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.delete",
@@ -4787,8 +4702,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.delete",
@@ -4805,8 +4719,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.delete",
@@ -4823,8 +4736,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.delete",
@@ -4841,8 +4753,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "cart.emptyForMe",
@@ -4859,8 +4770,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.deleteCouponForMe",
@@ -4879,8 +4789,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.deleteForMe",
@@ -4899,8 +4808,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.deleteForMe",
@@ -4919,8 +4827,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.markAsUndone",
@@ -4937,8 +4844,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.markAsNotReceived",
@@ -4955,8 +4861,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.delete",
@@ -4973,8 +4878,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "store.deleteMetafield",
@@ -4991,8 +4895,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.markAsUndone",
@@ -5009,8 +4912,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.empty",
@@ -5027,8 +4929,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "brand.deleteMetafield",
@@ -5046,8 +4947,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "catalog.deleteMetafield",
@@ -5065,8 +4965,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "collection.deleteMetafield",
@@ -5084,8 +4983,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "coupon.deleteMetafield",
@@ -5103,8 +5001,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.deleteCoupon",
@@ -5122,8 +5019,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "image.deleteAsCustomer",
@@ -5141,8 +5037,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "customer.deleteMetafield",
@@ -5160,8 +5055,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "cart.empty",
@@ -5178,8 +5072,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "discount.deleteMetafield",
@@ -5197,8 +5090,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "group.deleteMetafield",
@@ -5216,8 +5108,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "cart.deleteItemForMe",
@@ -5236,8 +5127,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.markAsNotReceivedForMe",
@@ -5257,8 +5147,7 @@
                 "registered",
                 "order"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.deleteForMe",
@@ -5277,8 +5166,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.emptyForMe",
@@ -5297,8 +5185,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.deleteMetafield",
@@ -5316,8 +5203,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.deleteRefund",
@@ -5335,8 +5221,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.deleteFulfillment",
@@ -5354,8 +5239,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.delete",
@@ -5372,8 +5256,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "product.deleteMetafield",
@@ -5391,8 +5274,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.deleteMetafield",
@@ -5410,8 +5292,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "vendor.deleteMetafield",
@@ -5429,8 +5310,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.deleteMetafield",
@@ -5448,8 +5328,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.deleteItem",
@@ -5467,8 +5346,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "cart.deleteItem",
@@ -5486,8 +5364,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.deleteForMe",
@@ -5506,8 +5383,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.cancelFlagForMe",
@@ -5526,8 +5402,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "wishList.deleteItemForMe",
@@ -5547,8 +5422,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.deleteInventoryOperation",
@@ -5566,8 +5440,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.unacceptRefund",
@@ -5585,8 +5458,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.deleteMetafield",
@@ -5604,8 +5476,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.cancelFlag",
@@ -5623,8 +5494,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "subscription.deleteInventoryOperation",
@@ -5642,8 +5512,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.cancelFlagForMe",
@@ -5662,8 +5531,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.cancelHelpedForMe",
@@ -5683,8 +5551,7 @@
             "customer": [
                 "registered"
             ]
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "order.unregisterPaymentMethod",
@@ -5702,8 +5569,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.cancelFlag",
@@ -5721,8 +5587,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "reviewComment.deleteMetafield",
@@ -5740,8 +5605,7 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     },
     {
         "module": "review.cancelHelped",
@@ -5760,7 +5624,6 @@
             "private": true,
             "me": false,
             "customer": []
-        },
-        "usesFormData": false
+        }
     }
 ]
