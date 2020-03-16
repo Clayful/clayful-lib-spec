@@ -11,7 +11,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -26,7 +27,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -41,7 +43,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -56,7 +59,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -71,7 +75,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -86,7 +91,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -101,7 +107,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -116,7 +123,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -131,7 +139,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -146,7 +155,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -161,7 +171,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -178,7 +189,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -193,7 +205,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -208,7 +221,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -223,7 +237,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -238,7 +253,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -253,7 +269,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -268,7 +285,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -283,7 +301,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -300,7 +319,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -315,7 +335,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -332,7 +353,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -347,7 +369,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -364,7 +387,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -379,7 +403,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -396,7 +421,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -411,7 +437,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -428,7 +455,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -443,7 +471,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -460,7 +489,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -475,7 +505,8 @@
             "public": true,
             "private": true,
             "me": true,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -490,7 +521,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -507,7 +539,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -522,7 +555,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -539,7 +573,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -554,7 +589,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -571,7 +607,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -586,7 +623,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -603,7 +641,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -618,7 +657,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -635,7 +675,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -652,7 +693,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -669,7 +711,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -686,7 +729,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -703,7 +747,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -720,7 +765,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -735,7 +781,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -750,7 +797,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -767,7 +815,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -782,7 +831,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -797,7 +847,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -812,7 +863,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -829,7 +881,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -844,7 +897,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -859,7 +913,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -874,7 +929,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -891,7 +947,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -906,7 +963,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -921,7 +979,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -938,7 +997,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -953,7 +1013,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -970,7 +1031,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -987,7 +1049,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1004,7 +1067,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1021,7 +1085,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1040,7 +1105,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1057,7 +1123,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1077,7 +1144,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1094,7 +1162,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1114,7 +1183,8 @@
             "customer": [
                 "registered",
                 "subscription"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1131,7 +1201,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1150,7 +1221,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1165,7 +1237,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1182,7 +1255,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1197,7 +1271,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1214,7 +1289,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1229,7 +1305,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1244,7 +1321,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1259,7 +1337,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1276,7 +1355,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1291,7 +1371,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1308,7 +1389,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1323,7 +1405,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1340,7 +1423,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1357,7 +1441,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1372,7 +1457,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1389,7 +1475,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1406,7 +1493,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1423,7 +1511,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1440,7 +1529,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1460,7 +1550,8 @@
             "customer": [
                 "registered",
                 "subscription"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1479,7 +1570,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1496,7 +1588,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1511,7 +1604,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1528,7 +1622,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1543,7 +1638,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1560,7 +1656,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1577,7 +1674,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1594,7 +1692,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1611,7 +1710,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1630,7 +1730,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -1648,7 +1749,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1666,7 +1768,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1685,7 +1788,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1704,7 +1808,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -1719,7 +1824,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1737,7 +1843,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1757,7 +1864,46 @@
             "me": true,
             "customer": [
                 "non-registered"
-            ]
+            ],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.create",
+        "httpMethod": "POST",
+        "path": "/v1/products",
+        "modelName": "product",
+        "className": "Product",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "vendor.create",
+        "httpMethod": "POST",
+        "path": "/v1/vendors",
+        "modelName": "vendor",
+        "className": "Vendor",
+        "method": "create",
+        "arguments": [],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1775,7 +1921,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1793,7 +1940,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1811,7 +1959,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1831,7 +1980,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": true,
@@ -1851,7 +2001,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1871,7 +2022,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1889,7 +2041,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1909,7 +2062,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -1927,7 +2081,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1945,7 +2100,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -1965,67 +2121,8 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "image.createAsCustomer",
-        "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/images",
-        "modelName": "image",
-        "className": "Image",
-        "method": "createAsCustomer",
-        "arguments": [
-            "customerId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": true
-    },
-    {
-        "module": "customer.addCoupon",
-        "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/coupons",
-        "modelName": "customer",
-        "className": "Customer",
-        "method": "addCoupon",
-        "arguments": [
-            "customerId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "customer.verify",
-        "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/verified",
-        "modelName": "customer",
-        "className": "Customer",
-        "method": "verify",
-        "arguments": [
-            "customerId"
-        ],
-        "access": {
-            "public": true,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2045,11 +2142,75 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": true,
         "usesFormData": false
+    },
+    {
+        "module": "customer.addCoupon",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/coupons",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "addCoupon",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.verify",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/verified",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "verify",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "image.createAsCustomer",
+        "httpMethod": "POST",
+        "path": "/v1/customers/{customerId}/images",
+        "modelName": "image",
+        "className": "Image",
+        "method": "createAsCustomer",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": true
     },
     {
         "module": "downloadable.createDownloadUrl",
@@ -2065,7 +2226,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -2085,7 +2247,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2105,7 +2268,8 @@
             "me": true,
             "customer": [
                 "non-registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2125,127 +2289,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.markAsReceived",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/received",
-        "modelName": "order",
-        "className": "Order",
-        "method": "markAsReceived",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": true,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.syncInventory",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/synced",
-        "modelName": "order",
-        "className": "Order",
-        "method": "syncInventory",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": true,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.cancel",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/cancellation",
-        "modelName": "order",
-        "className": "Order",
-        "method": "cancel",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.createFulfillment",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/fulfillments",
-        "modelName": "order",
-        "className": "Order",
-        "method": "createFulfillment",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.authenticate",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/auth",
-        "modelName": "order",
-        "className": "Order",
-        "method": "authenticate",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": true,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.requestRefund",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/refunds",
-        "modelName": "order",
-        "className": "Order",
-        "method": "requestRefund",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2265,7 +2310,134 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": true,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.markAsReceived",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/received",
+        "modelName": "order",
+        "className": "Order",
+        "method": "markAsReceived",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": true,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.authenticate",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/auth",
+        "modelName": "order",
+        "className": "Order",
+        "method": "authenticate",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.cancel",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/cancellation",
+        "modelName": "order",
+        "className": "Order",
+        "method": "cancel",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.requestRefund",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/refunds",
+        "modelName": "order",
+        "className": "Order",
+        "method": "requestRefund",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.createFulfillment",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/fulfillments",
+        "modelName": "order",
+        "className": "Order",
+        "method": "createFulfillment",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.syncInventory",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/synced",
+        "modelName": "order",
+        "className": "Order",
+        "method": "syncInventory",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -2283,7 +2455,29 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.createVariant",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/variants",
+        "modelName": "product",
+        "className": "Product",
+        "method": "createVariant",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2303,7 +2497,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2323,9 +2518,31 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "subscription.markAsDone",
+        "httpMethod": "POST",
+        "path": "/v1/subscriptions/{subscriptionId}/done",
+        "modelName": "subscription",
+        "className": "Subscription",
+        "method": "markAsDone",
+        "arguments": [
+            "subscriptionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": true,
         "optionalPayload": false,
         "usesFormData": false
     },
@@ -2343,7 +2560,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2363,27 +2581,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": true,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "subscription.markAsDone",
-        "httpMethod": "POST",
-        "path": "/v1/subscriptions/{subscriptionId}/done",
-        "modelName": "subscription",
-        "className": "Subscription",
-        "method": "markAsDone",
-        "arguments": [
-            "subscriptionId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -2403,7 +2602,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2423,7 +2623,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2445,33 +2646,11 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": true,
-        "usesFormData": false
-    },
-    {
-        "module": "order.requestRefundForMe",
-        "httpMethod": "POST",
-        "path": "/v1/me/orders/{orderId}/refunds",
-        "modelName": "order",
-        "className": "Order",
-        "method": "requestRefundForMe",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": true,
-            "private": true,
-            "me": true,
-            "customer": [
-                "registered",
-                "order"
-            ]
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -2491,9 +2670,34 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": true,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.requestRefundForMe",
+        "httpMethod": "POST",
+        "path": "/v1/me/orders/{orderId}/refunds",
+        "modelName": "order",
+        "className": "Order",
+        "method": "requestRefundForMe",
+        "arguments": [
+            "orderId"
+        ],
+        "access": {
+            "public": true,
+            "private": true,
+            "me": true,
+            "customer": [
+                "registered",
+                "order"
+            ],
+            "module": false
+        },
+        "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
@@ -2514,7 +2718,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2534,7 +2739,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2557,7 +2763,8 @@
             "customer": [
                 "registered",
                 "subscription"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2580,7 +2787,8 @@
             "customer": [
                 "registered",
                 "subscription"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2602,7 +2810,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2622,7 +2831,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2642,7 +2852,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -2662,47 +2873,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "store.pullFromMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/store/meta/{field}/pull",
-        "modelName": "store",
-        "className": "Store",
-        "method": "pullFromMetafield",
-        "arguments": [
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "store.increaseMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/store/meta/{field}/inc",
-        "modelName": "store",
-        "className": "Store",
-        "method": "increaseMetafield",
-        "arguments": [
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2722,7 +2894,50 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "store.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/store/meta/{field}/pull",
+        "modelName": "store",
+        "className": "Store",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "store.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/store/meta/{field}/inc",
+        "modelName": "store",
+        "className": "Store",
+        "method": "increaseMetafield",
+        "arguments": [
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2742,28 +2957,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "brand.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/brands/{brandId}/meta/{field}/push",
-        "modelName": "brand",
-        "className": "Brand",
-        "method": "pushToMetafield",
-        "arguments": [
-            "brandId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2784,7 +2979,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2805,49 +3001,30 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "catalog.pushToMetafield",
+        "module": "brand.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/catalogs/{catalogId}/meta/{field}/push",
-        "modelName": "catalog",
-        "className": "Catalog",
+        "path": "/v1/brands/{brandId}/meta/{field}/push",
+        "modelName": "brand",
+        "className": "Brand",
         "method": "pushToMetafield",
         "arguments": [
-            "catalogId",
+            "brandId",
             "field"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "catalog.increaseMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/catalogs/{catalogId}/meta/{field}/inc",
-        "modelName": "catalog",
-        "className": "Catalog",
-        "method": "increaseMetafield",
-        "arguments": [
-            "catalogId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2868,7 +3045,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/catalogs/{catalogId}/meta/{field}/inc",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "increaseMetafield",
+        "arguments": [
+            "catalogId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "catalog.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/catalogs/{catalogId}/meta/{field}/push",
+        "modelName": "catalog",
+        "className": "Catalog",
+        "method": "pushToMetafield",
+        "arguments": [
+            "catalogId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2889,7 +3111,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2910,7 +3133,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2931,49 +3155,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "coupon.pullFromMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/coupons/{couponId}/meta/{field}/pull",
-        "modelName": "coupon",
-        "className": "Coupon",
-        "method": "pullFromMetafield",
-        "arguments": [
-            "couponId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "coupon.increaseMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/coupons/{couponId}/meta/{field}/inc",
-        "modelName": "coupon",
-        "className": "Coupon",
-        "method": "increaseMetafield",
-        "arguments": [
-            "couponId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -2994,7 +3177,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.increaseMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/meta/{field}/inc",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "increaseMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "coupon.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/coupons/{couponId}/meta/{field}/pull",
+        "modelName": "coupon",
+        "className": "Coupon",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "couponId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3014,19 +3242,20 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "customer.increaseMetafield",
+        "module": "customer.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/meta/{field}/inc",
+        "path": "/v1/customers/{customerId}/meta/{field}/push",
         "modelName": "customer",
         "className": "Customer",
-        "method": "increaseMetafield",
+        "method": "pushToMetafield",
         "arguments": [
             "customerId",
             "field"
@@ -3035,7 +3264,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3056,31 +3286,11 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": true,
-        "usesFormData": false
-    },
-    {
-        "module": "customer.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/customers/{customerId}/meta/{field}/push",
-        "modelName": "customer",
-        "className": "Customer",
-        "method": "pushToMetafield",
-        "arguments": [
-            "customerId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
         "usesFormData": false
     },
     {
@@ -3098,49 +3308,30 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "discount.pushToMetafield",
+        "module": "customer.increaseMetafield",
         "httpMethod": "POST",
-        "path": "/v1/discounts/{discountId}/meta/{field}/push",
-        "modelName": "discount",
-        "className": "Discount",
-        "method": "pushToMetafield",
+        "path": "/v1/customers/{customerId}/meta/{field}/inc",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "increaseMetafield",
         "arguments": [
-            "discountId",
+            "customerId",
             "field"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "discount.pullFromMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/discounts/{discountId}/meta/{field}/pull",
-        "modelName": "discount",
-        "className": "Discount",
-        "method": "pullFromMetafield",
-        "arguments": [
-            "discountId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3161,28 +3352,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "group.pullFromMetafield",
+        "module": "discount.pullFromMetafield",
         "httpMethod": "POST",
-        "path": "/v1/groups/{groupId}/meta/{field}/pull",
-        "modelName": "group",
-        "className": "Group",
+        "path": "/v1/discounts/{discountId}/meta/{field}/pull",
+        "modelName": "discount",
+        "className": "Discount",
         "method": "pullFromMetafield",
         "arguments": [
-            "groupId",
+            "discountId",
             "field"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "discount.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/discounts/{discountId}/meta/{field}/push",
+        "modelName": "discount",
+        "className": "Discount",
+        "method": "pushToMetafield",
+        "arguments": [
+            "discountId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3203,7 +3418,30 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "group.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/groups/{groupId}/meta/{field}/pull",
+        "modelName": "group",
+        "className": "Group",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "groupId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3224,7 +3462,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3246,7 +3485,8 @@
             "me": true,
             "customer": [
                 "non-registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3268,7 +3508,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -3289,30 +3530,10 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/meta/{field}/push",
-        "modelName": "order",
-        "className": "Order",
-        "method": "pushToMetafield",
-        "arguments": [
-            "orderId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
@@ -3331,28 +3552,29 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "order.pullFromMetafield",
+        "module": "order.registerPaymentMethod",
         "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/meta/{field}/pull",
+        "path": "/v1/orders/{orderId}/transactions/payments/methods",
         "modelName": "order",
         "className": "Order",
-        "method": "pullFromMetafield",
+        "method": "registerPaymentMethod",
         "arguments": [
-            "orderId",
-            "field"
+            "orderId"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3373,7 +3595,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/meta/{field}/push",
+        "modelName": "order",
+        "className": "Order",
+        "method": "pushToMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/orders/{orderId}/meta/{field}/pull",
+        "modelName": "order",
+        "className": "Order",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3394,27 +3661,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.registerPaymentMethod",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/transactions/payments/methods",
-        "modelName": "order",
-        "className": "Order",
-        "method": "registerPaymentMethod",
-        "arguments": [
-            "orderId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3434,7 +3682,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3455,7 +3704,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3476,7 +3726,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3497,7 +3748,30 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.createVariation",
+        "httpMethod": "POST",
+        "path": "/v1/products/{productId}/options/{optionId}/variations",
+        "modelName": "product",
+        "className": "Product",
+        "method": "createVariation",
+        "arguments": [
+            "productId",
+            "optionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3518,28 +3792,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "subscription.increaseMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/inc",
-        "modelName": "subscription",
-        "className": "Subscription",
-        "method": "increaseMetafield",
-        "arguments": [
-            "subscriptionId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3560,7 +3814,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3581,49 +3836,30 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "vendor.increaseMetafield",
+        "module": "subscription.increaseMetafield",
         "httpMethod": "POST",
-        "path": "/v1/vendors/{vendorId}/meta/{field}/inc",
-        "modelName": "vendor",
-        "className": "Vendor",
+        "path": "/v1/subscriptions/{subscriptionId}/meta/{field}/inc",
+        "modelName": "subscription",
+        "className": "Subscription",
         "method": "increaseMetafield",
         "arguments": [
-            "vendorId",
+            "subscriptionId",
             "field"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "vendor.pushToMetafield",
-        "httpMethod": "POST",
-        "path": "/v1/vendors/{vendorId}/meta/{field}/push",
-        "modelName": "vendor",
-        "className": "Vendor",
-        "method": "pushToMetafield",
-        "arguments": [
-            "vendorId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3644,28 +3880,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "wishList.pullFromMetafield",
+        "module": "vendor.increaseMetafield",
         "httpMethod": "POST",
-        "path": "/v1/wishlists/{wishListId}/meta/{field}/pull",
-        "modelName": "wishList",
-        "className": "WishList",
-        "method": "pullFromMetafield",
+        "path": "/v1/vendors/{vendorId}/meta/{field}/inc",
+        "modelName": "vendor",
+        "className": "Vendor",
+        "method": "increaseMetafield",
         "arguments": [
-            "wishListId",
+            "vendorId",
             "field"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "vendor.pushToMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/vendors/{vendorId}/meta/{field}/push",
+        "modelName": "vendor",
+        "className": "Vendor",
+        "method": "pushToMetafield",
+        "arguments": [
+            "vendorId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3686,7 +3946,30 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "wishList.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}/pull",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "pullFromMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3707,7 +3990,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3731,7 +4015,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3753,7 +4038,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -3776,28 +4062,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
-        },
-        "withoutPayload": true,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.createDownloadUrl",
-        "httpMethod": "POST",
-        "path": "/v1/orders/{orderId}/items/{itemId}/download/url",
-        "modelName": "order",
-        "className": "Order",
-        "method": "createDownloadUrl",
-        "arguments": [
-            "orderId",
-            "itemId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            ],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -3818,19 +4084,42 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "review.pushToMetafield",
+        "module": "order.createDownloadUrl",
         "httpMethod": "POST",
-        "path": "/v1/products/reviews/{reviewId}/meta/{field}/push",
+        "path": "/v1/orders/{orderId}/items/{itemId}/download/url",
+        "modelName": "order",
+        "className": "Order",
+        "method": "createDownloadUrl",
+        "arguments": [
+            "orderId",
+            "itemId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": true,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "review.pullFromMetafield",
+        "httpMethod": "POST",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/pull",
         "modelName": "review",
         "className": "Review",
-        "method": "pushToMetafield",
+        "method": "pullFromMetafield",
         "arguments": [
             "reviewId",
             "field"
@@ -3839,7 +4128,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3860,19 +4150,20 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
         "usesFormData": false
     },
     {
-        "module": "review.pullFromMetafield",
+        "module": "review.pushToMetafield",
         "httpMethod": "POST",
-        "path": "/v1/products/reviews/{reviewId}/meta/{field}/pull",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}/push",
         "modelName": "review",
         "className": "Review",
-        "method": "pullFromMetafield",
+        "method": "pushToMetafield",
         "arguments": [
             "reviewId",
             "field"
@@ -3881,7 +4172,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3905,7 +4197,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -3926,7 +4219,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3947,7 +4241,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3968,7 +4263,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -3988,7 +4284,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4008,7 +4305,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4028,7 +4326,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4048,7 +4347,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4068,7 +4368,29 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.update",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "update",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4088,7 +4410,29 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "vendor.update",
+        "httpMethod": "PUT",
+        "path": "/v1/vendors/{vendorId}",
+        "modelName": "vendor",
+        "className": "Vendor",
+        "method": "update",
+        "arguments": [
+            "vendorId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4108,27 +4452,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "customer.updateCredentials",
-        "httpMethod": "PUT",
-        "path": "/v1/customers/{customerId}/credentials",
-        "modelName": "customer",
-        "className": "Customer",
-        "method": "updateCredentials",
-        "arguments": [
-            "customerId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4148,7 +4473,29 @@
             "public": true,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "customer.updateCredentials",
+        "httpMethod": "PUT",
+        "path": "/v1/customers/{customerId}/credentials",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "updateCredentials",
+        "arguments": [
+            "customerId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4170,7 +4517,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4193,7 +4541,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4216,7 +4565,8 @@
             "customer": [
                 "registered",
                 "subscription"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4238,7 +4588,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4258,7 +4609,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": true,
@@ -4278,7 +4630,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4298,7 +4651,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4318,7 +4672,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4339,7 +4694,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4361,7 +4717,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4384,7 +4741,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": true,
         "optionalPayload": false,
@@ -4407,7 +4765,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4429,7 +4788,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4452,49 +4812,8 @@
             "customer": [
                 "registered",
                 "subscription"
-            ]
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.updateFulfillment",
-        "httpMethod": "PUT",
-        "path": "/v1/orders/{orderId}/fulfillments/{fulfillmentId}",
-        "modelName": "order",
-        "className": "Order",
-        "method": "updateFulfillment",
-        "arguments": [
-            "orderId",
-            "fulfillmentId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
-        },
-        "withoutPayload": false,
-        "optionalPayload": false,
-        "usesFormData": false
-    },
-    {
-        "module": "order.updateRefund",
-        "httpMethod": "PUT",
-        "path": "/v1/orders/{orderId}/refunds/{refundId}",
-        "modelName": "order",
-        "className": "Order",
-        "method": "updateRefund",
-        "arguments": [
-            "orderId",
-            "refundId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4515,7 +4834,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateFulfillment",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/fulfillments/{fulfillmentId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateFulfillment",
+        "arguments": [
+            "orderId",
+            "fulfillmentId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "order.updateRefund",
+        "httpMethod": "PUT",
+        "path": "/v1/orders/{orderId}/refunds/{refundId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "updateRefund",
+        "arguments": [
+            "orderId",
+            "refundId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4535,7 +4899,52 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.updateOption",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}/options/{optionId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "updateOption",
+        "arguments": [
+            "productId",
+            "optionId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.updateVariant",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}/variants/{variantId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "updateVariant",
+        "arguments": [
+            "productId",
+            "variantId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4556,7 +4965,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4580,7 +4990,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4602,7 +5013,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4623,7 +5035,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4647,7 +5060,31 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
+        },
+        "withoutPayload": false,
+        "optionalPayload": false,
+        "usesFormData": false
+    },
+    {
+        "module": "product.updateVariation",
+        "httpMethod": "PUT",
+        "path": "/v1/products/{productId}/options/{optionId}/variations/{variationId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "updateVariation",
+        "arguments": [
+            "productId",
+            "optionId",
+            "variationId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         },
         "withoutPayload": false,
         "optionalPayload": false,
@@ -4667,7 +5104,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -4684,7 +5122,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4701,7 +5140,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4718,7 +5158,26 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "product.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "delete",
+        "arguments": [
+            "productId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         }
     },
     {
@@ -4735,7 +5194,26 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "vendor.delete",
+        "httpMethod": "DELETE",
+        "path": "/v1/vendors/{vendorId}",
+        "modelName": "vendor",
+        "className": "Vendor",
+        "method": "delete",
+        "arguments": [
+            "vendorId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         }
     },
     {
@@ -4752,7 +5230,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4769,7 +5248,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -4788,7 +5268,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -4807,7 +5288,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -4826,7 +5308,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -4843,7 +5326,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4860,7 +5344,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4877,7 +5362,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4894,7 +5380,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4911,7 +5398,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4928,7 +5416,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4946,7 +5435,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4964,7 +5454,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -4982,7 +5473,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5000,25 +5492,26 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
-        "module": "customer.deleteCoupon",
+        "module": "cart.empty",
         "httpMethod": "DELETE",
-        "path": "/v1/customers/{customerId}/coupons/{couponId}",
-        "modelName": "customer",
-        "className": "Customer",
-        "method": "deleteCoupon",
+        "path": "/v1/customers/{customerId}/cart/items",
+        "modelName": "cart",
+        "className": "Cart",
+        "method": "empty",
         "arguments": [
-            "customerId",
-            "couponId"
+            "customerId"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5036,7 +5529,27 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "customer.deleteCoupon",
+        "httpMethod": "DELETE",
+        "path": "/v1/customers/{customerId}/coupons/{couponId}",
+        "modelName": "customer",
+        "className": "Customer",
+        "method": "deleteCoupon",
+        "arguments": [
+            "customerId",
+            "couponId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5054,24 +5567,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        }
-    },
-    {
-        "module": "cart.empty",
-        "httpMethod": "DELETE",
-        "path": "/v1/customers/{customerId}/cart/items",
-        "modelName": "cart",
-        "className": "Cart",
-        "method": "empty",
-        "arguments": [
-            "customerId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5089,7 +5586,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5107,7 +5605,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5126,7 +5625,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5146,7 +5646,8 @@
             "customer": [
                 "registered",
                 "order"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5165,7 +5666,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5184,25 +5686,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
-        }
-    },
-    {
-        "module": "order.deleteMetafield",
-        "httpMethod": "DELETE",
-        "path": "/v1/orders/{orderId}/meta/{field}",
-        "modelName": "order",
-        "className": "Order",
-        "method": "deleteMetafield",
-        "arguments": [
-            "orderId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            ],
+            "module": false
         }
     },
     {
@@ -5220,7 +5705,27 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "order.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/orders/{orderId}/meta/{field}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "deleteMetafield",
+        "arguments": [
+            "orderId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5238,7 +5743,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5255,7 +5761,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5273,7 +5780,27 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "product.deleteVariant",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/variants/{variantId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteVariant",
+        "arguments": [
+            "productId",
+            "variantId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         }
     },
     {
@@ -5291,7 +5818,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5309,25 +5837,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
-        }
-    },
-    {
-        "module": "wishList.deleteMetafield",
-        "httpMethod": "DELETE",
-        "path": "/v1/wishlists/{wishListId}/meta/{field}",
-        "modelName": "wishList",
-        "className": "WishList",
-        "method": "deleteMetafield",
-        "arguments": [
-            "wishListId",
-            "field"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5345,7 +5856,27 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "wishList.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/wishlists/{wishListId}/meta/{field}",
+        "modelName": "wishList",
+        "className": "WishList",
+        "method": "deleteMetafield",
+        "arguments": [
+            "wishListId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5363,7 +5894,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5382,7 +5914,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5401,7 +5934,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5421,25 +5955,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
-        }
-    },
-    {
-        "module": "order.deleteInventoryOperation",
-        "httpMethod": "DELETE",
-        "path": "/v1/orders/{orderId}/inventory/operations/{operationId}",
-        "modelName": "order",
-        "className": "Order",
-        "method": "deleteInventoryOperation",
-        "arguments": [
-            "orderId",
-            "operationId"
-        ],
-        "access": {
-            "public": false,
-            "private": true,
-            "me": false,
-            "customer": []
+            ],
+            "module": false
         }
     },
     {
@@ -5457,25 +5974,27 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
-        "module": "review.deleteMetafield",
+        "module": "order.deleteInventoryOperation",
         "httpMethod": "DELETE",
-        "path": "/v1/products/reviews/{reviewId}/meta/{field}",
-        "modelName": "review",
-        "className": "Review",
-        "method": "deleteMetafield",
+        "path": "/v1/orders/{orderId}/inventory/operations/{operationId}",
+        "modelName": "order",
+        "className": "Order",
+        "method": "deleteInventoryOperation",
         "arguments": [
-            "reviewId",
-            "field"
+            "orderId",
+            "operationId"
         ],
         "access": {
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5493,7 +6012,27 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "review.deleteMetafield",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/reviews/{reviewId}/meta/{field}",
+        "modelName": "review",
+        "className": "Review",
+        "method": "deleteMetafield",
+        "arguments": [
+            "reviewId",
+            "field"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5511,7 +6050,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5530,7 +6070,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5550,7 +6091,8 @@
             "me": true,
             "customer": [
                 "registered"
-            ]
+            ],
+            "module": false
         }
     },
     {
@@ -5568,7 +6110,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5586,7 +6129,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5604,7 +6148,8 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
         }
     },
     {
@@ -5623,7 +6168,28 @@
             "public": false,
             "private": true,
             "me": false,
-            "customer": []
+            "customer": [],
+            "module": false
+        }
+    },
+    {
+        "module": "product.deleteVariation",
+        "httpMethod": "DELETE",
+        "path": "/v1/products/{productId}/options/{optionId}/variations/{variationId}",
+        "modelName": "product",
+        "className": "Product",
+        "method": "deleteVariation",
+        "arguments": [
+            "productId",
+            "optionId",
+            "variationId"
+        ],
+        "access": {
+            "public": false,
+            "private": true,
+            "me": false,
+            "customer": [],
+            "module": true
         }
     }
 ]
